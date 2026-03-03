@@ -14,6 +14,10 @@ export const en: LocalePack = {
     compatibility: 'Compatibility',
     browserDivination: 'What Your Browser Revealed',
     regenerate: 'Consult the Cosmos Again',
+    copyHoroscope: 'Copy horoscope text',
+    copiedHoroscope: 'Copied!',
+    interpretWithAI: 'Interpret with AI',
+    aiInterpretQuery: 'interpret this horoscope prediction for today: ',
     generatedBy: 'Divined from ancient browser APIs',
     footer:
       'No actual celestial bodies were consulted. Your browser gave you up voluntarily.',

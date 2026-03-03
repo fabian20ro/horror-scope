@@ -18,6 +18,10 @@ const minimalLocale: LocalePack = {
     compatibility: 'Compat',
     browserDivination: 'Divination',
     regenerate: 'Regenerate',
+    copyHoroscope: 'Copy',
+    copiedHoroscope: 'Copied!',
+    interpretWithAI: 'Interpret',
+    aiInterpretQuery: 'interpret this: ',
     generatedBy: 'Generated',
     footer: 'Footer',
     signNames: {

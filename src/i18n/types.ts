@@ -12,6 +12,10 @@ export interface UIStrings {
   compatibility: string;
   browserDivination: string;
   regenerate: string;
+  copyHoroscope: string;
+  copiedHoroscope: string;
+  interpretWithAI: string;
+  aiInterpretQuery: string;
   generatedBy: string;
   footer: string;
   signNames: Record<ZodiacSign, string>;
