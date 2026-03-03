@@ -344,6 +344,17 @@ body::before {
   margin: 0 auto;
 }
 
+.footer__badge {
+  display: inline-block;
+  margin-top: 1rem;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.footer__badge:hover {
+  opacity: 1;
+}
+
 /* ---- Shimmer animation on horoscope card ---- */
 
 .horoscope-card::before {
