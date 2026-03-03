@@ -83,7 +83,7 @@ export const ro: LocalePack = {
 
     predictie: [
       'Vei întâlni #intalnire# în #locatie#.',
-      'Un #obiect# misterios îți va schimba #aspectViata# pentru totdeauna.',
+      '#obiectMisterios.capitalize# îți va schimba #aspectViata# pentru totdeauna.',
       '#celebritate# îți va trimite un mesaj enigmatic despre #subiect#.',
       '#parteCorp# ta va dezvolta o afinitate ciudată pentru #mancare#.',
       'Stelele sugerează să eviți #evitare# cu orice preț.',
@@ -92,8 +92,8 @@ export const ro: LocalePack = {
       'Următorul update de la #dispozitiv# va dezvălui #secret#.',
       'Cineva te va confunda cu #celebritate# la #locatie#.',
       '#parteCorp# ta va începe să #actiuneCorp# în cel mai nepotrivit moment.',
-      'Vei descoperi că #obiect# era #emotie# tot timpul.',
-      'Un vânt #adjectiv# va arunca #obiect# în #aspectViata# ta.',
+      'Vei descoperi că #obiectCuArticol# avea sentimente tot timpul.',
+      'Un vânt #adjectiv# va arunca #obiectCuArticol# în #aspectViata# ta.',
     ],
 
     consecinta: [
@@ -164,6 +164,36 @@ export const ro: LocalePack = {
       'difuzor Bluetooth bântuit',
       'listă de sarcini conștientă',
       'ceas deșteptător care se cunoaște pe sine',
+    ],
+
+    obiectCuArticol: [
+      'un cablu USB',
+      'un biscuit cu mesaj',
+      'un cupon expirat',
+      'o șosetă misterioasă',
+      'un pergament antic (format PDF)',
+      'o rățușcă de cauciuc',
+      'un tabel Excel blestemat',
+      'un capsator fermecat',
+      'o memă vintage',
+      'un difuzor Bluetooth bântuit',
+      'o listă de sarcini conștientă',
+      'un ceas deșteptător care se cunoaște pe sine',
+    ],
+
+    obiectMisterios: [
+      'un cablu USB misterios',
+      'un biscuit cu mesaj misterios',
+      'un cupon expirat misterios',
+      'o șosetă misterioasă',
+      'un pergament antic misterios (format PDF)',
+      'o rățușcă de cauciuc misterioasă',
+      'un tabel Excel blestemat',
+      'un capsator fermecat misterios',
+      'o memă vintage misterioasă',
+      'un difuzor Bluetooth bântuit',
+      'o listă de sarcini conștientă misterioasă',
+      'un ceas deșteptător misterios',
     ],
 
     celebritate: [
