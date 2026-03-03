@@ -13,6 +13,7 @@ export const ro: LocalePack = {
     cosmicWarning: 'Avertisment cosmic',
     compatibility: 'Compatibilitate',
     browserDivination: 'Ce a dezvăluit browserul tău',
+    regenerate: 'Consultă din nou Cosmosul',
     generatedBy: 'Ghicit din API-urile ancestrale ale browserului',
     footer:
       'Niciun corp ceresc nu a fost consultat. Browserul tău te-a dat de gol de bunăvoie.',

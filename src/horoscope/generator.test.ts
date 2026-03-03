@@ -17,6 +17,7 @@ const minimalLocale: LocalePack = {
     cosmicWarning: 'Warning',
     compatibility: 'Compat',
     browserDivination: 'Divination',
+    regenerate: 'Regenerate',
     generatedBy: 'Generated',
     footer: 'Footer',
     signNames: {
