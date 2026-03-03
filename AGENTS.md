@@ -6,7 +6,7 @@
 
 ## Constraints
 
-- No test framework or linter is configured — validate all changes with `npm run build` only
+<!-- None currently — test and build commands are discoverable from package.json -->
 
 ## Legacy & Deprecated
 
