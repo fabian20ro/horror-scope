@@ -13,12 +13,13 @@ import './style.css';
 function initApp(): void {
   const container = document.getElementById('app')!;
   let langId = detectLanguage();
+  let consultation = 0;
 
   function renderApp(): void {
     const divination = readBrowserOracle();
     const sign = assignSign(divination.fingerprint);
     const locale = getLocale(langId);
-    const horoscope = generateHoroscope(sign, locale, divination);
+    const horoscope = generateHoroscope(sign, locale, divination, new Date(), consultation);
     render(
       container,
       horoscope,
@@ -29,7 +30,10 @@ function initApp(): void {
         persistLanguage(newLangId);
         renderApp();
       },
-      renderApp,
+      () => {
+        consultation++;
+        renderApp();
+      },
     );
   }
 
