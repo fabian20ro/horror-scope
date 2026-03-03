@@ -1,0 +1,96 @@
+import { describe, it, expect } from 'vitest';
+import { generateHoroscope } from './generator.ts';
+import { ZODIAC_SYMBOLS } from './zodiac.ts';
+import type { LocalePack } from '../i18n/types.ts';
+import type { DivinationProfile } from '../divination/browser-oracle.ts';
+
+const minimalLocale: LocalePack = {
+  id: 'test',
+  name: 'Test',
+  ui: {
+    title: 'Test',
+    subtitle: 'Test',
+    yourSign: 'Sign',
+    dailyHoroscope: 'Horoscope',
+    luckyNumber: 'Lucky',
+    luckyColor: 'Color',
+    cosmicWarning: 'Warning',
+    compatibility: 'Compat',
+    browserDivination: 'Divination',
+    generatedBy: 'Generated',
+    footer: 'Footer',
+    signNames: {
+      aries: 'Aries', taurus: 'Taurus', gemini: 'Gemini',
+      cancer: 'Cancer', leo: 'Leo', virgo: 'Virgo',
+      libra: 'Libra', scorpio: 'Scorpio', sagittarius: 'Sagittarius',
+      capricorn: 'Capricorn', aquarius: 'Aquarius', pisces: 'Pisces',
+    },
+    divinationLabels: {},
+  },
+  grammar: {
+    origin: ['Your fate is sealed'],
+    warning: ['Beware'],
+    luckyColor: ['blue'],
+    compatibility: ['Gemini'],
+  },
+};
+
+const minimalDivination: DivinationProfile = {
+  readings: [
+    { key: 'spirit_browser', raw: 'Chrome', interpretation: '' },
+  ],
+  fingerprint: 'test-fingerprint',
+};
+
+const fixedDate = new Date('2026-03-03');
+
+describe('generateHoroscope', () => {
+  it('returns a complete horoscope object', () => {
+    const h = generateHoroscope('aries', minimalLocale, minimalDivination, fixedDate);
+    expect(h.sign).toBe('aries');
+    expect(h.signSymbol).toBe(ZODIAC_SYMBOLS.aries);
+    expect(h.text).toBeDefined();
+    expect(h.warning).toBeDefined();
+    expect(h.luckyColor).toBeDefined();
+    expect(h.compatibility).toBeDefined();
+    expect(h.date).toBe('2026-03-03');
+  });
+
+  it('lucky number is between 1 and 99', () => {
+    for (const sign of ['aries', 'leo', 'pisces'] as const) {
+      const h = generateHoroscope(sign, minimalLocale, minimalDivination, fixedDate);
+      expect(h.luckyNumber).toBeGreaterThanOrEqual(1);
+      expect(h.luckyNumber).toBeLessThanOrEqual(99);
+    }
+  });
+
+  it('is deterministic — same inputs produce same output', () => {
+    const h1 = generateHoroscope('taurus', minimalLocale, minimalDivination, fixedDate);
+    const h2 = generateHoroscope('taurus', minimalLocale, minimalDivination, fixedDate);
+    expect(h1).toEqual(h2);
+  });
+
+  it('different signs produce different horoscopes', () => {
+    const h1 = generateHoroscope('aries', minimalLocale, minimalDivination, fixedDate);
+    const h2 = generateHoroscope('pisces', minimalLocale, minimalDivination, fixedDate);
+    expect(h1.luckyNumber).not.toBe(h2.luckyNumber);
+  });
+
+  it('different dates produce different horoscopes', () => {
+    const h1 = generateHoroscope('aries', minimalLocale, minimalDivination, new Date('2026-03-03'));
+    const h2 = generateHoroscope('aries', minimalLocale, minimalDivination, new Date('2026-03-04'));
+    expect(h1.luckyNumber).not.toBe(h2.luckyNumber);
+  });
+
+  it('injects divination readings as grammar symbols', () => {
+    const locale: LocalePack = {
+      ...minimalLocale,
+      grammar: {
+        ...minimalLocale.grammar,
+        origin: ['Your browser is #spirit_browser#'],
+      },
+    };
+    const h = generateHoroscope('aries', locale, minimalDivination, fixedDate);
+    expect(h.text).toBe('Your browser is Chrome');
+  });
+});
