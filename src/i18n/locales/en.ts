@@ -13,6 +13,7 @@ export const en: LocalePack = {
     cosmicWarning: 'Cosmic Warning',
     compatibility: 'Compatibility',
     browserDivination: 'What Your Browser Revealed',
+    regenerate: 'Consult the Cosmos Again',
     generatedBy: 'Divined from ancient browser APIs',
     footer:
       'No actual celestial bodies were consulted. Your browser gave you up voluntarily.',

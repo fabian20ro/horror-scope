@@ -11,6 +11,7 @@ export interface UIStrings {
   cosmicWarning: string;
   compatibility: string;
   browserDivination: string;
+  regenerate: string;
   generatedBy: string;
   footer: string;
   signNames: Record<ZodiacSign, string>;

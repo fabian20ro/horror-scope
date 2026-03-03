@@ -81,6 +81,15 @@ export function createHoroscopeCard(
   return card;
 }
 
+export function createRegenerateButton(
+  ui: UIStrings,
+  onRegenerate: () => void,
+): HTMLElement {
+  const btn = el('button', 'regen-btn', ui.regenerate);
+  btn.addEventListener('click', onRegenerate);
+  return btn;
+}
+
 export function createDivinationPanel(
   divination: DivinationProfile,
   ui: UIStrings,

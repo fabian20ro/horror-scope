@@ -7,6 +7,7 @@ import {
   createLanguageSwitcher,
   createSignCard,
   createHoroscopeCard,
+  createRegenerateButton,
   createDivinationPanel,
   createFooter,
 } from './components.ts';
@@ -17,6 +18,7 @@ export function render(
   divination: DivinationProfile,
   locale: LocalePack,
   onLanguageChange: (id: string) => void,
+  onRegenerate: () => void,
 ): void {
   container.innerHTML = '';
   container.className = 'app';
@@ -30,6 +32,7 @@ export function render(
   );
   wrapper.appendChild(createSignCard(horoscope, locale.ui));
   wrapper.appendChild(createHoroscopeCard(horoscope, locale.ui));
+  wrapper.appendChild(createRegenerateButton(locale.ui, onRegenerate));
   wrapper.appendChild(createDivinationPanel(divination, locale.ui));
   wrapper.appendChild(createFooter(locale.ui));
 
