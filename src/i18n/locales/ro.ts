@@ -14,6 +14,10 @@ export const ro: LocalePack = {
     compatibility: 'Compatibilitate',
     browserDivination: 'Ce a dezvăluit browserul tău',
     regenerate: 'Consultă din nou Cosmosul',
+    copyHoroscope: 'Copiază textul horoscopului',
+    copiedHoroscope: 'Copiat!',
+    interpretWithAI: 'Interpretează cu AI',
+    aiInterpretQuery: 'interpretează această predicție a horoscopului de azi: ',
     generatedBy: 'Ghicit din API-urile ancestrale ale browserului',
     footer:
       'Niciun corp ceresc nu a fost consultat. Browserul tău te-a dat de gol de bunăvoie.',

@@ -254,14 +254,56 @@ body::before {
     inset 0 0 30px rgba(124, 77, 255, 0.05);
 }
 
+.horoscope-card__heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
 .horoscope-card__heading {
   font-family: 'Cinzel', Georgia, serif;
   font-size: 1.25rem;
   color: var(--gold);
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  flex: 1;
+}
+
+/* ---- Action Buttons ---- */
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  font-size: 1rem;
+  line-height: 1;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s, background-color 0.2s;
+}
+
+.action-btn:hover {
+  color: var(--gold);
+  border-color: var(--border-card);
+  background: rgba(245, 200, 66, 0.05);
+}
+
+.action-btn:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.action-btn--feedback {
+  color: var(--gold);
 }
 
 .horoscope-card__text {
@@ -448,5 +490,11 @@ body::before {
   .detail-row {
     flex-direction: column;
     gap: 0.15rem;
+  }
+
+  .action-btn {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.9rem;
   }
 }

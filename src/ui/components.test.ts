@@ -1,7 +1,8 @@
 // @vitest-environment jsdom
 import { describe, it, expect, vi } from 'vitest';
-import { createRegenerateButton } from './components.ts';
+import { createRegenerateButton, createHoroscopeCard } from './components.ts';
 import type { UIStrings } from '../i18n/types.ts';
+import type { Horoscope } from '../horoscope/generator.ts';
 
 const minimalUi: UIStrings = {
   title: 'T',
@@ -14,6 +15,10 @@ const minimalUi: UIStrings = {
   compatibility: 'Co',
   browserDivination: 'B',
   regenerate: 'Read Again',
+  copyHoroscope: 'Copy',
+  copiedHoroscope: 'Copied!',
+  interpretWithAI: 'Interpret',
+  aiInterpretQuery: 'interpret this: ',
   generatedBy: 'G',
   footer: 'F',
   signNames: {
@@ -22,6 +27,17 @@ const minimalUi: UIStrings = {
     capricorn: 'Ca', aquarius: 'Aq', pisces: 'P',
   },
   divinationLabels: {},
+};
+
+const minimalHoroscope: Horoscope = {
+  sign: 'aries',
+  signSymbol: '♈',
+  text: 'You will find a mysterious sock.',
+  luckyNumber: 42,
+  luckyColor: 'purple',
+  warning: 'Beware of pigeons.',
+  compatibility: 'Leo',
+  date: '2026-03-03',
 };
 
 describe('createRegenerateButton', () => {
@@ -51,5 +67,39 @@ describe('createRegenerateButton', () => {
     const onRegenerate = vi.fn();
     createRegenerateButton(minimalUi, onRegenerate);
     expect(onRegenerate).not.toHaveBeenCalled();
+  });
+});
+
+describe('createHoroscopeCard', () => {
+  it('contains a heading row with two action buttons and a heading', () => {
+    const card = createHoroscopeCard(minimalHoroscope, minimalUi);
+    const headingRow = card.querySelector('.horoscope-card__heading-row');
+    expect(headingRow).not.toBeNull();
+    const buttons = headingRow!.querySelectorAll('.action-btn');
+    expect(buttons.length).toBe(2);
+    const heading = headingRow!.querySelector('.horoscope-card__heading');
+    expect(heading).not.toBeNull();
+  });
+
+  it('places the copy button before the heading', () => {
+    const card = createHoroscopeCard(minimalHoroscope, minimalUi);
+    const headingRow = card.querySelector('.horoscope-card__heading-row')!;
+    const firstChild = headingRow.children[0] as HTMLElement;
+    expect(firstChild.textContent).toBe('⧉');
+    expect(firstChild.getAttribute('aria-label')).toBe('Copy');
+  });
+
+  it('places the interpret button after the heading', () => {
+    const card = createHoroscopeCard(minimalHoroscope, minimalUi);
+    const headingRow = card.querySelector('.horoscope-card__heading-row')!;
+    const lastChild = headingRow.children[2] as HTMLElement;
+    expect(lastChild.textContent).toBe('→');
+    expect(lastChild.getAttribute('aria-label')).toBe('Interpret');
+  });
+
+  it('displays the horoscope text', () => {
+    const card = createHoroscopeCard(minimalHoroscope, minimalUi);
+    const text = card.querySelector('.horoscope-card__text');
+    expect(text?.textContent).toBe('You will find a mysterious sock.');
   });
 });

@@ -2,6 +2,7 @@ import type { Horoscope } from '../horoscope/generator.ts';
 import type { DivinationProfile } from '../divination/browser-oracle.ts';
 import type { UIStrings } from '../i18n/types.ts';
 import type { LocalePack } from '../i18n/types.ts';
+import { createActionButton, copyToClipboard, buildGoogleAIUrl } from './actions.ts';
 
 function el<K extends keyof HTMLElementTagNameMap>(
   tag: K,
@@ -57,7 +58,27 @@ export function createHoroscopeCard(
   ui: UIStrings,
 ): HTMLElement {
   const card = el('article', 'card horoscope-card');
+
+  const headingRow = el('div', 'horoscope-card__heading-row');
   const heading = el('h2', 'horoscope-card__heading', ui.dailyHoroscope);
+
+  const copyBtn = createActionButton({
+    icon: '⧉',
+    feedbackIcon: '✓',
+    ariaLabel: ui.copyHoroscope,
+    onClick: () => copyToClipboard(horoscope.text),
+  });
+
+  const aiBtn = createActionButton({
+    icon: '→',
+    ariaLabel: ui.interpretWithAI,
+    onClick: () => {
+      const url = buildGoogleAIUrl(ui.aiInterpretQuery + horoscope.text);
+      window.open(url, '_blank', 'noopener');
+    },
+  });
+
+  headingRow.append(copyBtn, heading, aiBtn);
 
   const text = el('p', 'horoscope-card__text', horoscope.text);
 
@@ -77,7 +98,7 @@ export function createHoroscopeCard(
     details.appendChild(row);
   }
 
-  card.append(heading, text, details);
+  card.append(headingRow, text, details);
   return card;
 }
 
