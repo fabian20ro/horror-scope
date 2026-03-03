@@ -1,0 +1,61 @@
+import { createGrammarEngine } from '../engine/grammar.ts';
+import { mulberry32, dailySeed } from '../engine/random.ts';
+import type { Grammar } from '../engine/types.ts';
+import type { DivinationProfile } from '../divination/browser-oracle.ts';
+import type { LocalePack } from '../i18n/types.ts';
+import type { ZodiacSign } from './zodiac.ts';
+import { ZODIAC_SYMBOLS } from './zodiac.ts';
+
+export interface Horoscope {
+  sign: ZodiacSign;
+  signSymbol: string;
+  text: string;
+  luckyNumber: number;
+  luckyColor: string;
+  warning: string;
+  compatibility: string;
+  date: string;
+}
+
+export function generateHoroscope(
+  sign: ZodiacSign,
+  locale: LocalePack,
+  divination: DivinationProfile,
+  date: Date = new Date(),
+): Horoscope {
+  const dateStr = date.toISOString().slice(0, 10);
+  const seed = dailySeed(dateStr, sign);
+  const rng = mulberry32(seed);
+
+  const signName = locale.ui.signNames[sign];
+
+  // Merge locale grammar with divination context symbols
+  const contextGrammar: Grammar = {
+    ...locale.grammar,
+    signName: [signName],
+  };
+
+  // Inject divination readings as grammar symbols
+  for (const reading of divination.readings) {
+    contextGrammar[reading.key] = [reading.raw];
+  }
+
+  const engine = createGrammarEngine(contextGrammar, rng);
+
+  const text = engine.expand('#origin#');
+  const warning = engine.expand('#warning#');
+  const luckyColor = engine.expand('#luckyColor#');
+  const compatibility = engine.expand('#compatibility#');
+  const luckyNumber = Math.floor(rng() * 99) + 1;
+
+  return {
+    sign,
+    signSymbol: ZODIAC_SYMBOLS[sign],
+    text,
+    luckyNumber,
+    luckyColor,
+    warning,
+    compatibility,
+    date: dateStr,
+  };
+}

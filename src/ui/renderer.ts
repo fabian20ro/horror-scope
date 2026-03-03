@@ -1,0 +1,46 @@
+import type { Horoscope } from '../horoscope/generator.ts';
+import type { DivinationProfile } from '../divination/browser-oracle.ts';
+import type { LocalePack } from '../i18n/types.ts';
+import { getAvailableLocales } from '../i18n/index.ts';
+import {
+  createHeader,
+  createLanguageSwitcher,
+  createSignCard,
+  createHoroscopeCard,
+  createDivinationPanel,
+  createFooter,
+} from './components.ts';
+
+export function render(
+  container: HTMLElement,
+  horoscope: Horoscope,
+  divination: DivinationProfile,
+  locale: LocalePack,
+  onLanguageChange: (id: string) => void,
+): void {
+  container.innerHTML = '';
+  container.className = 'app';
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'app__wrapper';
+
+  wrapper.appendChild(createHeader(locale.ui));
+  wrapper.appendChild(
+    createLanguageSwitcher(getAvailableLocales(), locale.id, onLanguageChange),
+  );
+  wrapper.appendChild(createSignCard(horoscope, locale.ui));
+  wrapper.appendChild(createHoroscopeCard(horoscope, locale.ui));
+  wrapper.appendChild(createDivinationPanel(divination, locale.ui));
+  wrapper.appendChild(createFooter(locale.ui));
+
+  container.appendChild(wrapper);
+
+  // Staggered entrance animations
+  requestAnimationFrame(() => {
+    const cards = wrapper.querySelectorAll('.card');
+    cards.forEach((card, i) => {
+      (card as HTMLElement).style.animationDelay = `${i * 0.15}s`;
+      card.classList.add('card--visible');
+    });
+  });
+}

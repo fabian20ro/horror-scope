@@ -1,0 +1,412 @@
+/* ================================================
+   Horror-Scope — Mystical & Campy Theme
+   ================================================ */
+
+:root {
+  --bg-deep: #0d0221;
+  --bg-card: #1a0a3e;
+  --bg-card-hover: #22104a;
+  --gold: #f5c842;
+  --gold-dim: #c9a22e;
+  --purple-light: #b388ff;
+  --purple-mid: #7c4dff;
+  --purple-glow: rgba(124, 77, 255, 0.4);
+  --text-primary: #e8dff5;
+  --text-secondary: #b8a9d1;
+  --text-muted: #7e6c9a;
+  --border-glow: rgba(245, 200, 66, 0.3);
+  --border-card: rgba(179, 136, 255, 0.2);
+  --radius: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.7;
+  color: var(--text-primary);
+  background: var(--bg-deep);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Starfield background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(1px 1px at 10% 20%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 30% 70%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1.5px 1.5px at 50% 10%, rgba(245, 200, 66, 0.5), transparent),
+    radial-gradient(1px 1px at 70% 40%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 85% 80%, rgba(179, 136, 255, 0.4), transparent),
+    radial-gradient(1.5px 1.5px at 20% 50%, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(1px 1px at 60% 60%, rgba(245, 200, 66, 0.3), transparent),
+    radial-gradient(1px 1px at 90% 15%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 5% 90%, rgba(179, 136, 255, 0.3), transparent),
+    radial-gradient(1.5px 1.5px at 40% 30%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1px 1px at 75% 55%, rgba(245, 200, 66, 0.4), transparent),
+    radial-gradient(1px 1px at 55% 85%, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(1px 1px at 15% 5%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 95% 50%, rgba(179, 136, 255, 0.5), transparent),
+    radial-gradient(ellipse at 50% 0%, rgba(124, 77, 255, 0.15), transparent 60%);
+}
+
+/* ---- App Container ---- */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.app__wrapper {
+  width: 100%;
+  max-width: 680px;
+  padding: 2rem 1.25rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ---- Header ---- */
+
+.header {
+  text-align: center;
+  padding: 1rem 0 0.5rem;
+}
+
+.header__stars {
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 0.75rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.header__title {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-weight: 900;
+  color: var(--gold);
+  text-shadow:
+    0 0 20px rgba(245, 200, 66, 0.4),
+    0 0 60px rgba(245, 200, 66, 0.15);
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+}
+
+.header__subtitle {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* ---- Language Switcher ---- */
+
+.lang-switcher {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.lang-btn {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid var(--border-card);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  letter-spacing: 0.05em;
+}
+
+.lang-btn:hover {
+  border-color: var(--gold-dim);
+  color: var(--gold);
+}
+
+.lang-btn--active {
+  background: linear-gradient(135deg, rgba(245, 200, 66, 0.15), rgba(124, 77, 255, 0.15));
+  border-color: var(--gold-dim);
+  color: var(--gold);
+  box-shadow: 0 0 12px rgba(245, 200, 66, 0.15);
+}
+
+.lang-btn:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* ---- Cards (shared) ---- */
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: background-color 0.25s ease;
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+}
+
+.card--visible {
+  animation: cardReveal 0.5s ease forwards;
+}
+
+@keyframes cardReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---- Sign Card ---- */
+
+.sign-card {
+  text-align: center;
+  border-color: var(--border-glow);
+  background: linear-gradient(
+    135deg,
+    rgba(26, 10, 62, 0.9),
+    rgba(13, 2, 33, 0.95)
+  );
+}
+
+.sign-card__symbol {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 12px var(--purple-glow));
+}
+
+.sign-card__label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+}
+
+.sign-card__name {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-shadow: 0 0 16px rgba(245, 200, 66, 0.3);
+}
+
+/* ---- Horoscope Card ---- */
+
+.horoscope-card {
+  border-color: var(--border-glow);
+  box-shadow:
+    0 0 30px rgba(245, 200, 66, 0.08),
+    inset 0 0 30px rgba(124, 77, 255, 0.05);
+}
+
+.horoscope-card__heading {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1.25rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.horoscope-card__text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.horoscope-card__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-top: 1px solid var(--border-card);
+  padding-top: 1rem;
+}
+
+/* ---- Detail Rows ---- */
+
+.detail-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.detail-row__label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  min-width: fit-content;
+}
+
+.detail-row__label::after {
+  content: ':';
+}
+
+.detail-row__value {
+  font-size: 0.95rem;
+  color: var(--purple-light);
+}
+
+/* ---- Divination Card ---- */
+
+.divination-card__heading {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.divination-card__toggle {
+  font-size: 0.8rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: color 0.2s;
+}
+
+.divination-card__toggle:hover {
+  color: var(--gold);
+}
+
+.divination-card__toggle:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.divination-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.divination-card__list--collapsed {
+  display: none;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+  text-align: center;
+  padding: 1.5rem 0 1rem;
+}
+
+.footer__generated {
+  font-size: 0.8rem;
+  color: var(--gold-dim);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.footer__disclaimer {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* ---- Shimmer animation on horoscope card ---- */
+
+.horoscope-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: var(--radius);
+  padding: 1px;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(245, 200, 66, 0.3) 50%,
+    transparent 70%
+  );
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  animation: shimmer 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.horoscope-card {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 480px) {
+  .app__wrapper {
+    padding: 1.5rem 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .header__title {
+    font-size: 2rem;
+  }
+
+  .sign-card__symbol {
+    font-size: 3rem;
+  }
+
+  .sign-card__name {
+    font-size: 1.4rem;
+  }
+
+  .horoscope-card__text {
+    font-size: 1rem;
+  }
+
+  .detail-row {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+}
