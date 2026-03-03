@@ -91,6 +91,8 @@ export const ro: LocalePack = {
       'Următorul update de la #dispozitiv# va dezvălui #secret#.',
       'Cineva te va confunda cu #celebritate# la #locatie#.',
       '#parteCorp# ta va începe să #actiuneCorp# în cel mai nepotrivit moment.',
+      'Vei descoperi că #obiect# era #emotie# tot timpul.',
+      'Un vânt #adjectiv# va arunca #obiect# în #aspectViata# ta.',
     ],
 
     consecinta: [
@@ -101,6 +103,7 @@ export const ro: LocalePack = {
       'Dă vina pe #planeta# — știe ce-a făcut.',
       'Oamenii de știință vor fi nedumeriți.',
       '#dispozitiv# tău deja știa că se va întâmpla asta.',
+      'Profeția ancestrală despre #creatura# se adeverește în sfârșit.',
     ],
 
     sfat: [
@@ -110,6 +113,7 @@ export const ro: LocalePack = {
       'Evită #evitare# între orele #numarMic# și #numarMare#.',
       'Gustarea norocoasă este #mancare#. Consumă-o #adverb#.',
       'Canalizează energia lui #celebritate# pentru rezultate maxime.',
+      '#dispozitiv# tău deține răspunsul — verifică-l #adverb#.',
       'Șoptește „#mantra#" de trei ori pentru protecție cosmică.',
     ],
 
@@ -440,6 +444,7 @@ export const ro: LocalePack = {
       'Dacă #parteCorp# ta începe să #actiuneCorp#, consultă un #profesionist#.',
       'Universul îți judecă alegerea de browser. Alege cu înțelepciune.',
       'Evită să apeși butoane etichetate „#mantra#".',
+      '#dispozitiv# tău pune ceva la cale. Ține-l aproape.',
       '#planeta# te urmărește. Comportă-te normal.',
     ],
 

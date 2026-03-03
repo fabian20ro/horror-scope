@@ -118,6 +118,18 @@ export function createFooter(ui: UIStrings): HTMLElement {
   const footer = el('footer', 'footer');
   const gen = el('p', 'footer__generated', `✧ ${ui.generatedBy} ✧`);
   const disc = el('p', 'footer__disclaimer', ui.footer);
-  footer.append(gen, disc);
+
+  const badgeLink = document.createElement('a');
+  badgeLink.href = 'https://github.com/fabian20ro/horror-scope';
+  badgeLink.className = 'footer__badge';
+  badgeLink.target = '_blank';
+  badgeLink.rel = 'noopener noreferrer';
+  const badgeImg = document.createElement('img');
+  badgeImg.src =
+    'https://github.com/fabian20ro/horror-scope/actions/workflows/deploy.yml/badge.svg';
+  badgeImg.alt = 'Deploy to GitHub Pages';
+  badgeLink.appendChild(badgeImg);
+
+  footer.append(gen, disc, badgeLink);
   return footer;
 }
