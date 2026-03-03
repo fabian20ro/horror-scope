@@ -83,6 +83,24 @@ describe('generateHoroscope', () => {
     expect(h1.luckyNumber).not.toBe(h2.luckyNumber);
   });
 
+  it('is deterministic — same inputs with same consultation produce same output', () => {
+    const h1 = generateHoroscope('taurus', minimalLocale, minimalDivination, fixedDate, 3);
+    const h2 = generateHoroscope('taurus', minimalLocale, minimalDivination, fixedDate, 3);
+    expect(h1).toEqual(h2);
+  });
+
+  it('different consultation numbers produce different horoscopes', () => {
+    const h1 = generateHoroscope('aries', minimalLocale, minimalDivination, fixedDate, 0);
+    const h2 = generateHoroscope('aries', minimalLocale, minimalDivination, fixedDate, 1);
+    expect(h1.luckyNumber).not.toBe(h2.luckyNumber);
+  });
+
+  it('consultation 0 matches default (no consultation argument)', () => {
+    const withDefault = generateHoroscope('aries', minimalLocale, minimalDivination, fixedDate);
+    const withExplicitZero = generateHoroscope('aries', minimalLocale, minimalDivination, fixedDate, 0);
+    expect(withDefault).toEqual(withExplicitZero);
+  });
+
   it('injects divination readings as grammar symbols', () => {
     const locale: LocalePack = {
       ...minimalLocale,

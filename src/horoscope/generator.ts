@@ -22,9 +22,11 @@ export function generateHoroscope(
   locale: LocalePack,
   divination: DivinationProfile,
   date: Date = new Date(),
+  consultation: number = 0,
 ): Horoscope {
   const dateStr = date.toISOString().slice(0, 10);
-  const seed = dailySeed(dateStr, sign);
+  const salt = consultation === 0 ? sign : `${sign}:${consultation}`;
+  const seed = dailySeed(dateStr, salt);
   const rng = mulberry32(seed);
 
   const signName = locale.ui.signNames[sign];
