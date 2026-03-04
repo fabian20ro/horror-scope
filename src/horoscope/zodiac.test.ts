@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { ZODIAC_SIGNS, ZODIAC_SYMBOLS } from './zodiac.ts';
+import { ZODIAC_SIGNS, ZODIAC_SYMBOLS, randomSign } from './zodiac.ts';
 
 describe('ZODIAC_SIGNS', () => {
   it('has exactly 12 signs', () => {
@@ -16,6 +16,23 @@ describe('ZODIAC_SYMBOLS', () => {
     for (const sign of ZODIAC_SIGNS) {
       expect(ZODIAC_SYMBOLS[sign]).toBeDefined();
       expect(ZODIAC_SYMBOLS[sign].length).toBeGreaterThan(0);
+    }
+  });
+});
+
+describe('randomSign', () => {
+  it('returns a different sign than the current one', () => {
+    for (const sign of ZODIAC_SIGNS) {
+      for (let i = 0; i < 20; i++) {
+        expect(randomSign(sign)).not.toBe(sign);
+      }
+    }
+  });
+
+  it('returns a valid zodiac sign', () => {
+    for (let i = 0; i < 50; i++) {
+      const result = randomSign('aries');
+      expect(ZODIAC_SIGNS).toContain(result);
     }
   });
 });

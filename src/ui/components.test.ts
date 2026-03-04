@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { describe, it, expect, vi } from 'vitest';
-import { createRegenerateButton, createHoroscopeCard } from './components.ts';
+import { createRegenerateButton, createHoroscopeCard, createSignCard } from './components.ts';
 import type { UIStrings } from '../i18n/types.ts';
 import type { Horoscope } from '../horoscope/generator.ts';
 
@@ -14,6 +14,7 @@ const minimalUi: UIStrings = {
   cosmicWarning: 'W',
   compatibility: 'Co',
   browserDivination: 'B',
+  randomizeSign: 'Randomize',
   regenerate: 'Read Again',
   copyHoroscope: 'Copy',
   copiedHoroscope: 'Copied!',
@@ -67,6 +68,32 @@ describe('createRegenerateButton', () => {
     const onRegenerate = vi.fn();
     createRegenerateButton(minimalUi, onRegenerate);
     expect(onRegenerate).not.toHaveBeenCalled();
+  });
+});
+
+describe('createSignCard', () => {
+  it('renders a dice randomize button', () => {
+    const card = createSignCard(minimalHoroscope, minimalUi, () => {});
+    const btn = card.querySelector('.sign-card__randomize');
+    expect(btn).not.toBeNull();
+    expect(btn!.textContent).toBe('\u{1F3B2}');
+    expect(btn!.getAttribute('aria-label')).toBe('Randomize');
+  });
+
+  it('calls onRandomize when dice button is clicked', () => {
+    const onRandomize = vi.fn();
+    const card = createSignCard(minimalHoroscope, minimalUi, onRandomize);
+    const btn = card.querySelector('.sign-card__randomize') as HTMLElement;
+    btn.click();
+    expect(onRandomize).toHaveBeenCalledTimes(1);
+  });
+
+  it('displays the sign name next to the dice button', () => {
+    const card = createSignCard(minimalHoroscope, minimalUi, () => {});
+    const nameRow = card.querySelector('.sign-card__name-row');
+    expect(nameRow).not.toBeNull();
+    const name = nameRow!.querySelector('.sign-card__name');
+    expect(name!.textContent).toBe('A');
   });
 });
 

@@ -19,6 +19,7 @@ export function render(
   locale: LocalePack,
   onLanguageChange: (id: string) => void,
   onRegenerate: () => void,
+  onRandomize: () => void,
 ): void {
   container.innerHTML = '';
   container.className = 'app';
@@ -30,7 +31,7 @@ export function render(
   wrapper.appendChild(
     createLanguageSwitcher(getAvailableLocales(), locale.id, onLanguageChange),
   );
-  wrapper.appendChild(createSignCard(horoscope, locale.ui));
+  wrapper.appendChild(createSignCard(horoscope, locale.ui, onRandomize));
   wrapper.appendChild(createHoroscopeCard(horoscope, locale.ui));
   wrapper.appendChild(createRegenerateButton(locale.ui, onRegenerate));
   wrapper.appendChild(createDivinationPanel(divination, locale.ui));

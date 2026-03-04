@@ -11,6 +11,7 @@ export interface UIStrings {
   cosmicWarning: string;
   compatibility: string;
   browserDivination: string;
+  randomizeSign: string;
   regenerate: string;
   copyHoroscope: string;
   copiedHoroscope: string;

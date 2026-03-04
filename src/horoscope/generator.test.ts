@@ -17,6 +17,7 @@ const minimalLocale: LocalePack = {
     cosmicWarning: 'Warning',
     compatibility: 'Compat',
     browserDivination: 'Divination',
+    randomizeSign: 'Randomize',
     regenerate: 'Regenerate',
     copyHoroscope: 'Copy',
     copiedHoroscope: 'Copied!',
