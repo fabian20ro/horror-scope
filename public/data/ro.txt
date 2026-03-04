@@ -5,6 +5,10 @@ Atenție, #signName#! #predictie# Animalul tău spirit, #spiritAnimal#, #actiune
 #deschidere.capitalize# Ca #signName#, astăzi #predictie# #consecinta# Reține: #intelepciune#.
 #deschidere.capitalize# #predictie# Între timp, #corpCosmic# șoptește: „#intelepciune#." #sfat#
 #corpCosmic.capitalize# tremură, #signName#! #predictie# #consecinta# #sfat#
+#salutTimpuriu.capitalize#! #predictie# #consecinta# Mantra zilei: „#mantra#."
+#deschidere.capitalize# #planeta# ne transmite: #predictie# #sfat# #intelepciune.capitalize#.
+#deschidere.capitalize# #predictie# Animalul tău spirit, #spiritAnimal#, confirmă. #consecinta#
+Hai, #signName#! #corpCosmic# a decretat: #predictie# #consecinta# #sfat#
 
 === deschidere ===
 salutare, dragă #signName#!
@@ -14,12 +18,17 @@ ascultă bine, #signName#!
 o, puternice #signName#!
 muritorule nesăbuit, #signName#!
 cosmosul te cheamă, #signName#!
+stai drept, #signName#!
+nu te agita, #signName#!
+ai grijă, #signName#!
 
 === salutTimpuriu ===
 bună #momentulZilei#
 binecuvântată #momentulZilei#
 suspectă #momentulZilei#
 blestemată #momentulZilei#
+magnifică #momentulZilei#
+tulbure #momentulZilei#
 
 === momentulZilei ===
 dimineața
@@ -28,30 +37,41 @@ seara
 ora crizei existențiale
 ora gustării
 ora de scrollat compulsiv
+pauza de cafea cosmică
+dimineața de după actualizarea de firmware
 
 === predictie ===
 Vei întâlni #intalnire# în #locatie#.
 #obiectMisterios.capitalize# îți va schimba #aspectViata# pentru totdeauna.
 #celebritate# îți va trimite un mesaj enigmatic despre #subiect#.
-#parteCorp# ta va dezvolta o afinitate ciudată pentru #mancare#.
+#parteCorpTa.capitalize# va dezvolta o afinitate ciudată pentru #mancare#.
 Stelele sugerează să eviți #evitare# cu orice preț.
 Vei #accident# din greșeală.
 Un #adjectiv# #creatura# va apărea în #locatie# cu #cadou#.
 Următorul update de la #dispozitiv# va dezvălui #secret#.
 Cineva te va confunda cu #celebritate# la #locatie#.
-#parteCorp# ta va începe să #actiuneCorp# în cel mai nepotrivit moment.
+#parteCorpTa.capitalize# va începe să #actiuneCorp# în cel mai nepotrivit moment.
 Vei descoperi că #obiectCuArticol# avea sentimente tot timpul.
-Un vânt #adjectiv# va arunca #obiectCuArticol# în #aspectViata# ta.
+Un vânt #adjectiv# va arunca #obiectCuArticol# în #aspectViataTa#.
+#intalnire.capitalize# te va opri pe stradă ca să-ți vorbească despre #subiect#.
+Vei primi #cadou# de la #celebritate#.
+O eroare cosmică va face ca #aspectViata# să funcționeze perfect pentru exact 7 minute.
+#corpCosmic# îți va revela #secret# printr-un semn subtil.
+Vei descoperi un talent ascuns pentru #subiect# în timp ce eviți #evitare#.
 
 === consecinta ===
 Asta te va face să fii #emotie#.
-Ca urmare, #aspectViata# ta nu va mai fi la fel niciodată.
+Ca urmare, #aspectViataTa# nu va mai fi la fel niciodată.
 Colegii tăi vor #reactieColegi#.
 Asta pentru că #planeta# e în retrograd (din nou).
 Dă vina pe #planeta# — știe ce-a făcut.
 Oamenii de știință vor fi nedumeriți.
-#dispozitiv# tău deja știa că se va întâmpla asta.
+#dispozitivulTau.capitalize# deja știa că se va întâmpla asta.
 Profeția ancestrală despre #creatura# se adeverește în sfârșit.
+Nimeni nu te va crede, dar tu vei ști.
+Și asta e abia începutul.
+Cosmosul dă din umeri.
+Cineva va face un TikTok despre asta.
 
 === sfat ===
 Poartă #culoare# ca să alungi #lucruRau#.
@@ -60,8 +80,12 @@ Mișcarea de putere a zilei: #miscarePutere#.
 Evită #evitare# între orele #numarMic# și #numarMare#.
 Gustarea norocoasă este #mancare#. Consumă-o #adverb#.
 Canalizează energia lui #celebritate# pentru rezultate maxime.
-#dispozitiv# tău deține răspunsul — verifică-l #adverb#.
+#dispozitivulTau.capitalize# deține răspunsul — aruncă o privire #adverb#.
 Șoptește „#mantra#" de trei ori pentru protecție cosmică.
+Consultă un #profesionist# înainte de ora #numarMare#.
+Pune #obiectCuArticol# sub pernă pentru vise profetice.
+Ține #culoare# aproape de inimă — culorile te protejează astăzi.
+Fă exact opusul a ceea ce îți spune #dispozitivulTau#.
 
 === intalnire ===
 un cărucior de cumpărături rebel
@@ -79,6 +103,11 @@ un contabil călător în timp
 un cactus care dansează step
 un flamingo dezamăgit
 trei ratoni într-un trenci
+un hologram al bunicii tale care te ceartă
+o mătușă din alt univers
+un porumbel cu diplomă în filosofie
+un robot aspirator cu ambiții
+o ciupercă telepatică
 
 === locatie ===
 un lift suspect
@@ -93,6 +122,10 @@ zona moartă de WiFi
 o cronologie alternativă
 secțiunea de comentarii
 un spreadsheet bântuit
+o parcare subterană cu ecou
+o sală de ședințe fără ferestre
+coada de la poștă
+un autobuz fără număr
 
 === obiect ===
 cablu USB
@@ -107,6 +140,10 @@ memă vintage
 difuzor Bluetooth bântuit
 listă de sarcini conștientă
 ceas deșteptător care se cunoaște pe sine
+cheie de la ceva necunoscut
+post-it profetic
+adaptor fără priză compatibilă
+badge expirat de la o conferință din 2019
 
 === obiectCuArticol ===
 un cablu USB
@@ -121,6 +158,10 @@ o memă vintage
 un difuzor Bluetooth bântuit
 o listă de sarcini conștientă
 un ceas deșteptător care se cunoaște pe sine
+o cheie de la ceva necunoscut
+un post-it profetic
+un adaptor fără priză compatibilă
+un badge expirat de la o conferință din 2019
 
 === obiectMisterios ===
 un cablu USB misterios
@@ -135,6 +176,10 @@ o memă vintage misterioasă
 un difuzor Bluetooth bântuit
 o listă de sarcini conștientă misterioasă
 un ceas deșteptător misterios
+o cheie misterioasă de la ceva necunoscut
+un post-it profetic misterios
+un adaptor misterios fără priză compatibilă
+un badge misterios de la o conferință din 2019
 
 === celebritate ===
 O hologramă a lui Nicolas Cage
@@ -145,6 +190,10 @@ Conceptul de luni
 Un algoritm suspect de prietenos
 Spiritul routerului tău WiFi
 Conștiința colectivă a tuturor captcha-urilor
+O versiune alternativă a ta dintr-un univers paralel
+Umbrela cuiva care nu mai există
+Contul tău vechi de MySpace
+Un corb cu opinii despre arhitectura software
 
 === creatura ===
 unicorn
@@ -159,6 +208,10 @@ chupacabra
 drop bear
 jackalope
 ornitorinc vrăjitor
+gremlin
+basilisk
+chimera
+minotaur
 
 === mancare ===
 toast artizanal
@@ -174,6 +227,10 @@ pizza filozofică
 sarmale cosmice
 mici transcendentali
 papanași profetici
+ciorbă de burtă profetică
+covrigi cu destin
+gogoși conspirative
+clătite interdimensionale
 
 === subiect ===
 dreptul fiscal interdimensional
@@ -184,6 +241,10 @@ viața de apoi a WiFi-ului
 căscatul competitiv
 procrastinarea cuantică
 viețile secrete ale dongle-urilor USB
+politica internă a ciupercilor
+originea cosmică a dejunului
+strategii de exit din conversații awkward
+economia bazată pe meme
 
 === parteCorp ===
 sprânceana stângă
@@ -194,6 +255,23 @@ al treilea ochi (la figurat)
 osul amuzant
 degetele de tastat
 degetul mare de scrollat
+genunchiul drept
+lobul urechii stângi
+călcâiul stâng
+
+// parteCorp with correct possessive pronoun (ta/tău/tale) embedded
+=== parteCorpTa ===
+sprânceana ta stângă
+degetul tău mic de la picior
+cotul tău
+splina ta
+al treilea ochi al tău (la figurat)
+osul tău amuzant
+degetele tale de tastat
+degetul tău mare de scrollat
+genunchiul tău drept
+lobul tău al urechii stângi
+călcâiul tău stâng
 
 === actiuneCorp ===
 strălucească slab
@@ -202,6 +280,9 @@ vibreze la o frecvență suspectă
 prezică vremea
 vorbească în binar
 facă ce vrea ea
+emită un sunet de dial-up
+devină invizibilă temporar
+comunice în cod Morse
 
 === aspectViata ===
 viața amoroasă
@@ -214,6 +295,27 @@ tab-urile din browser
 simțul orientării
 jocul de gustări
 igiena parolelor
+reputația online
+colecția de screenshot-uri
+relația cu algoritmul
+rutina de dimineață
+
+// aspectViata with correct possessive pronoun (ta/tău/tale) embedded
+=== aspectViataTa ===
+viața ta amoroasă
+cariera ta
+conexiunea ta WiFi
+relația ta cu gravitația
+programul tău de somn
+inbox-ul tău
+tab-urile tale din browser
+simțul tău al orientării
+jocul tău de gustări
+igiena ta a parolelor
+reputația ta online
+colecția ta de screenshot-uri
+relația ta cu algoritmul
+rutina ta de dimineață
 
 === adjectiv ===
 suspect
@@ -226,6 +328,9 @@ dramatic
 agresiv bej
 magic fără voia lui
 haotic neutru
+prost dispus
+neașteptat de politicos
+suspiciot de calm
 
 === emotie ===
 ușor confuz
@@ -236,6 +341,10 @@ agresiv zen
 pașnic haotic
 glorios uluit
 transcendent flămând
+nostalgic fără motiv
+ironic dar sincer
+sceptic dar impresionat
+diplomatic furios
 
 === culoare ===
 bej agresiv
@@ -248,6 +357,9 @@ verde-chartreuse ambițios
 magenta reticentă
 cyan dezamăgit
 vișiniu suprarealizat
+galben ironic
+albastru cu regrete
+gri cu pretenții
 
 === corpCosmic ===
 stelele
@@ -258,6 +370,9 @@ o gaură neagră
 o nebuloasă
 un iepuraș de praf cosmic
 un satelit rebel
+un meteorit cu atitudine
+o stea pitică nemulțumită
+Centura lui Orion (partea cu catarama)
 
 === planeta ===
 Mercur
@@ -276,6 +391,10 @@ o scrisoare fermă din partea cosmosului
 un trofeu de participare de la univers
 un abonament la destin (fără opțiune de anulare)
 un glob strălucitor de importanță moderată
+un voucher cosmic pentru o zi fără bug-uri
+o diplomă de excelență în confuzie
+un NFT spiritual (non-fungible tarot)
+o invitație la un eveniment care nu există
 
 === accident ===
 inventa un nou pas de dans într-un video call
@@ -284,6 +403,10 @@ deveni memă într-un univers paralel
 rezolva o problemă de matematică care nu există
 da un high-five reflexiei unui necunoscut
 trimite un mesaj în universul greșit
+convinge un printer să funcționeze fără driver
+face deploy vinerea
+descoperi că ai trimis un email la reply-all
+crea un limbaj de programare din greșeală
 
 === evitare ===
 contactul vizual cu porumbeii
@@ -295,6 +418,9 @@ viraje la stânga
 culoarea bej
 întrebările retorice
 lifturile cu oglinzi
+mâncatul de sarmale în public
+cititul termenilor și condițiilor
+actualizările de software manuale
 
 === reactieColegi ===
 se preface că nu observă
@@ -303,6 +429,10 @@ scrie un mesaj pe Slack despre asta
 da vina pe stagiarul
 programa o ședință pe tema asta
 își actualiza LinkedIn-ul
+face un meme
+trimite un email „Cu stimă, dar nu"
+încerca să te includă într-un proiect lateral
+cere o zi liberă pentru recuperare emoțională
 
 === dispozitiv ===
 telefon
@@ -311,6 +441,23 @@ smartwatch
 frigider inteligent
 prăjitor de pâine
 imprimantă (da, imprimanta)
+aspirator robot
+monitor secundar
+căști Bluetooth
+termostat inteligent
+
+// dispozitiv with definite article and correct possessive pronoun (tău/ta/tale)
+=== dispozitivulTau ===
+telefonul tău
+laptopul tău
+smartwatch-ul tău
+frigiderul tău inteligent
+prăjitorul tău de pâine
+imprimanta ta (da, imprimanta)
+aspiratorul tău robot
+monitorul tău secundar
+căștile tale Bluetooth
+termostatul tău inteligent
 
 === secret ===
 sensul vieții (e 42)
@@ -319,6 +466,10 @@ acea parolă pe care ai uitat-o
 locația tuturor șosetelor dispărute
 de ce imprimantele nu funcționează niciodată
 adevărul despre cloud
+de ce există atâtea adaptor-uri USB diferite
+motivul pentru care WiFi-ul merge mai bine la vecini
+conținutul real al dosarului „New Folder (27)"
+identitatea adevărată a persoanei care aprobă cookie-urile
 
 === miscarePutere ===
 privește soarele (metaforic)
@@ -328,6 +479,9 @@ ia scările pentru o dată
 golește cache-ul browserului (înfricoșător, dar puternic)
 dezabonează-te de la o listă de emailuri
 privește direct în webcam
+șterge o aplicație pe care n-ai deschis-o de 3 ani
+pune telefonul pe modul avion fără să fii în avion
+răspunde la un mesaj vechi de 3 săptămâni fără scuze
 
 === sfatCreatura ===
 oferă-i o gustare
@@ -336,6 +490,9 @@ provocă-l la un concurs de privit fix
 dă-te încet înapoi complimentându-i coarnele
 prefă-te că nu l-ai văzut — urăște atenția
 fă un selfie — oricum nu te va crede nimeni
+fă o reverență — apreciază manierele
+oferă-i o carte de vizită (nu contează că e a altcuiva)
+cere-i un autograf — va fi flatat
 
 === lucruRau ===
 inconveniențe minore
@@ -345,6 +502,9 @@ autocorrect rebel
 WiFi lent
 ședințe surpriză
 groază existențială
+notificări la ore nepotrivite
+reclame targetate prea precise
+erori 404 în viața reală
 
 === mantra ===
 Sunt una cu cache-ul browserului
@@ -352,6 +512,9 @@ Semnalul meu WiFi e puternic și parolele mele și mai puternice
 Renunț la atașamentul față de confirmările de citire
 Cookie-urile mă urmăresc pentru că merit urmărit
 Îmbrățișez haosul auto-update-ului
+Inbox zero e o stare de spirit
+Ctrl+Z este filosofia mea de viață
+Nu toate tab-urile trebuie închise, și nici toate drumurile parcurse
 
 === adverb ===
 suspect
@@ -362,6 +525,9 @@ fredonând
 cu mâna non-dominantă
 pe dos
 cu o încredere nemeritată
+în timp ce eviți contactul vizual
+extrem de politicos
+fără să clipești
 
 === numarMic ===
 1
@@ -384,6 +550,9 @@ dă aprobator din cap din umbră
 vrea să știi că crede în tine (cam)
 plănuiește ceva — neclar dacă bun sau rău
 îți trimite salutări dintr-o dimensiune paralelă
+compilează un raport detaliat despre tine
+a început un podcast despre tine fără acordul tău
+și-a schimbat numele de Bluetooth la ceva suspect
 
 === spiritAnimal ===
 cameleon
@@ -394,15 +563,20 @@ ornitorinc
 capibara
 axolotl
 pangolin
+lemur
+narval
 
 === warning ===
 Ferește-te de #creatura# care poartă #obiect#.
 NU te încrede în nimeni îmbrăcat în #culoare# astăzi.
-Dacă #parteCorp# ta începe să #actiuneCorp#, consultă un #profesionist#.
+Dacă #parteCorpTa# începe să #actiuneCorp#, consultă un #profesionist#.
 Universul îți judecă alegerea de browser. Alege cu înțelepciune.
 Evită să apeși butoane etichetate „#mantra#".
-#dispozitiv# tău pune ceva la cale. Ține-l aproape.
+#dispozitivulTau.capitalize# pune ceva la cale. Fii vigilent.
 #planeta# te urmărește. Comportă-te normal.
+Nu deschide emailuri de la #corpCosmic# — e o capcană.
+Un #creatura# se preface că e #profesionist#. Nu te lăsa păcălit.
+Dacă auzi #mancare# vorbind, ignoră — nu e momentul.
 
 === profesionist ===
 vrăjitor
@@ -411,6 +585,9 @@ pisică foarte bătrână
 biscuit cu mesaj
 rățușcă de cauciuc
 adult competent (dacă găsești vreunul)
+un influencer de LinkedIn
+un chatbot care pretinde că e om
+un contabil cu al treilea ochi
 
 === luckyColor ===
 bej agresiv
@@ -425,6 +602,9 @@ cyan dezamăgit
 vișiniu suprarealizat
 galben ironic
 albastru teoretic
+auriu cu scrupule
+maro existențial
+grena cu pretenții
 
 === compatibility ===
 Cel mai compatibil cu sufletele de #spiritAnimal# astăzi.
@@ -432,6 +612,9 @@ Caută oameni ale căror ecrane sunt mai mari decât al tău.
 Evită pe oricine are bateria telefonului sub 20%.
 Cel mai bun match cosmic: cineva care folosește energia de #signName#.
 Aura ta se ciocnește cu cei care folosesc modul luminos. Procedează cu prudență.
+Compatibilitate maximă cu cineva al cărui WiFi are parolă de 20+ caractere.
+Ferește-te de oricine care pune ananas pe pizza — vibrațiile sunt incompatibile.
+Ideal: cineva care folosește dark mode și bea #mancare# #adverb#.
 
 === intelepciune ===
 un browser închis nu adună cookie-uri
@@ -441,3 +624,6 @@ călătoria de o mie de clickuri începe cu un singur misclick
 a greși e omenesc, a da vina pe calculator e și mai omenesc
 un cache golit e un suflet reîmprospătat
 parola pe care ai uitat-o e parola de care aveai nevoie cel mai mult
+cine se trezește de dimineață actualizează firmware-ul
+nu tot ce strălucește e aur, dar tot ce are LED-uri e suspect
+tab-ul pe care nu-l închizi e tab-ul care te definește
