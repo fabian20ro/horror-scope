@@ -13,6 +13,7 @@ export const ro: LocalePack = {
     cosmicWarning: 'Avertisment cosmic',
     compatibility: 'Compatibilitate',
     browserDivination: 'Ce a dezvăluit browserul tău',
+    randomizeSign: 'Schimbă zodia',
     regenerate: 'Consultă din nou Cosmosul',
     copyHoroscope: 'Copiază textul horoscopului',
     copiedHoroscope: 'Copiat!',

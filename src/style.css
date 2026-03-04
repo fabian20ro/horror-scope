@@ -237,12 +237,49 @@ body::before {
   color: var(--text-muted);
 }
 
+.sign-card__name-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 .sign-card__name {
   font-family: 'Cinzel', Georgia, serif;
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--gold);
   text-shadow: 0 0 16px rgba(245, 200, 66, 0.3);
+}
+
+.sign-card__randomize {
+  font-size: 1.25rem;
+  line-height: 1;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.sign-card__randomize:hover {
+  color: var(--gold);
+  border-color: var(--border-card);
+  animation: diceShake 0.4s ease;
+}
+
+.sign-card__randomize:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@keyframes diceShake {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-15deg); }
+  50% { transform: rotate(15deg); }
+  75% { transform: rotate(-10deg); }
 }
 
 /* ---- Horoscope Card ---- */
@@ -481,6 +518,10 @@ body::before {
 
   .sign-card__name {
     font-size: 1.4rem;
+  }
+
+  .sign-card__randomize {
+    font-size: 1rem;
   }
 
   .horoscope-card__text {

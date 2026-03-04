@@ -44,12 +44,20 @@ export function createLanguageSwitcher(
 export function createSignCard(
   horoscope: Horoscope,
   ui: UIStrings,
+  onRandomize: () => void,
 ): HTMLElement {
   const card = el('section', 'card sign-card');
   const symbol = el('div', 'sign-card__symbol', horoscope.signSymbol);
   const label = el('div', 'sign-card__label', ui.yourSign);
+
+  const nameRow = el('div', 'sign-card__name-row');
   const name = el('div', 'sign-card__name', ui.signNames[horoscope.sign]);
-  card.append(symbol, label, name);
+  const diceBtn = el('button', 'sign-card__randomize', '\u{1F3B2}');
+  diceBtn.setAttribute('aria-label', ui.randomizeSign);
+  diceBtn.addEventListener('click', onRandomize);
+  nameRow.append(name, diceBtn);
+
+  card.append(symbol, label, nameRow);
   return card;
 }
 

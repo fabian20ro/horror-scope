@@ -27,6 +27,11 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
   'pisces',
 ];
 
+export function randomSign(current: ZodiacSign): ZodiacSign {
+  const others = ZODIAC_SIGNS.filter((s) => s !== current);
+  return others[Math.floor(Math.random() * others.length)];
+}
+
 export const ZODIAC_SYMBOLS: Record<ZodiacSign, string> = {
   aries: '\u2648',
   taurus: '\u2649',
