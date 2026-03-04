@@ -29,6 +29,8 @@ Obsolete lessons → Archive section at bottom (with date and reason). Never del
 
 <!-- Format: **[YYYY-MM-DD]** Brief title — Explanation -->
 
+**[2026-03-04]** Romanian gender: use variant symbols, not template-level pronouns — When a template needs a gendered possessive (ta/tău/tale) or object clitic (-l/-o) next to a mixed-gender symbol, create a variant symbol with the gendered element embedded in each entry (e.g., `parteCorpTa` alongside bare `parteCorp`). Pattern: `#symbolTa#` replaces `#symbol# ta`. Keep bare and variant symbols in sync. For object clitics, prefer restructuring the template to avoid them entirely (e.g., "aruncă o privire" instead of "verifică-l").
+
 ## Testing & Quality
 
 <!-- Format: **[YYYY-MM-DD]** Brief title — Explanation -->
