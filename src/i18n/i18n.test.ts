@@ -29,14 +29,7 @@ describe('getAvailableLocales', () => {
     expect(ids).toContain('ro');
   });
 
-  it('each locale has required grammar symbols', () => {
-    for (const locale of getAvailableLocales()) {
-      expect(locale.grammar.origin).toBeDefined();
-      expect(locale.grammar.warning).toBeDefined();
-      expect(locale.grammar.luckyColor).toBeDefined();
-      expect(locale.grammar.compatibility).toBeDefined();
-    }
-  });
+  // Grammar symbol checks moved to grammar-loader.test.ts (data file integrity)
 
   it('each locale has all zodiac sign names', () => {
     const signs = [
