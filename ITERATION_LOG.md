@@ -28,4 +28,14 @@
 
 ---
 
+### [2026-03-04] Fix Romanian gender mismatches and expand phrase variety
+
+**Context:** Romanian horoscope templates had gender agreement bugs — possessive pronouns (ta/tău) and object clitics (-l/-o) were hardcoded in parent templates, but child symbols contained entries of mixed grammatical gender. Additionally, many symbol sections had only 5-8 entries causing repetitive output.
+**What happened:** Created three new gender-variant symbols (`parteCorpTa`, `aspectViataTa`, `dispozitivulTau`) following the established pattern of embedding gendered elements in symbol entries. Updated all affected templates to use these variants. Restructured templates with object pronoun clitics (`verifică-l`, `Ține-l`) to avoid gendered forms entirely. Added ~100+ new entries across all 40+ symbol sections while maintaining gender agreement.
+**Outcome:** Success — 112 tests passing, build succeeds, all gender mismatches resolved.
+**Insight:** Romanian gender agreement in CFG-based systems should always be handled by creating variant symbols (e.g., `symbolTa`, `symbolTau`) rather than hardcoding gendered words in templates. The pattern: bare symbol for gender-neutral contexts, variant symbol with possessive/article embedded for gendered contexts. Keep bare and variant symbols in sync when adding new entries.
+**Promoted to Lessons Learned:** Yes (Romanian gender variant symbol pattern)
+
+---
+
 <!-- New entries above this line, most recent first -->
