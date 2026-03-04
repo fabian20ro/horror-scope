@@ -5,12 +5,15 @@ import {
   getLocale,
   detectLanguage,
   persistLanguage,
+  loadAllGrammars,
 } from './i18n/index.ts';
 import { render } from './ui/renderer.ts';
 import { scheduleMidnightGmt } from './engine/scheduler.ts';
 import './style.css';
 
-function initApp(): void {
+async function initApp(): Promise<void> {
+  await loadAllGrammars();
+
   const container = document.getElementById('app')!;
   let langId = detectLanguage();
   let consultation = 0;

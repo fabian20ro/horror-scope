@@ -1,0 +1,421 @@
+=== origin ===
+#opening.capitalize# #prediction# #consequence# #advice#
+#timeGreeting.capitalize#, #signName#! The #cosmicBody# has spoken: #prediction# #advice#
+Attention, #signName#! #prediction# Your spirit animal, the #spiritAnimal#, #animalAction#. #advice#
+#opening.capitalize# As a #signName#, today #prediction# #consequence# Remember: #wisdom#.
+#opening.capitalize# #prediction# Meanwhile, #cosmicBody# whispers: "#wisdom#." #advice#
+The #cosmicBody# trembles, #signName#! #prediction# #consequence# #advice#
+
+=== opening ===
+greetings, dear #signName#!
+salutations, brave #signName#!
+behold, #signName#!
+hear ye, #signName#!
+oh mighty #signName#!
+foolish mortal #signName#!
+listen well, #signName#!
+the cosmos beckons, #signName#!
+
+=== timeGreeting ===
+good #timeOfDay#
+blessed #timeOfDay#
+suspicious #timeOfDay#
+cursed #timeOfDay#
+surprisingly tolerable #timeOfDay#
+
+=== timeOfDay ===
+morning
+afternoon
+evening
+existential crisis o'clock
+snack time
+doomscrolling hour
+
+=== prediction ===
+You will encounter #encounter# in #location#.
+A mysterious #object# will change your #lifeAspect# forever.
+#celebrity# will send you a cryptic message about #topic#.
+Your #bodyPart# will develop an unusual affinity for #food#.
+The stars suggest you avoid #avoidance# at all costs.
+You will accidentally #accident#.
+A #adjective# #creature# will appear in your #location# bearing #gift#.
+Your next #device# update will reveal #secret#.
+Someone will mistake you for #celebrity# at #location#.
+You will discover that #object# was #emotion# all along.
+A #adjective# wind will blow #object# into your #lifeAspect#.
+Your #bodyPart# will start #bodyPartAction# at the worst possible moment.
+
+=== consequence ===
+This will make you #emotion#.
+As a result, your #lifeAspect# will never be the same.
+Your coworkers will #coworkerReaction#.
+This is because #planet# is in retrograde (again).
+Blame #planet# — it knows what it did.
+Scientists will be baffled.
+Your #device# already knew this would happen.
+The ancient prophecy of the #creature# is finally coming true.
+
+=== advice ===
+Wear #color# to ward off #badThing#.
+If you see #creature#, #creatureAdvice#.
+Today's power move: #powerMove#.
+Avoid #avoidance# between #smallNumber# and #largeNumber# o'clock.
+Your lucky snack is #food#. Consume it #adverb#.
+Channel the energy of #celebrity# for maximum results.
+Your #device# holds the answer — check it #adverb#.
+Whisper "#mantra#" three times for cosmic protection.
+
+=== encounter ===
+a rogue shopping cart
+a sentient houseplant
+a judgy seagull
+a motivational lizard
+a passive-aggressive ghost
+a confused wizard
+an overenthusiastic squirrel
+a philosophical parking meter
+your evil twin
+a talking sandwich
+an emotionally unavailable vending machine
+a time-traveling accountant
+a tap-dancing cactus
+a disappointed flamingo
+three raccoons in a trenchcoat
+
+=== location ===
+a suspicious elevator
+the cereal aisle
+your least favorite bathroom
+a parallel dimension
+the office microwave area
+a roundabout
+your own reflection
+a very specific IKEA
+the WiFi dead zone
+an alternate timeline
+the comment section
+a haunted spreadsheet
+
+=== object ===
+USB cable
+fortune cookie
+expired coupon
+mysterious sock
+ancient scroll (PDF format)
+rubber duck
+cursed spreadsheet
+enchanted stapler
+vintage meme
+haunted Bluetooth speaker
+sentient to-do list
+self-aware alarm clock
+
+=== celebrity ===
+A hologram of Nicolas Cage
+The ghost of your first email account
+A very confident pigeon
+Your browser's autofill
+The concept of Monday
+A suspiciously friendly algorithm
+Your WiFi router's spirit
+The collective consciousness of all captchas
+
+=== creature ===
+unicorn
+dragon
+phoenix
+kraken
+goblin
+sphinx
+yeti
+mothman
+chupacabra
+drop bear
+jackalope
+platypus wizard
+
+=== food ===
+artisanal toast
+suspicious sushi
+haunted hummus
+existential espresso
+passive-aggressive pasta
+melodramatic mango
+conspiratorial cheese
+enlightened edamame
+vengeful vanilla pudding
+philosophical pizza
+
+=== topic ===
+interdimensional tax law
+the true meaning of Bluetooth
+sock disappearance theory
+advanced napping techniques
+the WiFi afterlife
+competitive yawning
+quantum procrastination
+the secret lives of USB dongles
+
+=== bodyPart ===
+left eyebrow
+pinky toe
+elbow
+spleen
+third eye (figurative)
+funny bone
+typing fingers
+scrolling thumb
+
+=== bodyPartAction ===
+glowing faintly
+humming a tune from 2007
+vibrating at a suspicious frequency
+predicting the weather
+speaking in binary
+doing its own thing
+
+=== lifeAspect ===
+love life
+career
+WiFi connection
+relationship with gravity
+sleep schedule
+inbox
+browser tabs
+sense of direction
+snack game
+password hygiene
+
+=== adjective ===
+suspicious
+magnificent
+haunted
+mildly cursed
+glittery
+overqualified
+dramatic
+aggressively beige
+reluctantly magical
+chaotically neutral
+
+=== emotion ===
+mildly confused
+suspiciously happy
+cosmically enlightened
+dramatically indifferent
+aggressively zen
+peacefully chaotic
+gloriously bewildered
+transcendently hungry
+
+=== color ===
+aggressive beige
+suspicious purple
+existential teal
+passive-aggressive pink
+judgmental orange
+confused vermillion
+ambitious chartreuse
+reluctant magenta
+disappointed cyan
+overachieving maroon
+
+=== cosmicBody ===
+stars
+moon
+asteroid
+comet
+black hole
+nebula
+cosmic dust bunny
+rogue satellite
+
+=== planet ===
+Mercury
+Venus
+Mars
+Jupiter
+Saturn
+Uranus (yes, that Uranus)
+Neptune
+Pluto (still a planet in our hearts)
+
+=== gift ===
+an unreadable prophecy
+a coupon for enlightenment
+a strongly worded letter from the cosmos
+a participation trophy from the universe
+a subscription to destiny (no cancel option)
+a glowing orb of moderate significance
+
+=== accident ===
+invent a new dance move during a video call
+speak fluent whale for exactly 4 seconds
+become a meme in a parallel universe
+solve a math problem that doesn't exist
+high-five a stranger's reflection
+send a text to the wrong universe
+
+=== avoidance ===
+eye contact with pigeons
+round foods
+anyone named Steve
+escalators
+thinking about the future
+left turns
+the color beige
+rhetorical questions
+elevators with mirrors
+
+=== coworkerReaction ===
+pretend not to notice
+start a support group
+write a Slack message about it
+blame the intern
+schedule a meeting about it
+update their LinkedIn
+
+=== device ===
+phone
+laptop
+smartwatch
+smart fridge
+toaster
+printer (yes, the printer)
+
+=== secret ===
+the meaning of life (it's 42)
+your true browser history
+that one password you forgot
+the location of all missing socks
+why printers never work
+the truth about the cloud
+
+=== powerMove ===
+stare at the sun (metaphorically)
+eat breakfast for dinner
+reply-all with just a thumbs up
+take the stairs for once
+clear your browser cache (scary, but powerful)
+unsubscribe from one email list
+make direct eye contact with your webcam
+
+=== creatureAdvice ===
+offer it a snack
+challenge it to a staring contest
+ask it about the meaning of life
+slowly back away while complimenting its horns
+pretend you didn't see it — it hates attention
+take a selfie — no one will believe you anyway
+
+=== badThing ===
+minor inconveniences
+unexpected software updates
+passive-aggressive emails
+rogue autocorrect
+slow WiFi
+surprise meetings
+existential dread
+
+=== mantra ===
+I am one with the browser cache
+My WiFi signal is strong and my passwords are stronger
+I release my attachment to read receipts
+The cookies track me because I am worth tracking
+I embrace the chaos of auto-update
+
+=== adverb ===
+suspiciously
+aggressively
+with great ceremony
+in complete darkness
+while humming
+with your non-dominant hand
+backward
+with unearned confidence
+
+=== smallNumber ===
+1
+2
+3
+4
+5
+
+=== largeNumber ===
+7
+8
+9
+10
+11
+
+=== animalAction ===
+nods approvingly from the shadows
+is judging your life choices right now
+has left you a cryptic voicemail
+wants you to know it believes in you (mostly)
+is planning something — unclear if good or bad
+sends its regards from a parallel dimension
+
+=== spiritAnimal ===
+chameleon
+phoenix
+flamingo
+honey badger
+platypus
+capybara
+axolotl
+pangolin
+
+=== transformation ===
+become sentient and start a podcast
+transcend physical form
+develop strong opinions about fonts
+start vibrating at the frequency of jazz
+gain the ability to connect to any WiFi
+
+=== wisdom ===
+a closed browser gathers no cookies
+not all who wander are lost, but your WiFi signal definitely is
+the journey of a thousand clicks begins with a single misclick
+in the kingdom of the blind, the one-eyed emoji is king
+to err is human, to blame the computer is even more human
+a cache cleared is a soul refreshed
+the password you forgot is the password you needed most
+
+=== warning ===
+Beware of #creature# carrying #object#.
+Do NOT trust anyone wearing #color# today.
+If your #bodyPart# starts #bodyPartAction#, consult a #professional#.
+The universe is judging your browser choice. Choose wisely.
+Avoid pressing any buttons labeled "#mantra#".
+Your #device# is plotting something. Keep it close.
+#planet# is watching. Act natural.
+
+=== professional ===
+wizard
+IT department
+very old cat
+fortune cookie
+rubber duck
+competent adult (if you can find one)
+
+=== luckyColor ===
+aggressive beige
+suspicious purple
+existential teal
+passive-aggressive pink
+judgmental orange
+confused vermillion
+ambitious chartreuse
+reluctant magenta
+disappointed cyan
+overachieving maroon
+ironically yellow
+theoretically blue
+
+=== compatibility ===
+Most compatible with fellow #spiritAnimal# souls today.
+Seek out people whose screens are bigger than yours.
+Avoid anyone whose phone battery is below 20%.
+Best cosmic match: someone who also uses #signName# energy.
+Your aura clashes with people who use light mode. Proceed with caution.

@@ -1,6 +1,8 @@
+import type { Grammar } from '../engine/types.ts';
 import type { LocalePack } from './types.ts';
 import { en } from './locales/en.ts';
 import { ro } from './locales/ro.ts';
+import { loadGrammar } from './grammar-loader.ts';
 
 const STORAGE_KEY = 'horror-scope-lang';
 
@@ -8,8 +10,21 @@ const registry = new Map<string, LocalePack>();
 registry.set('en', en);
 registry.set('ro', ro);
 
+const grammars = new Map<string, Grammar>();
+
+/** Preload grammar data for all registered locales in parallel. */
+export async function loadAllGrammars(): Promise<void> {
+  await Promise.all(
+    Array.from(registry.keys()).map(async (id) => {
+      grammars.set(id, await loadGrammar(id));
+    }),
+  );
+}
+
 export function getLocale(id: string): LocalePack {
-  return registry.get(id) ?? en;
+  const base = registry.get(id) ?? en;
+  const grammar = grammars.get(id) ?? base.grammar;
+  return { ...base, grammar };
 }
 
 export function getAvailableLocales(): LocalePack[] {
