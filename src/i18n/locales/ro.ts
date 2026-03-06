@@ -6,7 +6,7 @@ export const ro: LocalePack = {
   ui: {
     title: 'Horror-Scop',
     subtitle: 'Browserul tău îți cunoaște destinul',
-    yourSign: 'Zodia ta',
+    yourSign: 'Zodia ta pentru azi',
     dailyHoroscope: 'Horror-Scopul de azi',
     luckyNumber: 'Numărul norocos',
     luckyColor: 'Culoarea norocoasă',

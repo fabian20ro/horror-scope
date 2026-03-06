@@ -13,6 +13,27 @@ import { render } from './ui/renderer.ts';
 import { scheduleMidnightGmt } from './engine/scheduler.ts';
 import './style.css';
 
+const THEME_KEY = 'horror-scope-theme';
+
+function detectTheme(): 'dark' | 'light' {
+  try {
+    const saved = localStorage.getItem(THEME_KEY);
+    if (saved === 'dark' || saved === 'light') return saved;
+  } catch {
+    // localStorage unavailable
+  }
+  return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+}
+
+function applyTheme(theme: 'dark' | 'light'): void {
+  document.documentElement.setAttribute('data-theme', theme);
+  try {
+    localStorage.setItem(THEME_KEY, theme);
+  } catch {
+    // localStorage unavailable
+  }
+}
+
 async function initApp(): Promise<void> {
   await loadAllGrammars();
 
@@ -20,6 +41,8 @@ async function initApp(): Promise<void> {
   let langId = detectLanguage();
   let consultation = 0;
   let signOverride: ZodiacSign | null = null;
+  let theme = detectTheme();
+  applyTheme(theme);
 
   function renderApp(): void {
     const divination = readBrowserOracle();
@@ -43,6 +66,12 @@ async function initApp(): Promise<void> {
       () => {
         signOverride = randomSign(sign);
         consultation = 0;
+        renderApp();
+      },
+      theme === 'dark',
+      () => {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        applyTheme(theme);
         renderApp();
       },
     );
