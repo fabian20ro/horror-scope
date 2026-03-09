@@ -9,6 +9,16 @@ The #cosmicBody# trembles, #signName#! #prediction# #consequence# #advice#
 #opening.capitalize# #planet# reports: #prediction# #advice# #wisdom.capitalize#.
 #opening.capitalize# #prediction# Your spirit animal, the #spiritAnimal#, confirms. #consequence#
 Come now, #signName#! The #cosmicBody# has decreed: #prediction# #consequence# #advice#
+#timeGreeting.capitalize#, #signName#! #prediction# A #adjective# omen, but #advice#
+#opening.capitalize# #prediction# #planet# filed a formal complaint. #consequence# #advice#
+Heed the void, #signName#: #prediction# #consequence# Your mantra: "#mantra#."
+#opening.capitalize# A #creature# foretold it: #prediction# #advice# #wisdom.capitalize#.
+#timeGreeting.capitalize#! The #cosmicBody# sent a memo: #prediction# #consequence# #advice#
+#opening.capitalize# #prediction# This is neither a drill nor a dream. #consequence# #advice#
+The #cosmicBody# coughs nervously, #signName#. #prediction# #consequence# #advice#
+#opening.capitalize# Sources inside #planet# confirm: #prediction# #advice#
+#timeGreeting.capitalize#! #prediction# Your #device# saw it coming. #consequence# #advice#
+#opening.capitalize# #prediction# #consequence# In the words of #celebrity#: "#wisdom#."
 
 === opening ===
 greetings, dear #signName#!
@@ -21,6 +31,16 @@ listen well, #signName#!
 the cosmos beckons, #signName#!
 stand tall, #signName#!
 don't panic, #signName#!
+ahem, #signName#!
+brace yourself, #signName#!
+nice try, #signName#, but
+surprise, #signName#!
+here we go again, #signName#!
+the void stares back, #signName#!
+hold onto your #bodyPart#, #signName#!
+attention please, #signName#!
+oh dear, #signName#!
+deep breath, #signName#!
 
 === timeGreeting ===
 good #timeOfDay#
@@ -29,6 +49,12 @@ suspicious #timeOfDay#
 cursed #timeOfDay#
 surprisingly tolerable #timeOfDay#
 magnificent #timeOfDay#
+regrettable #timeOfDay#
+structurally unsound #timeOfDay#
+legally distinct #timeOfDay#
+ominously cheerful #timeOfDay#
+suspiciously normal #timeOfDay#
+cosmically mandated #timeOfDay#
 
 === timeOfDay ===
 morning
@@ -39,6 +65,14 @@ snack time
 doomscrolling hour
 cosmic coffee break
 post-firmware-update morning
+3 AM thought spiral
+the hour that doesn't exist
+midday identity crisis
+bureaucratic twilight
+lunch you forgot about
+nap that became something else
+the golden hour of regret
+pre-meeting dread window
 
 === prediction ===
 You will encounter #encounter# in #location#.
@@ -58,6 +92,23 @@ You will receive #gift# from #celebrity#.
 A cosmic glitch will make your #lifeAspect# work perfectly for exactly 7 minutes.
 The #cosmicBody# will reveal #secret# through a subtle sign.
 You will discover a hidden talent for #topic# while avoiding #avoidance#.
+Your shadow will briefly disagree with your direction at #location#.
+A #adjective# fog will settle over your #lifeAspect# and refuse to leave.
+You will overhear #encounter# explaining #topic# to a #creature#.
+Your #device# will autocorrect your name to something deeply prophetic.
+A filing error in the cosmos will temporarily assign you someone else's #lifeAspect#.
+The concept of #avoidance# will become sentient and seek you out personally.
+You will find #gift# inside a #object# you've owned for years.
+#celebrity# will accidentally like your photo from 2014.
+Your reflection will blink at a different speed than you do.
+You will open a door and briefly see #location# before it reverts.
+The number #smallNumber# will follow you with increasing hostility.
+A #creature# will hand you a receipt for something you didn't buy.
+#encounter.capitalize# will ask for your opinion on #topic# and actually listen.
+Your #bodyPart# will receive a notification.
+A #adjective# envelope will arrive with your name misspelled in a flattering way.
+You will accidentally solve #topic# while looking for your keys.
+The WiFi at #location# will work only when you're not using it.
 
 === consequence ===
 This will make you #emotion#.
@@ -72,6 +123,18 @@ No one will believe you, but you'll know.
 And that's just the beginning.
 The cosmos shrugs.
 Someone will make a TikTok about it.
+Historians will argue about this for centuries.
+Your browser tabs will multiply in sympathy.
+This was predicted by a #professional# in 1987.
+The timeline splits here. Choose wisely.
+A #adjective# silence will follow.
+Your #lifeAspect# will file a formal grievance.
+A support group will form within the hour.
+This is technically legal in #smallNumber# dimensions.
+The incident report writes itself.
+Your #device# will display a single tear emoji.
+Three separate #creature# sightings will be reported.
+Nobody was surprised except you.
 
 === advice ===
 Wear #color# to ward off #badThing#.
@@ -86,6 +149,18 @@ Consult a #professional# before #largeNumber# o'clock.
 Place #object# under your pillow for prophetic dreams.
 Keep #color# close to your heart — colors protect you today.
 Do the exact opposite of what your #device# tells you.
+Write your fears on #object# and throw it at a #creature#.
+Sit in #location# for exactly #smallNumber# minutes of clarity.
+Your backup plan is better than your main plan. Use it.
+Trust no one wearing #color# before noon.
+Apologize to your #device# — it's been through a lot.
+Your lucky number is #largeNumber# but only if you don't think about it.
+Print this horoscope and fold it into a tiny #creature#.
+Eat #food# while maintaining eye contact with #cosmicBody#.
+Reply to an old email with just "#mantra#."
+The universe recommends a nap. Compliance is optional but wise.
+Walk backward through one doorway today for recalibration.
+Delete #smallNumber# photos from your phone. The cosmos will know which ones.
 
 === encounter ===
 a rogue shopping cart
@@ -108,6 +183,26 @@ an aunt from another universe
 a pigeon with a philosophy degree
 a robot vacuum with ambitions
 a telepathic mushroom
+a middle manager from the astral plane
+a goose with a restraining order against you
+a fire alarm that won't stop apologizing
+a self-checkout machine having an existential crisis
+a GPS that gives emotional directions
+a fortune teller on a smoke break
+a traffic cone with strong opinions
+a printer that only works out of spite
+a moth that thinks it's a life coach
+a decorative plant that's been faking it
+a park bench that remembers everything
+a crossword puzzle that got personal
+a cat that clearly works for the government
+a suspicious cloud at eye level
+a very polite swarm of bees
+a retired superhero doing taxes
+a door-to-door philosopher
+a fridge magnet that fell and is rethinking everything
+a pigeon union representative
+a lamp that flickers judgmentally
 
 === location ===
 a suspicious elevator
@@ -126,6 +221,22 @@ an underground parking garage with an echo
 a windowless conference room
 the post office queue
 an unnumbered bus
+a meeting that could have been an email
+a revolving door that won't revolve
+your browser's memory
+the exact center of a parking lot
+a time zone that shouldn't exist
+the gap between two couch cushions
+a footnote in a legal document
+a PowerPoint slide with too many bullet points
+the third floor of a building that only has two
+the space behind the vending machine
+the WiFi password you can never remember
+a queue for something that no longer exists
+someone else's déjà vu
+a loading screen that became sentient
+the background of someone's Zoom call
+a fire escape that leads to more fire escapes
 
 === object ===
 USB cable
@@ -144,20 +255,48 @@ key to something unknown
 prophetic sticky note
 adapter with no compatible port
 expired conference badge from 2019
+unpaid parking ticket from the astral plane
+a fridge magnet with threatening energy
+a USB drive labeled "DO NOT OPEN"
+a receipt for something you didn't buy
+a calendar stuck on March 2020
+a password written on a sticky note in someone else's handwriting
+a bookmark from a book that doesn't exist
+a business card for a job that hasn't been invented
+a key that fits every lock except yours
+a return label for the fabric of reality
+an instruction manual with no instructions
+a warranty card for your sense of purpose
+a battery that's always at 1%
+a button that says "don't press" in 12 languages
+a notification from the future
+a map of a city that doesn't exist yet
 
 === celebrity ===
-A hologram of Nicolas Cage
-The ghost of your first email account
-A very confident pigeon
-Your browser's autofill
-The concept of Monday
-A suspiciously friendly algorithm
-Your WiFi router's spirit
-The collective consciousness of all captchas
-An alternate version of you from a parallel universe
-Someone's umbrella that no longer exists
-Your old MySpace account
-A crow with opinions about software architecture
+a hologram of Nicolas Cage
+the ghost of your first email account
+a very confident pigeon
+your browser's autofill
+the concept of Monday
+a suspiciously friendly algorithm
+your WiFi router's spirit
+the collective consciousness of all captchas
+an alternate version of you from a parallel universe
+someone's umbrella that no longer exists
+your old MySpace account
+a crow with opinions about software architecture
+the last voicemail you never listened to
+a Roomba that gained sentience during lockdown
+your unfinished novel (it's disappointed)
+the terms and conditions you never read
+a printer that remembers every paper jam
+the ghost of a Tamagotchi you forgot to feed
+a LinkedIn connection you don't recognize
+your future self (they seem tired)
+a parking meter with a philosophy blog
+the algorithm that decides your targeted ads
+a smoke detector with abandonment issues
+the concept of "later" (it's impatient)
 
 === creature ===
 unicorn
@@ -176,6 +315,22 @@ gremlin
 basilisk
 chimera
 minotaur
+sentient fog
+bureaucratic hydra
+emotionally complex troll
+griffin with anxiety
+domesticated thunderbird
+tax-exempt pegasus
+philosophical werewolf
+polite banshee
+kraken middle manager
+centaur life coach
+dragon with a restraining order
+miniature colossus
+invisible yeti (allegedly)
+hypoallergenic basilisk
+retired sphinx
+vegan vampire
 
 === food ===
 artisanal toast
@@ -195,6 +350,23 @@ interdimensional dumplings
 conspiratorial crackers
 destined pretzels
 melodramatic maple syrup
+bureaucratic borscht
+sentient sourdough
+emotionally charged tacos
+a crouton with authority
+diplomatically neutral soup
+aggressively plain oatmeal
+structurally unsound croissant
+a sandwich that knows too much
+overqualified ramen
+a muffin on its second career
+deconstructed cereal
+judgmental granola
+ethically ambiguous sausage
+a smoothie with an agenda
+toast that has given up
+paradoxical instant noodles
+microwave popcorn with trust issues
 
 === topic ===
 interdimensional tax law
@@ -209,6 +381,18 @@ the internal politics of mushrooms
 the cosmic origin of breakfast
 exit strategies for awkward conversations
 the meme-based economy
+advanced umbrella diplomacy
+the ethics of reading other people's screens
+interdimensional parking regulations
+the emotional weather of spreadsheets
+why elevators have trust issues
+the geopolitics of office fridges
+a conspiracy theory about staplers
+the constitutional rights of houseplants
+clock-based theology
+the folklore of unread notifications
+password grief counseling
+vibes-based urban planning
 
 === bodyPart ===
 left eyebrow
@@ -222,6 +406,17 @@ scrolling thumb
 right knee
 left earlobe
 left heel
+dominant nostril
+non-dominant nostril
+the back of your neck
+right shoulder blade
+the part of your foot you can never scratch
+the ankle that always finds furniture
+your wisdom tooth (the opinionated one)
+the finger you point with
+your jaw (during important meetings)
+the knee that predicts rain
+your tragus (look it up)
 
 === bodyPartAction ===
 glowing faintly
@@ -233,6 +428,16 @@ doing its own thing
 making a dial-up sound
 becoming temporarily invisible
 communicating in Morse code
+downloading something
+composing a formal letter
+rendering at low resolution
+buffering
+broadcasting on an unregistered frequency
+filing a tax return
+generating its own WiFi signal
+vibrating in disagreement
+reciting poetry in an unknown language
+attempting to pair via Bluetooth
 
 === lifeAspect ===
 love life
@@ -249,6 +454,20 @@ online reputation
 screenshot collection
 relationship with the algorithm
 morning routine
+personal brand
+sleep paralysis schedule
+emotional bandwidth
+spatial awareness
+relationship with silence
+digital footprint
+attention span
+concept of time
+hobby rotation speed
+relationship with your own reflection
+sense of purpose (beta version)
+ability to parallel park
+queue-standing technique
+bookmark collection
 
 === adjective ===
 suspicious
@@ -264,6 +483,19 @@ chaotically neutral
 grumpy
 unexpectedly polite
 suspiciously calm
+bureaucratically charged
+emotionally unavailable
+structurally questionable
+diplomatically furious
+passively omniscient
+legally distinct
+somewhat sentient
+ominously cheerful
+philosophically aggressive
+historically inaccurate
+deeply administrative
+moderately forbidden
+cosmically irrelevant
 
 === emotion ===
 mildly confused
@@ -278,6 +510,18 @@ nostalgic for no reason
 ironic but sincere
 skeptical yet impressed
 diplomatically furious
+existentially tickled
+emotionally buffering
+spiritually logged out
+politely devastated
+confidently wrong
+strategically overwhelmed
+philosophically snacky
+bureaucratically moved
+cosmically indifferent but taking notes
+suspiciously at peace
+optimistic in a threatening way
+haunted but productive
 
 === color ===
 aggressive beige
@@ -293,6 +537,19 @@ overachieving maroon
 ironically yellow
 blue with regrets
 pretentious gray
+haunted lavender
+bureaucratic khaki
+emotionally unavailable navy
+diplomatically neutral taupe
+structurally unsound coral
+philosophically red
+suspiciously cheerful lime
+legally distinct indigo
+historically inaccurate gold
+non-committal periwinkle
+aggressively matte black
+cosmic dust rose
+off-white with ambitions
 
 === cosmicBody ===
 stars
@@ -306,6 +563,17 @@ rogue satellite
 a meteorite with attitude
 a disgruntled dwarf star
 Orion's Belt (the buckle part)
+a very small galaxy having a bad day
+the cosmic background radiation (it's passive-aggressive)
+a pulsar with a grudge
+Saturn's least favorite ring
+a quasar going through something
+the dark side of a moon you've never heard of
+an interstellar parking violation
+the Milky Way's suggestion box
+a planet that got demoted and is still upset about it
+a neutron star on decaf
+the quiet part of the Big Bang
 
 === planet ===
 Mercury
@@ -316,6 +584,14 @@ Saturn
 Uranus (yes, that Uranus)
 Neptune
 Pluto (still a planet in our hearts)
+Planet Nine (if it exists, it's judging you)
+a reclassified asteroid that still identifies as a planet
+the moon (honorary planet today)
+Ceres (the dwarf planet with a chip on its shoulder)
+a theoretical planet made entirely of administrative errors
+your star sign's HR department
+Mercury (again — it's always Mercury)
+Eris (the planet of discord, obviously)
 
 === gift ===
 an unreadable prophecy
@@ -328,6 +604,16 @@ a cosmic voucher for a bug-free day
 a diploma of excellence in confusion
 a spiritual NFT (non-fungible tarot)
 an invitation to an event that doesn't exist
+a cease-and-desist letter from the future
+a gift card to a store in a parallel dimension
+a hand-drawn map of your emotional baggage
+a formal apology from gravity
+a one-star review of your life decisions
+a subscription box of minor inconveniences
+a certificate of participation in existence
+a cosmic noise complaint about your energy
+a fortune cookie that just says "good luck"
+a receipt for karma you haven't used yet
 
 === accident ===
 invent a new dance move during a video call
@@ -340,6 +626,16 @@ convince a printer to work without a driver
 deploy on Friday
 discover you hit reply-all on that email
 accidentally create a programming language
+forge a new trade agreement with a vending machine
+overthrow a small government by sneezing
+patent an emotion
+start a philosophical debate with a traffic light
+get quoted in a newspaper from the future
+become the CEO of an empty room
+fix the WiFi by looking at it threateningly
+write a breakup letter to your alarm clock
+solve world hunger but only for pigeons
+file a noise complaint against your own thoughts
 
 === avoidance ===
 eye contact with pigeons
@@ -354,6 +650,18 @@ elevators with mirrors
 eating nachos in public
 reading terms and conditions
 manual software updates
+people who say "per my last email"
+loading bars
+your own middle name
+rooms with exactly four chairs
+clocks that tick audibly
+anyone carrying a clipboard
+sentences that start with "actually"
+the second floor in general
+people who fold pizza
+conversations about the weather that go too deep
+the specific font Comic Sans
+any email with "quick question" in the subject
 
 === coworkerReaction ===
 pretend not to notice
@@ -366,6 +674,16 @@ make a meme about it
 send a "Best regards, but not really" email
 try to include you in a side project
 request a mental health day
+create a shared document to process their feelings
+send an anonymous survey
+file it under "not my problem"
+add it to the retrospective
+form a committee to investigate
+schedule a 1:1 to discuss "the vibe"
+change their Slack status to something passive-aggressive
+bring it up at standup three weeks later
+pretend they predicted it all along
+cc upper management "just for visibility"
 
 === device ===
 phone
@@ -378,6 +696,16 @@ robot vacuum
 secondary monitor
 Bluetooth headphones
 smart thermostat
+a baby monitor you don't own
+a microwave that judges your portions
+a Fitbit tracking your cosmic alignment
+a speaker playing music no one asked for
+a smoke detector having a midlife crisis
+a doorbell camera with social anxiety
+a smart scale weighing your life choices
+a GPS recalculating your destiny
+the office copier (it remembers everything)
+a charging cable that only works at one angle
 
 === secret ===
 the meaning of life (it's 42)
@@ -390,6 +718,16 @@ why there are so many different USB adapters
 why the neighbor's WiFi works better
 the true contents of "New Folder (27)"
 the real identity of whoever approves cookies
+what your phone does at 3 AM
+why you always pick the slowest queue
+what's actually in the terms of service
+the origin story of your junk drawer
+the Wi-Fi password to the universe
+who keeps moving your desk things slightly
+the real reason you can't sleep
+what happens to all the pens
+the location of the Bermuda Triangle's lost and found
+where all the Tupperware lids go
 
 === powerMove ===
 stare at the sun (metaphorically)
@@ -402,6 +740,16 @@ make direct eye contact with your webcam
 delete an app you haven't opened in 3 years
 put your phone on airplane mode while not on a plane
 reply to a 3-week-old message without apologizing
+leave a meeting on time
+close a browser tab without reading it
+say "no" to a meeting that could have been an email
+walk away from an argument with a vending machine
+drink water without checking your phone first
+sit in silence for 30 seconds (terrifying but effective)
+use a pen until it runs out of ink
+read an entire article instead of just the headline
+fold laundry the same day you wash it
+make a phone call instead of sending a text
 
 === creatureAdvice ===
 offer it a snack
@@ -413,6 +761,15 @@ take a selfie — no one will believe you anyway
 take a bow — it appreciates manners
 offer it someone else's business card
 ask for its autograph — it'll be flattered
+give it a firm handshake and maintain eye contact
+tell it your WiFi password as a sign of trust
+ask if it validates parking
+offer it a seat — it's been standing for centuries
+ask for a receipt — always get a receipt
+read it your horoscope — it loves the irony
+offer it a coffee — decaf, it's already agitated
+ask for its LinkedIn — networking never sleeps
+challenge it to a thumb war for dominance
 
 === badThing ===
 minor inconveniences
@@ -425,6 +782,16 @@ existential dread
 notifications at inappropriate hours
 eerily accurate targeted ads
 real-life 404 errors
+meetings that could have been emails
+emails that should have been silence
+group projects with the universe
+aggressive small talk
+phantom phone vibrations
+motivational posters
+calendar invites for things you already declined
+people who reply-all unnecessarily
+your own reflection judging you in elevator doors
+passive-aggressive post-it notes
 
 === mantra ===
 I am one with the browser cache
@@ -435,6 +802,14 @@ I embrace the chaos of auto-update
 Inbox zero is a state of mind
 Ctrl+Z is my life philosophy
 Not all tabs need to be closed, and not all paths need to be walked
+I accept the terms and conditions without reading them, and I am at peace
+My aura is in airplane mode and that is valid
+The cloud is just someone else's computer, and that's fine
+I am the main character of this spreadsheet
+I do not need closure, I need better WiFi
+The universe is buffering and so am I
+Today I choose to not restart later
+My energy is a limited resource and I refuse to share it with printers
 
 === adverb ===
 suspiciously
@@ -448,6 +823,17 @@ with unearned confidence
 while avoiding eye contact
 extremely politely
 without blinking
+with visible reluctance
+in slow motion
+while narrating your own actions
+with an audience of exactly one pigeon
+as if being watched by a documentary crew
+while questioning every life choice
+at an angle that makes people uncomfortable
+with the energy of someone who just woke up
+ironically but also sincerely
+in alphabetical order for some reason
+while pretending it's the first time
 
 === smallNumber ===
 1
@@ -473,6 +859,15 @@ sends its regards from a parallel dimension
 is compiling a detailed report about you
 has started a podcast about you without your consent
 has changed its Bluetooth name to something suspicious
+just unfollowed you on all platforms
+is writing a strongly worded letter to the cosmos on your behalf
+has submitted a formal request to be reassigned
+is negotiating with #planet# about your fate
+has been promoted to your spiritual manager
+refuses to comment at this time
+is leaving a Yelp review about your energy
+has filed your destiny under "pending"
+is live-tweeting your decisions with commentary
 
 === spiritAnimal ===
 chameleon
@@ -485,6 +880,16 @@ axolotl
 pangolin
 lemur
 narwhal
+tardigrade
+red panda
+cassowary
+quokka
+opossum (playing dead is a valid strategy)
+mantis shrimp
+naked mole rat
+kakapo
+wombat
+shoebill stork
 
 === transformation ===
 become sentient and start a podcast
@@ -492,6 +897,11 @@ transcend physical form
 develop strong opinions about fonts
 start vibrating at the frequency of jazz
 gain the ability to connect to any WiFi
+file for emotional independence
+begin composing a memoir in real time
+lobby for statehood
+demand a performance review from the cosmos
+form a union with nearby objects
 
 === wisdom ===
 a closed browser gathers no cookies
@@ -504,6 +914,16 @@ the password you forgot is the password you needed most
 the early bird updates the firmware
 not everything that shines is gold, but everything with LEDs is suspicious
 the tab you never close is the tab that defines you
+the meeting that could have been an email is the meeting you're already in
+you cannot ctrl+Z yesterday, but you can ctrl+Z today
+a watched download never completes
+the attachment you forgot to attach is the one they needed most
+he who hesitates is probably just buffering
+the deadline you fear most has already been extended
+your inbox is a reflection of your soul — cluttered but full of potential
+the notification you ignore is the notification that matters
+courage is clicking "update now" instead of "remind me later"
+even the cosmos runs on coffee and unearned confidence
 
 === warning ===
 Beware of #creature# carrying #object#.
@@ -516,6 +936,16 @@ Your #device# is plotting something. Keep it close.
 Don't open emails from #cosmicBody# — it's a trap.
 A #creature# is pretending to be a #professional#. Don't be fooled.
 If you hear #food# talking, ignore it — it's not the right time.
+Your #device# has been whispering to other #device#s about you.
+Do NOT accept #gift# from anyone wearing #color#.
+If #cosmicBody# makes eye contact, do not look away first.
+Your #bodyPart# knows something you don't. Listen to it.
+The #creature# at #location# is not what it seems.
+#planet# has sent you #smallNumber# warnings already. This is the last one.
+If #celebrity# contacts you, it's already too late.
+Anyone asking about #topic# today is a #creature# in disguise.
+Your #device# will try to update during a crucial moment. Be ready.
+Do NOT google "#topic#" — the results will find you instead.
 
 === professional ===
 wizard
@@ -527,6 +957,15 @@ competent adult (if you can find one)
 a LinkedIn influencer
 a chatbot pretending to be human
 an accountant with a third eye
+a retired oracle working part-time
+a pigeon with a clipboard
+a vending machine therapist
+a spreadsheet that has seen things
+a ghost who was a lawyer in life
+a traffic cone that passed the bar exam
+your phone's autocorrect (it thinks it knows best)
+a meditation app with a superiority complex
+a fire exit sign that's seen everything
 
 === luckyColor ===
 aggressive beige
@@ -544,6 +983,21 @@ theoretically blue
 gilded with scruples
 existential brown
 pretentious burgundy
+haunted lavender
+bureaucratic khaki
+non-committal periwinkle
+diplomatically neutral taupe
+emotionally unavailable navy
+aggressively matte black
+cosmic dust rose
+suspiciously cheerful lime
+structurally unsound coral
+philosophically red
+historically inaccurate gold
+legally distinct indigo
+off-white with ambitions
+strategically transparent
+ominously cheerful neon green
 
 === compatibility ===
 Most compatible with fellow #spiritAnimal# souls today.
@@ -554,3 +1008,11 @@ Your aura clashes with people who use light mode. Proceed with caution.
 Maximum compatibility with someone whose WiFi password has 20+ characters.
 Avoid anyone who puts pineapple on pizza — vibes are incompatible.
 Ideal: someone who uses dark mode and consumes #food# #adverb#.
+Most compatible with anyone whose #device# is also #bodyPartAction#.
+Seek people who have closed at least one browser tab today.
+Avoid anyone who answers calls on speakerphone in public.
+Your aura harmonizes with people who read the entire email before replying.
+Best match: someone whose spirit #creature# also has strong opinions.
+Compatible with anyone who has apologized to a #device# this week.
+Avoid eye contact with anyone wearing #color# — cosmic static.
+The universe ships you with someone who also avoids #avoidance#.

@@ -54,6 +54,14 @@
 **Insight:** În fișierele de gramatică pe bază de variante, problemele de articulare apar frecvent la simboluri reutilizate în contexte diferite; merită validate separat categoriile „cu articol” vs „fără articol”.
 **Promoted to Lessons Learned:** No
 
+### [2026-03-09] Double data entries + create comedian agent
+
+**Context:** User requested doubling the number of options in `en.txt` and `ro.txt` data files, creating a comedian sub-agent, and using both the linguist and comedian agents to improve content quality with more absurdist humor.
+**What happened:** Created `.claude/agents/comedian.md` following agent-creator conventions — focused on deadpan, surreal humor (Monty Python / Douglas Adams energy) with actionable principles: mundane-cosmic juxtaposition, anthropomorphizing the inanimate, bureaucratizing the magical, deadpan delivery. Registered in AGENTS.md. Then doubled all sections in both `en.txt` and `ro.txt` (~45 sections per locale). Applied linguist lens for Romanian: kept all variant symbols (`parteCorpTa`, `aspectViataTa`, `dispozitivulTau`, `obiectCuArticol`, `obiectMisterios`) in sync with their base counterparts, maintained proper gender agreement (articles, possessives). Applied comedian lens: new entries use juxtaposition (printer that works out of spite), anthropomorphism (spreadsheet that has seen things), bureaucratic-cosmic fusion (cease-and-desist from the future), and deadpan absurdity (your bodyPart will receive a notification). Grammar validation passes for both locales.
+**Outcome:** Success — all sections approximately doubled (from ~10-17 to ~18-34 entries each, except static number sections). Grammar validation passes. Tests could not be run due to missing `node_modules` (offline network).
+**Insight:** When doubling Romanian grammar data, the variant symbol pattern (`symbolTa`, `dispozitivulTau`, `obiectCuArticol`, `obiectMisterios`) creates a multiplicative burden — each new `obiect` entry requires corresponding entries in 3 variant sections with correct articles, possessives, and adjective positions. Planning the base entries first then systematically generating variants is more reliable than trying to write all 4 in parallel.
+**Promoted to Lessons Learned:** No
+
 <!-- New entries above this line, most recent first -->
 
 ### [2026-03-09] Fix Romanian agreement/uppercase issues + light theme contrast/header spacing

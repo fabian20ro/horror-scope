@@ -45,3 +45,4 @@ Specialized agents in `.claude/agents/`. Invoke proactively — don't wait to be
 | Planner | `.claude/agents/planner.md` | Multi-step features, i18n changes, UI additions |
 | Agent Creator | `.claude/agents/agent-creator.md` | Need a new specialized agent for a recurring task domain |
 | Linguist | `.claude/agents/linguist.md` | Romanian grammar rules, gender agreement, new ro.ts content |
+| Comedian | `.claude/agents/comedian.md` | Absurdist humor review, prediction content quality, new data entries |
