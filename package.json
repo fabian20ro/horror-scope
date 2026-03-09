@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run validate:grammar && tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "validate:grammar": "node scripts/validate-grammar.mjs"
   },
   "devDependencies": {
     "jsdom": "^28.1.0",

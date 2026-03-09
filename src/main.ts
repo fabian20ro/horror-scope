@@ -35,9 +35,27 @@ function applyTheme(theme: 'dark' | 'light'): void {
 }
 
 async function initApp(): Promise<void> {
-  await loadAllGrammars();
-
   const container = document.getElementById('app')!;
+
+  try {
+    await loadAllGrammars();
+  } catch (error) {
+    console.error('Failed to load grammar files during startup', error);
+    container.innerHTML = `
+      <main style="min-height:100vh;display:grid;place-items:center;padding:1.5rem;">
+        <section style="max-width:38rem;text-align:center;font-family:Georgia, serif;">
+          <h1>Cosmic connection interrupted</h1>
+          <p>We couldn't load the horoscope grammar files. Please retry.</p>
+          <button id="retry-init" style="margin-top:1rem;padding:0.6rem 1.1rem;cursor:pointer;">Retry</button>
+        </section>
+      </main>
+    `;
+    const retryBtn = document.getElementById('retry-init');
+    retryBtn?.addEventListener('click', () => {
+      void initApp();
+    });
+    return;
+  }
   let langId = detectLanguage();
   let consultation = 0;
   let signOverride: ZodiacSign | null = null;
@@ -82,3 +100,11 @@ async function initApp(): Promise<void> {
 }
 
 initApp();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch((error) => {
+      console.warn('Service worker registration failed', error);
+    });
+  });
+}

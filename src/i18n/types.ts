@@ -17,6 +17,10 @@ export interface UIStrings {
   copiedHoroscope: string;
   interpretWithAI: string;
   aiInterpretQuery: string;
+  switchToLanguageLabel: string;
+  switchToLightTheme: string;
+  switchToDarkTheme: string;
+  toggleDivinationDetails: string;
   generatedBy: string;
   footer: string;
   signNames: Record<ZodiacSign, string>;
