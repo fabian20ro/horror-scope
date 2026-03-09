@@ -3,9 +3,9 @@
 #salutTimpuriu.capitalize#, #signName#! Astrele au vorbit: #predictie# #sfat#
 Atenție, #signName#! #predictie# Animalul tău spirit, #spiritAnimal#, #actiuneAnimal#. #sfat#
 #deschidere.capitalize# Ca #signName#, astăzi #predictie# #consecinta# Reține: #intelepciune#.
-#deschidere.capitalize# #predictie# Între timp, #corpCosmic# șoptește: „#intelepciune#." #sfat#
+#deschidere.capitalize# #predictie# Între timp, #corpCosmic# șoptește: „#intelepciune#.” #sfat#
 #corpCosmic.capitalize# tremură, #signName#! #predictie# #consecinta# #sfat#
-#salutTimpuriu.capitalize#! #predictie# #consecinta# Mantra zilei: „#mantra#."
+#salutTimpuriu.capitalize#! #predictie# #consecinta# Mantra zilei: „#mantra#.”
 #deschidere.capitalize# #planeta# ne transmite: #predictie# #sfat# #intelepciune.capitalize#.
 #deschidere.capitalize# #predictie# Animalul tău spirit, #spiritAnimal#, confirmă. #consecinta#
 Hai, #signName#! #corpCosmic# a decretat: #predictie# #consecinta# #sfat#
@@ -81,7 +81,7 @@ Evită #evitare# între orele #numarMic# și #numarMare#.
 Gustarea norocoasă este #mancare#. Consumă-o #adverb#.
 Canalizează energia de la #celebritate# pentru rezultate maxime.
 #dispozitivulTau.capitalize# deține răspunsul — aruncă o privire #adverb#.
-Șoptește „#mantra#" de trei ori pentru protecție cosmică.
+Șoptește „#mantra#” de trei ori pentru protecție cosmică.
 Consultă un #profesionist# înainte de ora #numarMare#.
 Pune #obiectCuArticol# sub pernă pentru vise profetice.
 Ține #culoare# aproape de inimă — culorile te protejează astăzi.
@@ -103,7 +103,7 @@ un contabil călător în timp
 un cactus care dansează step
 un flamingo dezamăgit
 trei ratoni într-un trenci
-un hologram al bunicii tale care te ceartă
+o hologramă a bunicii tale care te ceartă
 o mătușă din alt univers
 un porumbel cu diplomă în filosofie
 un robot aspirator cu ambiții
@@ -330,7 +330,7 @@ magic fără voia lui
 haotic neutru
 prost dispus
 neașteptat de politicos
-suspiciot de calm
+suspicios de calm
 
 === emotie ===
 ușor confuz
@@ -423,13 +423,13 @@ cititul termenilor și condițiilor
 actualizările de software manuale
 
 === reactieColegi ===
-se preface că nu observă
+pretinde că nu observă
 înființa un grup de suport
 scrie un mesaj pe Slack despre asta
-da vina pe stagiarul
+da vina pe stagiar
 programa o ședință pe tema asta
 își actualiza LinkedIn-ul
-face un meme
+face o memă
 trimite un email „Cu stimă, dar nu"
 încerca să te includă într-un proiect lateral
 cere o zi liberă pentru recuperare emoțională
@@ -466,7 +466,7 @@ acea parolă pe care ai uitat-o
 locația tuturor șosetelor dispărute
 de ce imprimantele nu funcționează niciodată
 adevărul despre cloud
-de ce există atâtea adaptor-uri USB diferite
+de ce există atâtea adaptoare USB diferite
 motivul pentru care WiFi-ul merge mai bine la vecini
 conținutul real al dosarului „New Folder (27)"
 identitatea adevărată a persoanei care aprobă cookie-urile
@@ -571,7 +571,7 @@ Ferește-te de #creatura# care poartă #obiect#.
 NU te încrede în nimeni îmbrăcat în #culoare# astăzi.
 Dacă #parteCorpTa# începe să #actiuneCorp#, consultă un #profesionist#.
 Universul îți judecă alegerea de browser. Alege cu înțelepciune.
-Evită să apeși butoane etichetate „#mantra#".
+Evită să apeși butoane etichetate „#mantra#”.
 #dispozitivulTau.capitalize# pune ceva la cale. Fii vigilent.
 #planeta# te urmărește. Comportă-te normal.
 Nu deschide emailuri de la #corpCosmic# — e o capcană.
@@ -594,7 +594,7 @@ bej agresiv
 mov suspect
 teal existențial
 roz pasiv-agresiv
-portocaliu judicativ
+portocaliu care te judecă
 roșu confuz
 verde ambițios
 magenta reticentă

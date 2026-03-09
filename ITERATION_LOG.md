@@ -46,6 +46,14 @@
 **Insight:** Recursive grammar validation must account for runtime-injected symbols (e.g., `signName`, divination symbols) or it will incorrectly fail static checks for unresolved references.
 **Promoted to Lessons Learned:** No
 
+### [2026-03-09] Corecturi RO: gen/articol/capitalizare în șabloanele de gramatică
+
+**Context:** Utilizatorul a semnalat multe probleme de gen, articulare și capitalizare în variantele românești generate din `public/data/ro.txt`.
+**What happened:** Am corectat formulări și acorduri în seturile de variante: ghilimele românești închise corect pentru `#intelepciune#`/`#mantra#`, articol + gen la întâlniri (`o hologramă a bunicii...`), typo adjectival (`suspicios de calm`), typo/nuanță la culoare (`portocaliu care te judecă`), plural articulat (`adaptoare USB`), și formulări mai naturale în `reactieColegi` (`pretinde că nu observă`, `da vina pe stagiar`, `face o memă`).
+**Outcome:** Success — textele RO sunt mai consistente gramatical și tipografic pe opțiunile folosite de generator.
+**Insight:** În fișierele de gramatică pe bază de variante, problemele de articulare apar frecvent la simboluri reutilizate în contexte diferite; merită validate separat categoriile „cu articol” vs „fără articol”.
+**Promoted to Lessons Learned:** No
+
 <!-- New entries above this line, most recent first -->
 
 ### [2026-03-09] Fix Romanian agreement/uppercase issues + light theme contrast/header spacing
