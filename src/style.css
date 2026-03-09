@@ -8,6 +8,8 @@
   --bg-card-hover: #162450;
   --gold: #f5c842;
   --gold-dim: #c9a22e;
+  --title-shadow: 0 0 20px rgba(245, 200, 66, 0.4),
+    0 0 60px rgba(245, 200, 66, 0.15);
   --purple-light: #b388ff;
   --purple-mid: #7c4dff;
   --purple-glow: rgba(124, 77, 255, 0.4);
@@ -24,8 +26,9 @@
   --bg-deep: #f0eff4;
   --bg-card: #dde4f5;
   --bg-card-hover: #cdd6ec;
-  --gold: #b8860b;
-  --gold-dim: #996f09;
+  --gold: #8a5a00;
+  --gold-dim: #6f4600;
+  --title-shadow: 0 0 10px rgba(138, 90, 0, 0.18);
   --purple-light: #5c33a6;
   --purple-mid: #5c33a6;
   --purple-glow: rgba(92, 51, 166, 0.25);
@@ -97,10 +100,10 @@ body::before {
 .app__wrapper {
   width: 100%;
   max-width: 680px;
-  padding: 2rem 1.25rem 3rem;
+  padding: 1.25rem 1.25rem 3rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 /* ---- Top Bar ---- */
@@ -137,7 +140,7 @@ body::before {
 
 .header {
   text-align: center;
-  padding: 1rem 0 0.5rem;
+  padding: 0.35rem 0 0.5rem;
 }
 
 .header__stars {
@@ -153,9 +156,7 @@ body::before {
   font-size: clamp(2rem, 8vw, 3.5rem);
   font-weight: 900;
   color: var(--gold);
-  text-shadow:
-    0 0 20px rgba(245, 200, 66, 0.4),
-    0 0 60px rgba(245, 200, 66, 0.15);
+  text-shadow: var(--title-shadow);
   line-height: 1.1;
   letter-spacing: 0.05em;
 }

@@ -47,3 +47,11 @@
 **Promoted to Lessons Learned:** No
 
 <!-- New entries above this line, most recent first -->
+
+### [2026-03-09] Fix Romanian agreement/uppercase issues + light theme contrast/header spacing
+
+**Context:** User reported Romanian grammar agreement mistakes and stray uppercase mid-sentence in generated horoscope text, plus low contrast gold-on-light theme and title block positioned too low.
+**What happened:** Updated `public/data/ro.txt` to fix agreement and phrasing (`un parcometru filozofic`, `la #locatie#`), lowercased `celebritate` entries to avoid random uppercase in sentence middle, capitalized only where sentence-initial via `#celebritate.capitalize#`, and removed a gender-sensitive pattern by rewriting to "energia de la #celebritate#". Updated `src/style.css` light palette (`--gold`, `--gold-dim`) for stronger contrast, introduced `--title-shadow` token with a subtler light-mode value, and reduced top spacing (`.app__wrapper` padding/gap and `.header` top padding) so title sits higher. Ran grammar validation and production build; captured updated light-mode screenshot.
+**Outcome:** Success — text quality issues fixed and light-mode visual hierarchy/contrast improved.
+**Insight:** For mixed-content symbols that are reused sentence-internally and sentence-initially, keep entries lowercase and apply `.capitalize` only at template call sites that require it.
+**Promoted to Lessons Learned:** No
