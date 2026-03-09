@@ -50,7 +50,7 @@ export function createTopBar(
 
 export function createHeader(ui: UIStrings): HTMLElement {
   const header = el('header', 'header');
-  const deco = el('div', 'header__stars', '\u2726 \u263D \u2727 \u2606 \u2726');
+  const deco = el('div', 'header__stars', '\u2726 \u263D \u2727 \u2726');
   const title = el('h1', 'header__title', ui.title);
   const subtitle = el('p', 'header__subtitle', ui.subtitle);
   header.append(deco, title, subtitle);

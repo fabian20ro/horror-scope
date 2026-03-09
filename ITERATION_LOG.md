@@ -55,3 +55,23 @@
 **Outcome:** Success — text quality issues fixed and light-mode visual hierarchy/contrast improved.
 **Insight:** For mixed-content symbols that are reused sentence-internally and sentence-initially, keep entries lowercase and apply `.capitalize` only at template call sites that require it.
 **Promoted to Lessons Learned:** No
+
+---
+
+### [2026-03-09] Tighten header spacing and reduce decorative stars for mobile
+
+**Context:** User requested removing wasted vertical space between the top controls and title area, moving the title block higher, and reducing decorative stars so they fit better on phones.
+**What happened:** Updated header decoration in `src/ui/components.ts` from 5 glyphs to 4, then tightened vertical spacing in `src/style.css` by reducing top wrapper padding/gap, removing extra top header padding, and slightly compacting stars/subtitle margins. Captured an updated UI screenshot and re-ran targeted tests/build.
+**Outcome:** Success — header content now sits higher with less dead space, and star row is slimmer for smaller screens.
+**Insight:** Small combined spacing reductions across wrapper + header + decoration are less visually disruptive than a single large padding cut while still reclaiming meaningful vertical space.
+**Promoted to Lessons Learned:** No
+
+---
+
+### [2026-03-09] Follow-up: pull title block higher than top bar baseline
+
+**Context:** After previous spacing tweak, user reported the title area still felt too low relative to the flag/theme row.
+**What happened:** Further reduced top vertical spacing in `src/style.css` by tightening `.app__wrapper` top padding and inter-section gap (desktop + mobile), adding a small negative top offset on `.header`, and compressing star/subtitle margins.
+**Outcome:** Success — header block now starts noticeably higher, closer to the controls row while preserving readability.
+**Insight:** When users compare hero position against fixed top controls, a subtle negative margin on the hero container can solve perceived alignment faster than only shrinking global wrapper padding.
+**Promoted to Lessons Learned:** No
