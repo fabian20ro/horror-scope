@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
@@ -11,7 +11,7 @@ import {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-type FetchFn = (url: string) => Promise<Response>;
+type FetchFn = (input: RequestInfo | URL, init?: RequestInit) => Promise<Response>;
 
 describe('parseGrammarText', () => {
   it('parses a single section with entries', () => {
@@ -20,8 +20,8 @@ unicorn
 dragon
 phoenix`;
     const result = parseGrammarText(content);
-    expect(result.creature.entries).toEqual(['unicorn', 'dragon', 'phoenix']);
-    expect(result.creature.includes).toEqual([]);
+    expect(result.sections.creature).toEqual(['unicorn', 'dragon', 'phoenix']);
+    expect(result.imports).toEqual([]);
   });
 
   it('parses multiple sections', () => {
@@ -33,8 +33,8 @@ dragon
 toast
 sushi`;
     const result = parseGrammarText(content);
-    expect(result.creature.entries).toEqual(['unicorn', 'dragon']);
-    expect(result.food.entries).toEqual(['toast', 'sushi']);
+    expect(result.sections.creature).toEqual(['unicorn', 'dragon']);
+    expect(result.sections.food).toEqual(['toast', 'sushi']);
   });
 
   it('skips blank lines', () => {
@@ -46,7 +46,7 @@ dragon
 
 `;
     const result = parseGrammarText(content);
-    expect(result.creature.entries).toEqual(['unicorn', 'dragon']);
+    expect(result.sections.creature).toEqual(['unicorn', 'dragon']);
   });
 
   it('skips comment lines starting with //', () => {
@@ -56,7 +56,7 @@ unicorn
 // dragon is commented out
 phoenix`;
     const result = parseGrammarText(content);
-    expect(result.creature.entries).toEqual(['unicorn', 'phoenix']);
+    expect(result.sections.creature).toEqual(['unicorn', 'phoenix']);
   });
 
   it('ignores lines before any section header', () => {
@@ -66,25 +66,28 @@ phoenix`;
 === creature ===
 unicorn`;
     const result = parseGrammarText(content);
-    expect(Object.keys(result)).toEqual(['creature']);
-    expect(result.creature.entries).toEqual(['unicorn']);
+    expect(Object.keys(result.sections)).toEqual(['creature']);
+    expect(result.sections.creature).toEqual(['unicorn']);
   });
 
-  it('detects @include directives', () => {
-    const content = `=== creature ===
-@include creatures.txt
-unicorn`;
+  it('detects @from import directives', () => {
+    const content = `@from creatures.txt import *
+
+=== food ===
+toast`;
     const result = parseGrammarText(content);
-    expect(result.creature.entries).toEqual(['unicorn']);
-    expect(result.creature.includes).toEqual(['creatures.txt']);
+    expect(result.imports).toEqual(['creatures.txt']);
+    expect(result.sections.food).toEqual(['toast']);
   });
 
-  it('handles multiple @include directives in one section', () => {
-    const content = `=== creature ===
-@include mythical.txt
-@include modern.txt`;
+  it('handles multiple @from import directives', () => {
+    const content = `@from a-c.txt import *
+@from d-g.txt import *
+
+=== origin ===
+template`;
     const result = parseGrammarText(content);
-    expect(result.creature.includes).toEqual(['mythical.txt', 'modern.txt']);
+    expect(result.imports).toEqual(['a-c.txt', 'd-g.txt']);
   });
 
   it('preserves entries with #markers#', () => {
@@ -92,7 +95,7 @@ unicorn`;
 #opening.capitalize# #prediction#
 The #cosmicBody# speaks: #prediction#`;
     const result = parseGrammarText(content);
-    expect(result.origin.entries).toEqual([
+    expect(result.sections.origin).toEqual([
       '#opening.capitalize# #prediction#',
       'The #cosmicBody# speaks: #prediction#',
     ]);
@@ -103,14 +106,14 @@ The #cosmicBody# speaks: #prediction#`;
 wolf
 eagle`;
     const result = parseGrammarText(content);
-    expect(result['spirit animal'].entries).toEqual(['wolf', 'eagle']);
+    expect(result.sections['spirit animal']).toEqual(['wolf', 'eagle']);
   });
 
   it('trims section names', () => {
     const content = `===  creature  ===
 unicorn`;
     const result = parseGrammarText(content);
-    expect(result.creature).toBeDefined();
+    expect(result.sections.creature).toBeDefined();
   });
 
   it('preserves entries with special characters', () => {
@@ -119,7 +122,7 @@ existential espresso
 Uranus (yes, that Uranus)
 someone's toast`;
     const result = parseGrammarText(content);
-    expect(result.food.entries).toEqual([
+    expect(result.sections.food).toEqual([
       'existential espresso',
       'Uranus (yes, that Uranus)',
       "someone's toast",
@@ -131,7 +134,7 @@ someone's toast`;
 common~~5
 rare~~1`;
     const result = parseGrammarText(content);
-    expect(result.item.entries).toEqual(['common~~5', 'rare~~1']);
+    expect(result.sections.item).toEqual(['common~~5', 'rare~~1']);
   });
 });
 
@@ -201,12 +204,49 @@ toast`,
     expect(grammar.food).toEqual(['toast']);
   });
 
-  it('resolves @include directives', async () => {
+  it('resolves @from import directives', async () => {
     const fetch = mockFetch({
-      'http://test/data/en.txt': `=== creature ===
-@include creatures.txt
+      'http://test/data/en.txt': `@from creatures.txt import *
+
+=== food ===
+toast`,
+      'http://test/data/en/creatures.txt': `=== creature ===
+unicorn
+dragon`,
+    });
+
+    const grammar = await loadGrammar('en', 'http://test/data/', fetch);
+    expect(grammar.creature).toEqual(['unicorn', 'dragon']);
+    expect(grammar.food).toEqual(['toast']);
+  });
+
+  it('merges sections from multiple @from imports', async () => {
+    const fetch = mockFetch({
+      'http://test/data/en.txt': `@from file1.txt import *
+@from file2.txt import *`,
+      'http://test/data/en/file1.txt': `=== creature ===
+unicorn`,
+      'http://test/data/en/file2.txt': `=== food ===
+toast
+
+=== color ===
+red`,
+    });
+
+    const grammar = await loadGrammar('en', 'http://test/data/', fetch);
+    expect(grammar.creature).toEqual(['unicorn']);
+    expect(grammar.food).toEqual(['toast']);
+    expect(grammar.color).toEqual(['red']);
+  });
+
+  it('merges same-name sections across files (no overwrite)', async () => {
+    const fetch = mockFetch({
+      'http://test/data/en.txt': `@from extras.txt import *
+
+=== creature ===
 phoenix`,
-      'http://test/data/en/creatures.txt': `unicorn
+      'http://test/data/en/extras.txt': `=== creature ===
+unicorn
 dragon`,
     });
 
@@ -214,26 +254,15 @@ dragon`,
     expect(grammar.creature).toContain('phoenix');
     expect(grammar.creature).toContain('unicorn');
     expect(grammar.creature).toContain('dragon');
+    expect(grammar.creature).toHaveLength(3);
   });
 
-  it('handles inline entries alongside @include', async () => {
-    const fetch = mockFetch({
-      'http://test/data/en.txt': `=== creature ===
-inline entry
-@include more.txt`,
-      'http://test/data/en/more.txt': `included entry`,
-    });
-
-    const grammar = await loadGrammar('en', 'http://test/data/', fetch);
-    expect(grammar.creature).toContain('inline entry');
-    expect(grammar.creature).toContain('included entry');
-  });
-
-  it('warns and continues when an @include file is missing', async () => {
+  it('warns and continues when an @from file is missing', async () => {
     const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
     const fetch = mockFetch({
-      'http://test/data/en.txt': `=== creature ===
-@include missing.txt
+      'http://test/data/en.txt': `@from missing.txt import *
+
+=== creature ===
 dragon`,
     });
 
@@ -250,14 +279,15 @@ dragon`,
     ).rejects.toThrow('Failed to load grammar');
   });
 
-  it('loads multiple @include files in parallel', async () => {
+  it('loads multiple @from files in parallel', async () => {
     const fetch = vi.fn((url: string) => {
       const files: Record<string, string> = {
-        'http://test/data/en.txt': `=== a ===
-@include a.txt
-@include b.txt`,
-        'http://test/data/en/a.txt': 'alpha',
-        'http://test/data/en/b.txt': 'beta',
+        'http://test/data/en.txt': `@from a.txt import *
+@from b.txt import *`,
+        'http://test/data/en/a.txt': `=== alpha ===
+alpha entry`,
+        'http://test/data/en/b.txt': `=== beta ===
+beta entry`,
       };
       const content = files[url];
       return Promise.resolve(
@@ -268,8 +298,8 @@ dragon`,
     }) as FetchFn;
 
     const grammar = await loadGrammar('en', 'http://test/data/', fetch);
-    expect(grammar.a).toContain('alpha');
-    expect(grammar.a).toContain('beta');
+    expect(grammar.alpha).toContain('alpha entry');
+    expect(grammar.beta).toContain('beta entry');
   });
 });
 
@@ -281,39 +311,75 @@ describe('data file integrity', () => {
     );
   }
 
+  function readImportFile(locale: string, filename: string): string {
+    return readFileSync(
+      resolve(__dirname, '../../public/data', locale, filename),
+      'utf-8',
+    );
+  }
+
+  function loadAllSections(locale: string): Record<string, string[]> {
+    const content = readDataFile(locale);
+    const parsed = parseGrammarText(content);
+    const allSections: Record<string, string[]> = { ...parsed.sections };
+
+    for (const importFile of parsed.imports) {
+      const importContent = readImportFile(locale, importFile);
+      const importParsed = parseGrammarText(importContent);
+      for (const [symbol, entries] of Object.entries(importParsed.sections)) {
+        if (!allSections[symbol]) allSections[symbol] = [];
+        allSections[symbol].push(...entries);
+      }
+    }
+
+    return allSections;
+  }
+
   const requiredSymbols = ['origin', 'warning', 'luckyColor', 'compatibility'];
 
   for (const locale of ['en', 'ro']) {
-    describe(`${locale}.txt`, () => {
-      it('parses without errors', () => {
+    describe(`${locale} data files`, () => {
+      it('main file parses without errors', () => {
         const content = readDataFile(locale);
-        const sections = parseGrammarText(content);
-        expect(Object.keys(sections).length).toBeGreaterThan(0);
+        const parsed = parseGrammarText(content);
+        const totalSections = Object.keys(parsed.sections).length;
+        const totalImports = parsed.imports.length;
+        expect(totalSections + totalImports).toBeGreaterThan(0);
+      });
+
+      it('all @from import files exist and parse', () => {
+        const content = readDataFile(locale);
+        const parsed = parseGrammarText(content);
+        for (const importFile of parsed.imports) {
+          const importContent = readImportFile(locale, importFile);
+          const importParsed = parseGrammarText(importContent);
+          expect(
+            Object.keys(importParsed.sections).length,
+            `Import file ${importFile} has no sections`,
+          ).toBeGreaterThan(0);
+        }
       });
 
       it(`has required grammar symbols: ${requiredSymbols.join(', ')}`, () => {
-        const content = readDataFile(locale);
-        const sections = parseGrammarText(content);
+        const allSections = loadAllSections(locale);
         for (const symbol of requiredSymbols) {
           expect(
-            sections[symbol],
-            `Missing required symbol "${symbol}" in ${locale}.txt`,
+            allSections[symbol],
+            `Missing required symbol "${symbol}" in ${locale}`,
           ).toBeDefined();
           expect(
-            sections[symbol].entries.length,
-            `Symbol "${symbol}" in ${locale}.txt has no entries`,
+            allSections[symbol].length,
+            `Symbol "${symbol}" in ${locale} has no entries`,
           ).toBeGreaterThan(0);
         }
       });
 
       it('has no empty sections', () => {
-        const content = readDataFile(locale);
-        const sections = parseGrammarText(content);
-        for (const [name, section] of Object.entries(sections)) {
-          const total = section.entries.length + section.includes.length;
+        const allSections = loadAllSections(locale);
+        for (const [name, entries] of Object.entries(allSections)) {
           expect(
-            total,
-            `Section "${name}" in ${locale}.txt is empty`,
+            entries.length,
+            `Section "${name}" in ${locale} is empty`,
           ).toBeGreaterThan(0);
         }
       });

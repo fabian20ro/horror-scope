@@ -1,0 +1,256 @@
+=== dispozitiv ===
+telefon
+laptop
+smartwatch
+frigider inteligent
+prăjitor de pâine
+imprimantă (da, imprimanta)
+aspirator robot
+monitor secundar
+căști Bluetooth
+termostat inteligent
+un baby monitor pe care nu-l deții
+un cuptor cu microunde care-ți judecă porțiile
+un Fitbit care-ți urmărește alinierea cosmică
+o boxă care redă muzică pe care n-a cerut-o nimeni
+un detector de fum în criză de mijloc de viață
+un sonerie video cu anxietate socială
+un cântar inteligent care-ți cântărește alegerile de viață
+un GPS care-ți recalculează destinul
+copiatorul de la birou (își amintește totul)
+un cablu de încărcare care merge doar la un unghi
+
+// dispozitiv with definite article and correct possessive pronoun (tău/ta/tale)
+
+=== dispozitivulTau ===
+telefonul tău
+laptopul tău
+smartwatch-ul tău
+frigiderul tău inteligent
+prăjitorul tău de pâine
+imprimanta ta (da, imprimanta)
+aspiratorul tău robot
+monitorul tău secundar
+căștile tale Bluetooth
+termostatul tău inteligent
+baby monitorul tău pe care nu-l deții
+cuptorul tău cu microunde care-ți judecă porțiile
+Fitbit-ul tău care-ți urmărește alinierea cosmică
+boxa ta care redă muzică pe care n-a cerut-o nimeni
+detectorul tău de fum în criză de mijloc de viață
+soneria ta video cu anxietate socială
+cântarul tău inteligent care-ți cântărește alegerile de viață
+GPS-ul tău care-ți recalculează destinul
+copiatorul tău de la birou (își amintește totul)
+cablul tău de încărcare care merge doar la un unghi
+
+
+=== emotie ===
+ușor confuz
+suspect de fericit
+cosmic iluminat
+dramatic indiferent
+agresiv zen
+pașnic haotic
+glorios uluit
+transcendent flămând
+nostalgic fără motiv
+ironic dar sincer
+sceptic dar impresionat
+diplomatic furios
+existențial gâdilat
+în buffering emoțional
+spiritual delogat
+politicos devastat
+încrezător greșit
+strategic copleșit
+filozofic pofticios
+birocratic mișcat
+cosmic indiferent dar iau notițe
+suspicios în pace
+optimist într-un mod amenințător
+bântuit dar productiv
+
+
+=== evitare ===
+contactul vizual cu porumbeii
+mâncărurile rotunde
+oricine se numește Gigel
+scările rulante
+gândurile despre viitor
+viraje la stânga
+culoarea bej
+întrebările retorice
+lifturile cu oglinzi
+mâncatul de sarmale în public
+cititul termenilor și condițiilor
+actualizările de software manuale
+oamenii care spun „conform ultimului meu email"
+barele de încărcare
+propriul tău al doilea prenume
+camerele cu exact patru scaune
+ceasurile care ticăie audibil
+oricine care poartă un clipboard
+propozițiile care încep cu „de fapt"
+etajul doi în general
+oamenii care îndoaie pizza
+conversațiile despre vreme care merg prea adânc
+fontul Comic Sans
+orice email cu „o întrebare rapidă" în subiect
+
+
+=== intalnire ===
+un cărucior de cumpărături rebel
+o plantă de apartament conștientă
+un pescăruș care te judecă
+o șopârlă motivațională
+o fantomă pasiv-agresivă
+un vrăjitor confuz
+o veveriță prea entuziastă
+un parcometru filozofic
+geamănul tău malefic
+un sandwich care vorbește
+un automat de cafea indisponibil emoțional
+un contabil călător în timp
+un cactus care dansează step
+un flamingo dezamăgit
+trei ratoni într-un trenci
+o hologramă a bunicii tale care te ceartă
+o mătușă din alt univers
+un porumbel cu diplomă în filosofie
+un robot aspirator cu ambiții
+o ciupercă telepatică
+un manager de mijloc din planul astral
+o gâscă cu ordin de restricție împotriva ta
+o alarmă de incendiu care nu se oprește din scuze
+un aparat de self-checkout în criză existențială
+un GPS care dă indicații emoționale
+o ghicitoare în pauza de fumat
+un con de trafic cu opinii puternice
+o imprimantă care funcționează doar din ciudă
+o molie care crede că e life coach
+o plantă decorativă care s-a prefăcut tot timpul
+o bancă de parc care își amintește totul
+un cuvinte încrucișate care a luat-o personal
+o pisică care lucrează clar pentru guvern
+un nor suspect la nivelul ochilor
+un roi foarte politicos de albine
+un superhero pensionar care-și face taxele
+un filozof de ușă în ușă
+un magnet de frigider care a căzut și reconsideră totul
+un reprezentant sindical al porumbeilor
+o lampă care pâlpâie cu judecată
+
+
+=== intelepciune ===
+un browser închis nu adună cookie-uri
+nu toți cei care rătăcesc sunt pierduți, dar semnalul tău WiFi cu siguranță da
+călătoria de o mie de clickuri începe cu un singur misclick
+în împărăția orbilor, emoji-ul cu un ochi e rege
+a greși e omenesc, a da vina pe calculator e și mai omenesc
+un cache golit e un suflet reîmprospătat
+parola pe care ai uitat-o e parola de care aveai nevoie cel mai mult
+cine se trezește de dimineață actualizează firmware-ul
+nu tot ce strălucește e aur, dar tot ce are LED-uri e suspect
+tab-ul pe care nu-l închizi e tab-ul care te definește
+ședința care putea fi un email e ședința în care ești deja
+nu poți da Ctrl+Z la ieri, dar poți da Ctrl+Z la azi
+un download urmărit nu se termină niciodată
+atașamentul pe care ai uitat să-l atașezi e cel de care aveau nevoie cel mai mult
+cine ezită probabil doar face buffering
+deadline-ul de care ți-e cel mai frică a fost deja prelungit
+inbox-ul tău e o reflecție a sufletului — haotic dar plin de potențial
+notificarea pe care o ignori e notificarea care contează
+curajul înseamnă să apeși „actualizează acum" în loc de „amintește-mi mai târziu"
+până și cosmosul funcționează pe cafea și încredere nemeritată
+
+
+=== locatie ===
+un lift suspect
+raionul de cereale
+baia ta cea mai puțin preferată
+o dimensiune paralelă
+zona cu microunde de la birou
+un sens giratoriu
+propria ta reflexie
+un IKEA foarte specific
+zona moartă de WiFi
+o cronologie alternativă
+secțiunea de comentarii
+un spreadsheet bântuit
+o parcare subterană cu ecou
+o sală de ședințe fără ferestre
+coada de la poștă
+un autobuz fără număr
+o ședință care putea fi un email
+o ușă rotativă care nu se rotește
+memoria browserului tău
+centrul exact al unei parcări
+un fus orar care n-ar trebui să existe
+spațiul dintre două perne de canapea
+o notă de subsol dintr-un document legal
+un slide PowerPoint cu prea multe bullet points
+etajul trei al unei clădiri cu doar două etaje
+spațiul din spatele automatelor de vânzare
+parola de WiFi pe care n-o ții minte
+o coadă pentru ceva ce nu mai există
+deja vu-ul altcuiva
+un ecran de încărcare care a devenit conștient
+fundalul apelului Zoom al cuiva
+o scară de incendiu care duce la alte scări de incendiu
+
+
+=== luckyColor ===
+bej agresiv
+mov suspect
+teal existențial
+roz pasiv-agresiv
+portocaliu care te judecă
+roșu confuz
+verde ambițios
+magenta reticentă
+cyan dezamăgit
+vișiniu suprarealizat
+galben ironic
+albastru teoretic
+auriu cu scrupule
+maro existențial
+grena cu pretenții
+lavandă bântuit
+kaki birocratic
+perivincliu nehotărât
+taupe diplomatic neutru
+bleumarin indisponibil emoțional
+negru mat agresiv
+roz cosmic pudrat
+verde lime suspicios de vesel
+coral structural nesigur
+roșu filozofic
+auriu istoric inexact
+indigo legal distinct
+alb-murdar cu ambiții
+strategic transparent
+verde neon sinistru de vesel
+
+
+=== lucruRau ===
+inconveniențe minore
+actualizări software neașteptate
+emailuri pasiv-agresive
+autocorrect rebel
+WiFi lent
+ședințe surpriză
+groază existențială
+notificări la ore nepotrivite
+reclame targetate prea precise
+erori 404 în viața reală
+ședințe care puteau fi emailuri
+emailuri care ar fi trebuit să fie liniște
+proiecte de grup cu universul
+small talk agresiv
+vibrații fantomă de telefon
+postere motivaționale
+invitații în calendar pentru lucruri pe care le-ai refuzat deja
+oameni care dau reply-all inutil
+propria reflexie care te judecă în ușile liftului
+post-it-uri pasiv-agresive

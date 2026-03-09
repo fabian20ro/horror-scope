@@ -62,6 +62,20 @@
 **Insight:** When doubling Romanian grammar data, the variant symbol pattern (`symbolTa`, `dispozitivulTau`, `obiectCuArticol`, `obiectMisterios`) creates a multiplicative burden — each new `obiect` entry requires corresponding entries in 3 variant sections with correct articles, possessives, and adjective positions. Planning the base entries first then systematically generating variants is more reliable than trying to write all 4 in parallel.
 **Promoted to Lessons Learned:** No
 
+### [2026-03-10] Refactor grammar loader to use `@from` + letter-range file splitting
+
+**Context:** The data files (`en.txt`, `ro.txt`) grew to ~1000+ lines each after doubling entries. Managing them became difficult. User requested splitting them into 300-500 line chunks using a new `@from <file> import *` syntax where imported files contain entire sections, allowing parallel loading.
+**What happened:** 
+1. Rewrote `grammar-loader.ts` to support `@from` directives at the top level of the file instead of per-section `@include`. The loader now parses the main file to find all imports, fetches them in `Promise.all` parallel, parses them with the same function, and merges all sections together.
+2. Rewrote `validate-grammar.mjs` and `grammar-loader.test.ts` to mirror this logic, including tests for merging duplicate sections across files.
+3. Wrote a Python script to split the data files automatically:
+   - Kept "structural" sections (e.g. `origin`, `opening`, `prediction`, `consequence`, `advice`) in the main `en.txt`/`ro.txt`.
+   - Moved "vocabulary" sections into letter-range sub-files (e.g. `ro/a-c.txt`, `ro/d-l.txt`, `ro/m-p.txt`, `ro/r-w.txt`) to keep chunks under 500 lines.
+4. `npm run validate:grammar` passed successfully on the split data.
+**Outcome:** Success — loading is now parallelized and data files are modularly split by letter range. Note: `vitest` unit tests couldn't be run because of persistent network/NPM offline issues (`ENOTFOUND registry.npmjs.org`), but local validation passed.
+**Insight:** Separating structural text generation templates from raw vocabulary lists makes the data much more maintainable. The top-level import model is both simpler to parse and faster to load than the older per-section nested include model.
+**Promoted to Lessons Learned:** No
+
 <!-- New entries above this line, most recent first -->
 
 ### [2026-03-09] Fix Romanian agreement/uppercase issues + light theme contrast/header spacing

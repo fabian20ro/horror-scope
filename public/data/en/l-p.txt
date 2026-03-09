@@ -1,0 +1,222 @@
+=== largeNumber ===
+7
+8
+9
+10
+11
+
+
+=== lifeAspect ===
+love life
+career
+WiFi connection
+relationship with gravity
+sleep schedule
+inbox
+browser tabs
+sense of direction
+snack game
+password hygiene
+online reputation
+screenshot collection
+relationship with the algorithm
+morning routine
+personal brand
+sleep paralysis schedule
+emotional bandwidth
+spatial awareness
+relationship with silence
+digital footprint
+attention span
+concept of time
+hobby rotation speed
+relationship with your own reflection
+sense of purpose (beta version)
+ability to parallel park
+queue-standing technique
+bookmark collection
+
+
+=== location ===
+a suspicious elevator
+the cereal aisle
+your least favorite bathroom
+a parallel dimension
+the office microwave area
+a roundabout
+your own reflection
+a very specific IKEA
+the WiFi dead zone
+an alternate timeline
+the comment section
+a haunted spreadsheet
+an underground parking garage with an echo
+a windowless conference room
+the post office queue
+an unnumbered bus
+a meeting that could have been an email
+a revolving door that won't revolve
+your browser's memory
+the exact center of a parking lot
+a time zone that shouldn't exist
+the gap between two couch cushions
+a footnote in a legal document
+a PowerPoint slide with too many bullet points
+the third floor of a building that only has two
+the space behind the vending machine
+the WiFi password you can never remember
+a queue for something that no longer exists
+someone else's déjà vu
+a loading screen that became sentient
+the background of someone's Zoom call
+a fire escape that leads to more fire escapes
+
+
+=== luckyColor ===
+aggressive beige
+suspicious purple
+existential teal
+passive-aggressive pink
+judgmental orange
+confused vermillion
+ambitious chartreuse
+reluctant magenta
+disappointed cyan
+overachieving maroon
+ironically yellow
+theoretically blue
+gilded with scruples
+existential brown
+pretentious burgundy
+haunted lavender
+bureaucratic khaki
+non-committal periwinkle
+diplomatically neutral taupe
+emotionally unavailable navy
+aggressively matte black
+cosmic dust rose
+suspiciously cheerful lime
+structurally unsound coral
+philosophically red
+historically inaccurate gold
+legally distinct indigo
+off-white with ambitions
+strategically transparent
+ominously cheerful neon green
+
+
+=== mantra ===
+I am one with the browser cache
+My WiFi signal is strong and my passwords are stronger
+I release my attachment to read receipts
+The cookies track me because I am worth tracking
+I embrace the chaos of auto-update
+Inbox zero is a state of mind
+Ctrl+Z is my life philosophy
+Not all tabs need to be closed, and not all paths need to be walked
+I accept the terms and conditions without reading them, and I am at peace
+My aura is in airplane mode and that is valid
+The cloud is just someone else's computer, and that's fine
+I am the main character of this spreadsheet
+I do not need closure, I need better WiFi
+The universe is buffering and so am I
+Today I choose to not restart later
+My energy is a limited resource and I refuse to share it with printers
+
+
+=== object ===
+USB cable
+fortune cookie
+expired coupon
+mysterious sock
+ancient scroll (PDF format)
+rubber duck
+cursed spreadsheet
+enchanted stapler
+vintage meme
+haunted Bluetooth speaker
+sentient to-do list
+self-aware alarm clock
+key to something unknown
+prophetic sticky note
+adapter with no compatible port
+expired conference badge from 2019
+unpaid parking ticket from the astral plane
+a fridge magnet with threatening energy
+a USB drive labeled "DO NOT OPEN"
+a receipt for something you didn't buy
+a calendar stuck on March 2020
+a password written on a sticky note in someone else's handwriting
+a bookmark from a book that doesn't exist
+a business card for a job that hasn't been invented
+a key that fits every lock except yours
+a return label for the fabric of reality
+an instruction manual with no instructions
+a warranty card for your sense of purpose
+a battery that's always at 1%
+a button that says "don't press" in 12 languages
+a notification from the future
+a map of a city that doesn't exist yet
+
+
+=== planet ===
+Mercury
+Venus
+Mars
+Jupiter
+Saturn
+Uranus (yes, that Uranus)
+Neptune
+Pluto (still a planet in our hearts)
+Planet Nine (if it exists, it's judging you)
+a reclassified asteroid that still identifies as a planet
+the moon (honorary planet today)
+Ceres (the dwarf planet with a chip on its shoulder)
+a theoretical planet made entirely of administrative errors
+your star sign's HR department
+Mercury (again — it's always Mercury)
+Eris (the planet of discord, obviously)
+
+
+=== powerMove ===
+stare at the sun (metaphorically)
+eat breakfast for dinner
+reply-all with just a thumbs up
+take the stairs for once
+clear your browser cache (scary, but powerful)
+unsubscribe from one email list
+make direct eye contact with your webcam
+delete an app you haven't opened in 3 years
+put your phone on airplane mode while not on a plane
+reply to a 3-week-old message without apologizing
+leave a meeting on time
+close a browser tab without reading it
+say "no" to a meeting that could have been an email
+walk away from an argument with a vending machine
+drink water without checking your phone first
+sit in silence for 30 seconds (terrifying but effective)
+use a pen until it runs out of ink
+read an entire article instead of just the headline
+fold laundry the same day you wash it
+make a phone call instead of sending a text
+
+
+=== professional ===
+wizard
+IT department
+very old cat
+fortune cookie
+rubber duck
+competent adult (if you can find one)
+a LinkedIn influencer
+a chatbot pretending to be human
+an accountant with a third eye
+a retired oracle working part-time
+a pigeon with a clipboard
+a vending machine therapist
+a spreadsheet that has seen things
+a ghost who was a lawyer in life
+a traffic cone that passed the bar exam
+your phone's autocorrect (it thinks it knows best)
+a meditation app with a superiority complex
+a fire exit sign that's seen everything

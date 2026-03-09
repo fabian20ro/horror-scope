@@ -1,0 +1,289 @@
+=== mancare ===
+toast artizanal
+sushi suspect
+hummus bântuit
+espresso existențial
+paste pasiv-agresive
+mango melodramatic
+brânză conspiratoare
+edamame iluminat
+budincă de vanilie răzbunătoare
+pizza filozofică
+sarmale cosmice
+mici transcendentali
+papanași profetici
+ciorbă de burtă profetică
+covrigi cu destin
+gogoși conspirative
+clătite interdimensionale
+borș birocratic
+covrig cu conștiință de sine
+tacos încărcate emoțional
+un cruton cu autoritate
+supă diplomatic neutră
+terci agresiv de simplu
+croissant structural nesigur
+un sandwich care știe prea multe
+ramen supracalificat
+o brioșă la al doilea job
+cereale deconstruite
+granola care te judecă
+cârnați ambigui etic
+un smoothie cu o agendă
+pâine prăjită care a renunțat
+tăiței instant paradoxali
+popcorn de microunde cu probleme de încredere
+
+
+=== mantra ===
+Sunt una cu cache-ul browserului
+Semnalul meu WiFi e puternic și parolele mele și mai puternice
+Renunț la atașamentul față de confirmările de citire
+Cookie-urile mă urmăresc pentru că merit urmărit
+Îmbrățișez haosul auto-update-ului
+Inbox zero e o stare de spirit
+Ctrl+Z este filosofia mea de viață
+Nu toate tab-urile trebuie închise, și nici toate drumurile parcurse
+Accept termenii și condițiile fără să le citesc și sunt în pace
+Aura mea e pe modul avion și asta e valid
+Cloud-ul e doar calculatorul altcuiva și asta e ok
+Sunt personajul principal al acestui spreadsheet
+Nu am nevoie de închidere, am nevoie de WiFi mai bun
+Universul face buffering și eu la fel
+Azi aleg să nu repornesc mai târziu
+Energia mea e o resursă limitată și refuz să o împart cu imprimantele
+
+
+=== miscarePutere ===
+privește soarele (metaforic)
+mănâncă micul dejun la cină
+răspunde la reply-all doar cu un deget mare în sus
+ia scările pentru o dată
+golește cache-ul browserului (înfricoșător, dar puternic)
+dezabonează-te de la o listă de emailuri
+privește direct în webcam
+șterge o aplicație pe care n-ai deschis-o de 3 ani
+pune telefonul pe modul avion fără să fii în avion
+răspunde la un mesaj vechi de 3 săptămâni fără scuze
+pleacă din ședință la timp
+închide un tab fără să-l citești
+spune „nu" unei ședințe care putea fi un email
+pleacă de la o ceartă cu un automat de vânzare
+bea apă fără să-ți verifici telefonul
+stai în liniște 30 de secunde (terifiant, dar eficient)
+folosește un pix până se termină cerneala
+citește un articol întreg, nu doar titlul
+împătură rufele în aceeași zi în care le-ai spălat
+sună pe cineva în loc să trimiți un mesaj
+
+
+=== numarMare ===
+7
+8
+9
+10
+11
+
+
+=== numarMic ===
+1
+2
+3
+4
+5
+
+
+=== obiect ===
+cablu USB
+biscuit cu mesaj
+cupon expirat
+șosetă misterioasă
+pergament antic (format PDF)
+rățușcă de cauciuc
+tabel Excel blestemat
+capsator fermecat
+memă vintage
+difuzor Bluetooth bântuit
+listă de sarcini conștientă
+ceas deșteptător care se cunoaște pe sine
+cheie de la ceva necunoscut
+post-it profetic
+adaptor fără priză compatibilă
+badge expirat de la o conferință din 2019
+amendă de parcare neplătită din planul astral
+magnet de frigider cu energie amenințătoare
+stick USB etichetat „NU DESCHIDE"
+chitanță pentru ceva ce n-ai cumpărat
+calendar blocat pe martie 2020
+parolă scrisă pe un post-it cu scrisul altcuiva
+semn de carte dintr-o carte care nu există
+carte de vizită pentru un job care n-a fost inventat
+cheie care intră în orice lacăt în afară de al tău
+etichetă de retur pentru țesătura realității
+manual de instrucțiuni fără instrucțiuni
+certificat de garanție pentru simțul scopului
+baterie mereu la 1%
+buton care scrie „nu apăsa" în 12 limbi
+notificare din viitor
+hartă a unui oraș care nu există încă
+
+
+=== obiectCuArticol ===
+un cablu USB
+un biscuit cu mesaj
+un cupon expirat
+o șosetă misterioasă
+un pergament antic (format PDF)
+o rățușcă de cauciuc
+un tabel Excel blestemat
+un capsator fermecat
+o memă vintage
+un difuzor Bluetooth bântuit
+o listă de sarcini conștientă
+un ceas deșteptător care se cunoaște pe sine
+o cheie de la ceva necunoscut
+un post-it profetic
+un adaptor fără priză compatibilă
+un badge expirat de la o conferință din 2019
+o amendă de parcare neplătită din planul astral
+un magnet de frigider cu energie amenințătoare
+un stick USB etichetat „NU DESCHIDE"
+o chitanță pentru ceva ce n-ai cumpărat
+un calendar blocat pe martie 2020
+o parolă scrisă pe un post-it cu scrisul altcuiva
+un semn de carte dintr-o carte care nu există
+o carte de vizită pentru un job care n-a fost inventat
+o cheie care intră în orice lacăt în afară de al tău
+o etichetă de retur pentru țesătura realității
+un manual de instrucțiuni fără instrucțiuni
+un certificat de garanție pentru simțul scopului
+o baterie mereu la 1%
+un buton care scrie „nu apăsa" în 12 limbi
+o notificare din viitor
+o hartă a unui oraș care nu există încă
+
+
+=== obiectMisterios ===
+un cablu USB misterios
+un biscuit cu mesaj misterios
+un cupon expirat misterios
+o șosetă misterioasă
+un pergament antic misterios (format PDF)
+o rățușcă de cauciuc misterioasă
+un tabel Excel blestemat
+un capsator fermecat misterios
+o memă vintage misterioasă
+un difuzor Bluetooth bântuit
+o listă de sarcini conștientă misterioasă
+un ceas deșteptător misterios
+o cheie misterioasă de la ceva necunoscut
+un post-it profetic misterios
+un adaptor misterios fără priză compatibilă
+un badge misterios de la o conferință din 2019
+o amendă misterioasă de parcare din planul astral
+un magnet de frigider misterios cu energie amenințătoare
+un stick USB misterios etichetat „NU DESCHIDE"
+o chitanță misterioasă pentru ceva ce n-ai cumpărat
+un calendar misterios blocat pe martie 2020
+o parolă misterioasă pe un post-it cu scrisul altcuiva
+un semn de carte misterios dintr-o carte care nu există
+o carte de vizită misterioasă pentru un job neinventat
+o cheie misterioasă care intră în orice lacăt în afară de al tău
+o etichetă de retur misterioasă pentru țesătura realității
+un manual misterios de instrucțiuni fără instrucțiuni
+un certificat misterios de garanție pentru simțul scopului
+o baterie misterioasă mereu la 1%
+un buton misterios care scrie „nu apăsa" în 12 limbi
+o notificare misterioasă din viitor
+o hartă misterioasă a unui oraș care nu există încă
+
+
+=== parteCorp ===
+sprânceana stângă
+degetul mic de la picior
+cotul
+splina
+al treilea ochi (la figurat)
+osul amuzant
+degetele de tastat
+degetul mare de scrollat
+genunchiul drept
+lobul urechii stângi
+călcâiul stâng
+nara dominantă
+nara non-dominantă
+ceafa
+omoplatul drept
+partea de la picior pe care n-o poți scărpina
+glezna care găsește mereu mobilierul
+măseaua de minte (cea cu opinii)
+degetul cu care arăți
+maxilarul (în timpul ședințelor importante)
+genunchiul care prezice ploaia
+tragusul (caută pe Google)
+
+// parteCorp with correct possessive pronoun (ta/tău/tale) embedded
+
+=== parteCorpTa ===
+sprânceana ta stângă
+degetul tău mic de la picior
+cotul tău
+splina ta
+al treilea ochi al tău (la figurat)
+osul tău amuzant
+degetele tale de tastat
+degetul tău mare de scrollat
+genunchiul tău drept
+lobul tău al urechii stângi
+călcâiul tău stâng
+nara ta dominantă
+nara ta non-dominantă
+ceafa ta
+omoplatul tău drept
+partea de la picior pe care n-o poți scărpina
+glezna ta care găsește mereu mobilierul
+măseaua ta de minte (cea cu opinii)
+degetul tău cu care arăți
+maxilarul tău (în timpul ședințelor importante)
+genunchiul tău care prezice ploaia
+tragusul tău (caută pe Google)
+
+
+=== planeta ===
+Mercur
+Venus
+Marte
+Jupiter
+Saturn
+Uranus (da, acel Uranus)
+Neptun
+Pluto (încă o planetă în inimile noastre)
+Planeta Nouă (dacă există, te judecă)
+un asteroid reclasificat care încă se identifică drept planetă
+luna (planetă onorifică azi)
+Ceres (planeta pitică cu un complex de inferioritate)
+o planetă teoretică făcută integral din erori administrative
+departamentul de HR al semnului tău zodiacal
+Mercur (din nou — mereu e Mercur)
+Eris (planeta discordiei, evident)
+
+
+=== profesionist ===
+vrăjitor
+departamentul IT
+pisică foarte bătrână
+biscuit cu mesaj
+rățușcă de cauciuc
+adult competent (dacă găsești vreunul)
+un influencer de LinkedIn
+un chatbot care pretinde că e om
+un contabil cu al treilea ochi
+un oracol pensionar care lucrează part-time
+un porumbel cu clipboard
+un terapeut automat de vânzare
+un spreadsheet care a văzut multe
+o fantomă care a fost avocat în viață
+un con de trafic care a trecut de baroul de avocați
+autocorrect-ul telefonului tău (crede că știe mai bine)
+o aplicație de meditație cu complex de superioritate
+un indicator de ieșire de urgență care a văzut totul

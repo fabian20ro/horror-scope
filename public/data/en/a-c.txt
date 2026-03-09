@@ -1,0 +1,372 @@
+=== accident ===
+invent a new dance move during a video call
+speak fluent whale for exactly 4 seconds
+become a meme in a parallel universe
+solve a math problem that doesn't exist
+high-five a stranger's reflection
+send a text to the wrong universe
+convince a printer to work without a driver
+deploy on Friday
+discover you hit reply-all on that email
+accidentally create a programming language
+forge a new trade agreement with a vending machine
+overthrow a small government by sneezing
+patent an emotion
+start a philosophical debate with a traffic light
+get quoted in a newspaper from the future
+become the CEO of an empty room
+fix the WiFi by looking at it threateningly
+write a breakup letter to your alarm clock
+solve world hunger but only for pigeons
+file a noise complaint against your own thoughts
+
+
+=== adjective ===
+suspicious
+magnificent
+haunted
+mildly cursed
+glittery
+overqualified
+dramatic
+aggressively beige
+reluctantly magical
+chaotically neutral
+grumpy
+unexpectedly polite
+suspiciously calm
+bureaucratically charged
+emotionally unavailable
+structurally questionable
+diplomatically furious
+passively omniscient
+legally distinct
+somewhat sentient
+ominously cheerful
+philosophically aggressive
+historically inaccurate
+deeply administrative
+moderately forbidden
+cosmically irrelevant
+
+
+=== adverb ===
+suspiciously
+aggressively
+with great ceremony
+in complete darkness
+while humming
+with your non-dominant hand
+backward
+with unearned confidence
+while avoiding eye contact
+extremely politely
+without blinking
+with visible reluctance
+in slow motion
+while narrating your own actions
+with an audience of exactly one pigeon
+as if being watched by a documentary crew
+while questioning every life choice
+at an angle that makes people uncomfortable
+with the energy of someone who just woke up
+ironically but also sincerely
+in alphabetical order for some reason
+while pretending it's the first time
+
+
+=== animalAction ===
+nods approvingly from the shadows
+is judging your life choices right now
+has left you a cryptic voicemail
+wants you to know it believes in you (mostly)
+is planning something — unclear if good or bad
+sends its regards from a parallel dimension
+is compiling a detailed report about you
+has started a podcast about you without your consent
+has changed its Bluetooth name to something suspicious
+just unfollowed you on all platforms
+is writing a strongly worded letter to the cosmos on your behalf
+has submitted a formal request to be reassigned
+is negotiating with #planet# about your fate
+has been promoted to your spiritual manager
+refuses to comment at this time
+is leaving a Yelp review about your energy
+has filed your destiny under "pending"
+is live-tweeting your decisions with commentary
+
+
+=== avoidance ===
+eye contact with pigeons
+round foods
+anyone named Steve
+escalators
+thinking about the future
+left turns
+the color beige
+rhetorical questions
+elevators with mirrors
+eating nachos in public
+reading terms and conditions
+manual software updates
+people who say "per my last email"
+loading bars
+your own middle name
+rooms with exactly four chairs
+clocks that tick audibly
+anyone carrying a clipboard
+sentences that start with "actually"
+the second floor in general
+people who fold pizza
+conversations about the weather that go too deep
+the specific font Comic Sans
+any email with "quick question" in the subject
+
+
+=== badThing ===
+minor inconveniences
+unexpected software updates
+passive-aggressive emails
+rogue autocorrect
+slow WiFi
+surprise meetings
+existential dread
+notifications at inappropriate hours
+eerily accurate targeted ads
+real-life 404 errors
+meetings that could have been emails
+emails that should have been silence
+group projects with the universe
+aggressive small talk
+phantom phone vibrations
+motivational posters
+calendar invites for things you already declined
+people who reply-all unnecessarily
+your own reflection judging you in elevator doors
+passive-aggressive post-it notes
+
+
+=== bodyPart ===
+left eyebrow
+pinky toe
+elbow
+spleen
+third eye (figurative)
+funny bone
+typing fingers
+scrolling thumb
+right knee
+left earlobe
+left heel
+dominant nostril
+non-dominant nostril
+the back of your neck
+right shoulder blade
+the part of your foot you can never scratch
+the ankle that always finds furniture
+your wisdom tooth (the opinionated one)
+the finger you point with
+your jaw (during important meetings)
+the knee that predicts rain
+your tragus (look it up)
+
+
+=== bodyPartAction ===
+glowing faintly
+humming a tune from 2007
+vibrating at a suspicious frequency
+predicting the weather
+speaking in binary
+doing its own thing
+making a dial-up sound
+becoming temporarily invisible
+communicating in Morse code
+downloading something
+composing a formal letter
+rendering at low resolution
+buffering
+broadcasting on an unregistered frequency
+filing a tax return
+generating its own WiFi signal
+vibrating in disagreement
+reciting poetry in an unknown language
+attempting to pair via Bluetooth
+
+
+=== celebrity ===
+a hologram of Nicolas Cage
+the ghost of your first email account
+a very confident pigeon
+your browser's autofill
+the concept of Monday
+a suspiciously friendly algorithm
+your WiFi router's spirit
+the collective consciousness of all captchas
+an alternate version of you from a parallel universe
+someone's umbrella that no longer exists
+your old MySpace account
+a crow with opinions about software architecture
+the last voicemail you never listened to
+a Roomba that gained sentience during lockdown
+your unfinished novel (it's disappointed)
+the terms and conditions you never read
+a printer that remembers every paper jam
+the ghost of a Tamagotchi you forgot to feed
+a LinkedIn connection you don't recognize
+your future self (they seem tired)
+a parking meter with a philosophy blog
+the algorithm that decides your targeted ads
+a smoke detector with abandonment issues
+the concept of "later" (it's impatient)
+
+
+=== color ===
+aggressive beige
+suspicious purple
+existential teal
+passive-aggressive pink
+judgmental orange
+confused vermillion
+ambitious chartreuse
+reluctant magenta
+disappointed cyan
+overachieving maroon
+ironically yellow
+blue with regrets
+pretentious gray
+haunted lavender
+bureaucratic khaki
+emotionally unavailable navy
+diplomatically neutral taupe
+structurally unsound coral
+philosophically red
+suspiciously cheerful lime
+legally distinct indigo
+historically inaccurate gold
+non-committal periwinkle
+aggressively matte black
+cosmic dust rose
+off-white with ambitions
+
+
+=== compatibility ===
+Most compatible with fellow #spiritAnimal# souls today.
+Seek out people whose screens are bigger than yours.
+Avoid anyone whose phone battery is below 20%.
+Best cosmic match: someone who also uses #signName# energy.
+Your aura clashes with people who use light mode. Proceed with caution.
+Maximum compatibility with someone whose WiFi password has 20+ characters.
+Avoid anyone who puts pineapple on pizza — vibes are incompatible.
+Ideal: someone who uses dark mode and consumes #food# #adverb#.
+Most compatible with anyone whose #device# is also #bodyPartAction#.
+Seek people who have closed at least one browser tab today.
+Avoid anyone who answers calls on speakerphone in public.
+Your aura harmonizes with people who read the entire email before replying.
+Best match: someone whose spirit #creature# also has strong opinions.
+Compatible with anyone who has apologized to a #device# this week.
+Avoid eye contact with anyone wearing #color# — cosmic static.
+The universe ships you with someone who also avoids #avoidance#.
+
+
+=== cosmicBody ===
+stars
+moon
+asteroid
+comet
+black hole
+nebula
+cosmic dust bunny
+rogue satellite
+a meteorite with attitude
+a disgruntled dwarf star
+Orion's Belt (the buckle part)
+a very small galaxy having a bad day
+the cosmic background radiation (it's passive-aggressive)
+a pulsar with a grudge
+Saturn's least favorite ring
+a quasar going through something
+the dark side of a moon you've never heard of
+an interstellar parking violation
+the Milky Way's suggestion box
+a planet that got demoted and is still upset about it
+a neutron star on decaf
+the quiet part of the Big Bang
+
+
+=== coworkerReaction ===
+pretend not to notice
+start a support group
+write a Slack message about it
+blame the intern
+schedule a meeting about it
+update their LinkedIn
+make a meme about it
+send a "Best regards, but not really" email
+try to include you in a side project
+request a mental health day
+create a shared document to process their feelings
+send an anonymous survey
+file it under "not my problem"
+add it to the retrospective
+form a committee to investigate
+schedule a 1:1 to discuss "the vibe"
+change their Slack status to something passive-aggressive
+bring it up at standup three weeks later
+pretend they predicted it all along
+cc upper management "just for visibility"
+
+
+=== creature ===
+unicorn
+dragon
+phoenix
+kraken
+goblin
+sphinx
+yeti
+mothman
+chupacabra
+drop bear
+jackalope
+platypus wizard
+gremlin
+basilisk
+chimera
+minotaur
+sentient fog
+bureaucratic hydra
+emotionally complex troll
+griffin with anxiety
+domesticated thunderbird
+tax-exempt pegasus
+philosophical werewolf
+polite banshee
+kraken middle manager
+centaur life coach
+dragon with a restraining order
+miniature colossus
+invisible yeti (allegedly)
+hypoallergenic basilisk
+retired sphinx
+vegan vampire
+
+
+=== creatureAdvice ===
+offer it a snack
+challenge it to a staring contest
+ask it about the meaning of life
+slowly back away while complimenting its horns
+pretend you didn't see it — it hates attention
+take a selfie — no one will believe you anyway
+take a bow — it appreciates manners
+offer it someone else's business card
+ask for its autograph — it'll be flattered
+give it a firm handshake and maintain eye contact
+tell it your WiFi password as a sign of trust
+ask if it validates parking
+offer it a seat — it's been standing for centuries
+ask for a receipt — always get a receipt
+read it your horoscope — it loves the irony
+offer it a coffee — decaf, it's already agitated
+ask for its LinkedIn — networking never sleeps
+challenge it to a thumb war for dominance
