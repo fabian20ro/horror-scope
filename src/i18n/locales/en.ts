@@ -6,7 +6,7 @@ export const en: LocalePack = {
   ui: {
     title: 'Horror-Scope',
     subtitle: 'Your Browser Knows Your Destiny',
-    yourSign: 'Your Sign',
+    yourSign: 'Your sign for today',
     dailyHoroscope: "Today's Horror-Scope",
     luckyNumber: 'Lucky Number',
     luckyColor: 'Lucky Color',

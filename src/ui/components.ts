@@ -15,30 +15,42 @@ function el<K extends keyof HTMLElementTagNameMap>(
   return e;
 }
 
+const LANG_FLAGS: Record<string, string> = {
+  en: '\u{1F1EC}\u{1F1E7}',
+  ro: '\u{1F1F7}\u{1F1F4}',
+};
+
+export function createTopBar(
+  locales: LocalePack[],
+  currentLangId: string,
+  onLanguageChange: (id: string) => void,
+  isDark: boolean,
+  onThemeToggle: () => void,
+): HTMLElement {
+  const bar = el('div', 'top-bar');
+
+  // Language toggle button (shows flag of OTHER language to switch to)
+  const otherLocale = locales.find((l) => l.id !== currentLangId) ?? locales[0];
+  const langBtn = el('button', 'top-bar__btn', LANG_FLAGS[otherLocale.id] ?? otherLocale.name);
+  langBtn.setAttribute('aria-label', `Switch to ${otherLocale.name}`);
+  langBtn.addEventListener('click', () => onLanguageChange(otherLocale.id));
+
+  // Theme toggle button
+  const themeBtn = el('button', 'top-bar__btn', isDark ? '\u2600\uFE0F' : '\u{1F319}');
+  themeBtn.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+  themeBtn.addEventListener('click', onThemeToggle);
+
+  bar.append(langBtn, themeBtn);
+  return bar;
+}
+
 export function createHeader(ui: UIStrings): HTMLElement {
   const header = el('header', 'header');
-  const deco = el('div', 'header__stars', '✦ ☽ ✧ ☆ ✦');
+  const deco = el('div', 'header__stars', '\u2726 \u263D \u2727 \u2606 \u2726');
   const title = el('h1', 'header__title', ui.title);
   const subtitle = el('p', 'header__subtitle', ui.subtitle);
   header.append(deco, title, subtitle);
   return header;
-}
-
-export function createLanguageSwitcher(
-  locales: LocalePack[],
-  currentId: string,
-  onChange: (id: string) => void,
-): HTMLElement {
-  const nav = el('nav', 'lang-switcher');
-  nav.setAttribute('aria-label', 'Language');
-  for (const locale of locales) {
-    const btn = el('button', 'lang-btn', locale.name);
-    btn.setAttribute('aria-pressed', String(locale.id === currentId));
-    if (locale.id === currentId) btn.classList.add('lang-btn--active');
-    btn.addEventListener('click', () => onChange(locale.id));
-    nav.appendChild(btn);
-  }
-  return nav;
 }
 
 export function createSignCard(
@@ -47,17 +59,17 @@ export function createSignCard(
   onRandomize: () => void,
 ): HTMLElement {
   const card = el('section', 'card sign-card');
-  const symbol = el('div', 'sign-card__symbol', horoscope.signSymbol);
   const label = el('div', 'sign-card__label', ui.yourSign);
 
   const nameRow = el('div', 'sign-card__name-row');
-  const name = el('div', 'sign-card__name', ui.signNames[horoscope.sign]);
+  const symbol = el('span', 'sign-card__symbol', horoscope.signSymbol);
+  const name = el('span', 'sign-card__name', ui.signNames[horoscope.sign]);
   const diceBtn = el('button', 'sign-card__randomize', '\u{1F3B2}');
   diceBtn.setAttribute('aria-label', ui.randomizeSign);
   diceBtn.addEventListener('click', onRandomize);
-  nameRow.append(name, diceBtn);
+  nameRow.append(symbol, name, diceBtn);
 
-  card.append(symbol, label, nameRow);
+  card.append(label, nameRow);
   return card;
 }
 
@@ -71,14 +83,14 @@ export function createHoroscopeCard(
   const heading = el('h2', 'horoscope-card__heading', ui.dailyHoroscope);
 
   const copyBtn = createActionButton({
-    icon: '⧉',
-    feedbackIcon: '✓',
+    icon: '\u29C9',
+    feedbackIcon: '\u2713',
     ariaLabel: ui.copyHoroscope,
     onClick: () => copyToClipboard(horoscope.text),
   });
 
   const aiBtn = createActionButton({
-    icon: '→',
+    icon: '\u2192',
     ariaLabel: ui.interpretWithAI,
     onClick: () => {
       const url = buildGoogleAIUrl(ui.aiInterpretQuery + horoscope.text);
@@ -126,7 +138,7 @@ export function createDivinationPanel(
   const section = el('section', 'card divination-card');
   const heading = el('h3', 'divination-card__heading', ui.browserDivination);
 
-  const toggle = el('button', 'divination-card__toggle', '▼');
+  const toggle = el('button', 'divination-card__toggle', '\u25BC');
   toggle.setAttribute('aria-expanded', 'false');
   toggle.setAttribute('aria-label', 'Toggle divination details');
   heading.appendChild(toggle);
@@ -145,7 +157,7 @@ export function createDivinationPanel(
   toggle.addEventListener('click', () => {
     const expanded = list.classList.toggle('divination-card__list--collapsed');
     toggle.setAttribute('aria-expanded', String(!expanded));
-    toggle.textContent = expanded ? '▼' : '▲';
+    toggle.textContent = expanded ? '\u25BC' : '\u25B2';
   });
 
   section.append(heading, list);
@@ -154,7 +166,7 @@ export function createDivinationPanel(
 
 export function createFooter(ui: UIStrings): HTMLElement {
   const footer = el('footer', 'footer');
-  const gen = el('p', 'footer__generated', `✧ ${ui.generatedBy} ✧`);
+  const gen = el('p', 'footer__generated', `\u2727 ${ui.generatedBy} \u2727`);
   const disc = el('p', 'footer__disclaimer', ui.footer);
 
   const badgeLink = document.createElement('a');

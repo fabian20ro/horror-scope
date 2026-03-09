@@ -4,7 +4,7 @@ import type { LocalePack } from '../i18n/types.ts';
 import { getAvailableLocales } from '../i18n/index.ts';
 import {
   createHeader,
-  createLanguageSwitcher,
+  createTopBar,
   createSignCard,
   createHoroscopeCard,
   createRegenerateButton,
@@ -20,6 +20,8 @@ export function render(
   onLanguageChange: (id: string) => void,
   onRegenerate: () => void,
   onRandomize: () => void,
+  isDark: boolean,
+  onThemeToggle: () => void,
 ): void {
   container.innerHTML = '';
   container.className = 'app';
@@ -27,10 +29,10 @@ export function render(
   const wrapper = document.createElement('div');
   wrapper.className = 'app__wrapper';
 
-  wrapper.appendChild(createHeader(locale.ui));
   wrapper.appendChild(
-    createLanguageSwitcher(getAvailableLocales(), locale.id, onLanguageChange),
+    createTopBar(getAvailableLocales(), locale.id, onLanguageChange, isDark, onThemeToggle),
   );
+  wrapper.appendChild(createHeader(locale.ui));
   wrapper.appendChild(createSignCard(horoscope, locale.ui, onRandomize));
   wrapper.appendChild(createHoroscopeCard(horoscope, locale.ui));
   wrapper.appendChild(createRegenerateButton(locale.ui, onRegenerate));
