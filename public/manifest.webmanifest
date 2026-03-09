@@ -1,0 +1,18 @@
+{
+  "name": "Horror-Scope",
+  "short_name": "Horror-Scope",
+  "start_url": "/horror-scope/",
+  "scope": "/horror-scope/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0f1a3d",
+  "description": "Your Browser Knows Your Destiny",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

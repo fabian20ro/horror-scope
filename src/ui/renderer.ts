@@ -30,7 +30,7 @@ export function render(
   wrapper.className = 'app__wrapper';
 
   wrapper.appendChild(
-    createTopBar(getAvailableLocales(), locale.id, onLanguageChange, isDark, onThemeToggle),
+    createTopBar(getAvailableLocales(), locale.id, locale.ui, onLanguageChange, isDark, onThemeToggle),
   );
   wrapper.appendChild(createHeader(locale.ui));
   wrapper.appendChild(createSignCard(horoscope, locale.ui, onRandomize));

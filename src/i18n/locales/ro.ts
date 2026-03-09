@@ -19,6 +19,10 @@ export const ro: LocalePack = {
     copiedHoroscope: 'Copiat!',
     interpretWithAI: 'Interpretează cu AI',
     aiInterpretQuery: 'interpretează această predicție a horoscopului de azi: ',
+    switchToLanguageLabel: 'Schimbă în {language}',
+    switchToLightTheme: 'Comută la tema luminoasă',
+    switchToDarkTheme: 'Comută la tema întunecată',
+    toggleDivinationDetails: 'Comută detaliile divinației',
     generatedBy: 'Ghicit din API-urile ancestrale ale browserului',
     footer:
       'Niciun corp ceresc nu a fost consultat. Browserul tău te-a dat de gol de bunăvoie.',

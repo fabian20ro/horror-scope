@@ -19,6 +19,10 @@ export const en: LocalePack = {
     copiedHoroscope: 'Copied!',
     interpretWithAI: 'Interpret with AI',
     aiInterpretQuery: 'interpret this horoscope prediction for today: ',
+    switchToLanguageLabel: 'Switch to {language}',
+    switchToLightTheme: 'Switch to light theme',
+    switchToDarkTheme: 'Switch to dark theme',
+    toggleDivinationDetails: 'Toggle divination details',
     generatedBy: 'Divined from ancient browser APIs',
     footer:
       'No actual celestial bodies were consulted. Your browser gave you up voluntarily.',

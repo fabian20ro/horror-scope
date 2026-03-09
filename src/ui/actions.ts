@@ -2,7 +2,7 @@ export interface ActionButtonOptions {
   icon: string;
   feedbackIcon?: string;
   ariaLabel: string;
-  onClick: () => void;
+  onClick: () => void | Promise<boolean>;
 }
 
 export function createActionButton(options: ActionButtonOptions): HTMLButtonElement {
@@ -11,9 +11,9 @@ export function createActionButton(options: ActionButtonOptions): HTMLButtonElem
   btn.textContent = options.icon;
   btn.setAttribute('aria-label', options.ariaLabel);
   btn.setAttribute('title', options.ariaLabel);
-  btn.addEventListener('click', () => {
-    options.onClick();
-    if (options.feedbackIcon) {
+  btn.addEventListener('click', async () => {
+    const result = await options.onClick();
+    if (options.feedbackIcon && result !== false) {
       btn.textContent = options.feedbackIcon;
       btn.classList.add('action-btn--feedback');
       setTimeout(() => {

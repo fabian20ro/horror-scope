@@ -38,4 +38,12 @@
 
 ---
 
+### [2026-03-09] Reliability + i18n accessibility + PWA hardening
+
+**Context:** Implement fixes 1, 2, 3, 5, and 6: startup failure handling, truthful copy feedback, localized accessibility labels, real PWA support, and build-time grammar integrity enforcement for both locales.
+**What happened:** Added startup `loadAllGrammars()` error fallback with retry in `src/main.ts`; made action buttons await async outcomes and only show success feedback when the result is not false; localized aria-label strings by extending `UIStrings` and wiring `createTopBar`/`createDivinationPanel` to locale text; added `public/manifest.webmanifest`, `public/sw.js`, and service worker registration; introduced `scripts/validate-grammar.mjs` that recursively validates symbol references from roots and enforces minimum 5 entries per symbol for `en`/`ro`, then wired it into `build` via `npm run validate:grammar && tsc && vite build`. Updated/added tests in UI suites for new behavior.
+**Outcome:** Success — `npm test`, `npm run validate:grammar`, and `npm run build` all pass.
+**Insight:** Recursive grammar validation must account for runtime-injected symbols (e.g., `signName`, divination symbols) or it will incorrectly fail static checks for unresolved references.
+**Promoted to Lessons Learned:** No
+
 <!-- New entries above this line, most recent first -->

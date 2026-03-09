@@ -1,6 +1,12 @@
 // @vitest-environment jsdom
 import { describe, it, expect, vi } from 'vitest';
-import { createRegenerateButton, createHoroscopeCard, createSignCard } from './components.ts';
+import {
+  createRegenerateButton,
+  createHoroscopeCard,
+  createSignCard,
+  createTopBar,
+  createDivinationPanel,
+} from './components.ts';
 import type { UIStrings } from '../i18n/types.ts';
 import type { Horoscope } from '../horoscope/generator.ts';
 
@@ -20,6 +26,10 @@ const minimalUi: UIStrings = {
   copiedHoroscope: 'Copied!',
   interpretWithAI: 'Interpret',
   aiInterpretQuery: 'interpret this: ',
+  switchToLanguageLabel: 'Switch to {language}',
+  switchToLightTheme: 'Switch to light theme',
+  switchToDarkTheme: 'Switch to dark theme',
+  toggleDivinationDetails: 'Toggle divination details',
   generatedBy: 'G',
   footer: 'F',
   signNames: {
@@ -29,6 +39,11 @@ const minimalUi: UIStrings = {
   },
   divinationLabels: {},
 };
+
+const locales = [
+  { id: 'en', name: 'English', ui: minimalUi, grammar: {} },
+  { id: 'ro', name: 'Română', ui: minimalUi, grammar: {} },
+];
 
 const minimalHoroscope: Horoscope = {
   sign: 'aries',
@@ -128,5 +143,23 @@ describe('createHoroscopeCard', () => {
     const card = createHoroscopeCard(minimalHoroscope, minimalUi);
     const text = card.querySelector('.horoscope-card__text');
     expect(text?.textContent).toBe('You will find a mysterious sock.');
+  });
+});
+
+describe('createTopBar', () => {
+  it('uses localized aria labels for language and theme toggles', () => {
+    const bar = createTopBar(locales, 'en', minimalUi, () => {}, true, () => {});
+    const buttons = bar.querySelectorAll('button');
+
+    expect(buttons[0].getAttribute('aria-label')).toBe('Switch to Română');
+    expect(buttons[1].getAttribute('aria-label')).toBe('Switch to light theme');
+  });
+});
+
+describe('createDivinationPanel', () => {
+  it('uses localized aria label for details toggle', () => {
+    const panel = createDivinationPanel({ readings: [], fingerprint: 'f' }, minimalUi);
+    const toggle = panel.querySelector('.divination-card__toggle');
+    expect(toggle?.getAttribute('aria-label')).toBe('Toggle divination details');
   });
 });

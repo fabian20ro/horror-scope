@@ -23,6 +23,7 @@ const LANG_FLAGS: Record<string, string> = {
 export function createTopBar(
   locales: LocalePack[],
   currentLangId: string,
+  ui: UIStrings,
   onLanguageChange: (id: string) => void,
   isDark: boolean,
   onThemeToggle: () => void,
@@ -32,12 +33,15 @@ export function createTopBar(
   // Language toggle button (shows flag of OTHER language to switch to)
   const otherLocale = locales.find((l) => l.id !== currentLangId) ?? locales[0];
   const langBtn = el('button', 'top-bar__btn', LANG_FLAGS[otherLocale.id] ?? otherLocale.name);
-  langBtn.setAttribute('aria-label', `Switch to ${otherLocale.name}`);
+  langBtn.setAttribute(
+    'aria-label',
+    ui.switchToLanguageLabel.replace('{language}', otherLocale.name),
+  );
   langBtn.addEventListener('click', () => onLanguageChange(otherLocale.id));
 
   // Theme toggle button
   const themeBtn = el('button', 'top-bar__btn', isDark ? '\u2600\uFE0F' : '\u{1F319}');
-  themeBtn.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+  themeBtn.setAttribute('aria-label', isDark ? ui.switchToLightTheme : ui.switchToDarkTheme);
   themeBtn.addEventListener('click', onThemeToggle);
 
   bar.append(langBtn, themeBtn);
@@ -140,7 +144,7 @@ export function createDivinationPanel(
 
   const toggle = el('button', 'divination-card__toggle', '\u25BC');
   toggle.setAttribute('aria-expanded', 'false');
-  toggle.setAttribute('aria-label', 'Toggle divination details');
+  toggle.setAttribute('aria-label', ui.toggleDivinationDetails);
   heading.appendChild(toggle);
 
   const list = el('div', 'divination-card__list');
