@@ -41,9 +41,9 @@ pauza de cafea cosmică
 dimineața de după actualizarea de firmware
 
 === predictie ===
-Vei întâlni #intalnire# în #locatie#.
+Vei întâlni #intalnire# la #locatie#.
 #obiectMisterios.capitalize# îți va schimba #aspectViata# pentru totdeauna.
-#celebritate# îți va trimite un mesaj enigmatic despre #subiect#.
+#celebritate.capitalize# îți va trimite un mesaj enigmatic despre #subiect#.
 #parteCorpTa.capitalize# va dezvolta o afinitate ciudată pentru #mancare#.
 Stelele sugerează să eviți #evitare# cu orice preț.
 Vei #accident# din greșeală.
@@ -79,7 +79,7 @@ Dacă vezi un #creatura#, #sfatCreatura#.
 Mișcarea de putere a zilei: #miscarePutere#.
 Evită #evitare# între orele #numarMic# și #numarMare#.
 Gustarea norocoasă este #mancare#. Consumă-o #adverb#.
-Canalizează energia lui #celebritate# pentru rezultate maxime.
+Canalizează energia de la #celebritate# pentru rezultate maxime.
 #dispozitivulTau.capitalize# deține răspunsul — aruncă o privire #adverb#.
 Șoptește „#mantra#" de trei ori pentru protecție cosmică.
 Consultă un #profesionist# înainte de ora #numarMare#.
@@ -95,7 +95,7 @@ o șopârlă motivațională
 o fantomă pasiv-agresivă
 un vrăjitor confuz
 o veveriță prea entuziastă
-un parcometre filozofic
+un parcometru filozofic
 geamănul tău malefic
 un sandwich care vorbește
 un automat de cafea indisponibil emoțional
@@ -182,18 +182,18 @@ un adaptor misterios fără priză compatibilă
 un badge misterios de la o conferință din 2019
 
 === celebritate ===
-O hologramă a lui Nicolas Cage
-Fantoma primului tău cont de email
-Un porumbel foarte încrezător
-Autofill-ul browserului tău
-Conceptul de luni
-Un algoritm suspect de prietenos
-Spiritul routerului tău WiFi
-Conștiința colectivă a tuturor captcha-urilor
-O versiune alternativă a ta dintr-un univers paralel
-Umbrela cuiva care nu mai există
-Contul tău vechi de MySpace
-Un corb cu opinii despre arhitectura software
+o hologramă a lui Nicolas Cage
+fantoma primului tău cont de email
+un porumbel foarte încrezător
+autofill-ul browserului tău
+conceptul de luni
+un algoritm suspect de prietenos
+spiritul routerului tău WiFi
+conștiința colectivă a tuturor captcha-urilor
+o versiune alternativă a ta dintr-un univers paralel
+umbrela cuiva care nu mai există
+contul tău vechi de MySpace
+un corb cu opinii despre arhitectura software
 
 === creatura ===
 unicorn
