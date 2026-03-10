@@ -91,3 +91,11 @@
 **Outcome:** Success — header block now starts noticeably higher, closer to the controls row while preserving readability.
 **Insight:** When users compare hero position against fixed top controls, a subtle negative margin on the hero container can solve perceived alignment faster than only shrinking global wrapper padding.
 **Promoted to Lessons Learned:** No
+
+### [2026-03-10] Service worker cache TTL with stale refresh
+
+**Context:** User requested time-based expiration for `public/sw.js` cached responses (3-minute TTL), keeping non-GET/cross-origin bypass behavior unchanged, and bumping cache version.
+**What happened:** Updated service worker to use versioned content + metadata caches, store per-request timestamps in a dedicated metadata cache, and enforce TTL checks in the fetch handler before serving cached responses. Added stale-refresh behavior that fetches network data, replaces cache entry, and updates timestamp; added install-time timestamp population for precached assets; bumped cache versions and activate cleanup to remove old caches.
+**Outcome:** Success — implemented TTL flow with stale refresh and preserved existing bypass logic.
+**Insight:** If metadata is missing (e.g., legacy cache entries), treating the entry as stale ensures safe migration to TTL-based caching without special-case migration code.
+**Promoted to Lessons Learned:** No
