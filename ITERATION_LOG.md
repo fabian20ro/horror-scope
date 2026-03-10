@@ -91,19 +91,3 @@
 **Outcome:** Success — header block now starts noticeably higher, closer to the controls row while preserving readability.
 **Insight:** When users compare hero position against fixed top controls, a subtle negative margin on the hero container can solve perceived alignment faster than only shrinking global wrapper padding.
 **Promoted to Lessons Learned:** No
-
-### [2026-03-10] Configure 3-minute caching headers and align service worker TTL
-
-**Context:** Needed deployment/server cache policy for static assets at 180 seconds, while keeping `index.html` quick to refresh and avoiding stale behavior conflicts with the service worker.
-**What happened:** Added `public/_headers` rules to enforce `Cache-Control: public, max-age=180` for static assets/data and no-cache for `index.html` and `sw.js` on hosts that support `_headers` (e.g., Netlify/Cloudflare Pages). Added a Vite middleware plugin in `vite.config.ts` for dev/preview parity so local header behavior mirrors deployment intent. Refactored `public/sw.js` to use a 180-second TTL for static cache entries via cache metadata and switched navigation/index requests to network-first to keep HTML updates responsive.
-**Outcome:** Success — static resources now use 3-minute cache semantics, index stays low-cache/network-first, and local preview confirms the expected response headers.
-**Insight:** If HTTP caching is shortened but the service worker still uses unbounded cache-first behavior, users can still see stale assets; SW strategy must be updated alongside server headers.
-**Promoted to Lessons Learned:** No
-
-### [2026-03-10] Resolve branch conflict risk by simplifying cache header implementation
-
-**Context:** Follow-up request indicated conflict with `main` and asked to merge changes together.
-**What happened:** Kept deployment-level header rules in `public/_headers` and service-worker TTL/index strategy alignment, but removed the Vite dev/preview cache-header middleware from `vite.config.ts` to minimize overlap with likely `main` config edits and reduce merge friction.
-**Outcome:** Success — core 3-minute caching behavior remains in deployment config and SW logic, with fewer touch points likely to conflict.
-**Insight:** For merge-conflict mitigation, preserve essential runtime/deployment behavior while trimming non-essential local tooling changes in shared config files.
-**Promoted to Lessons Learned:** No
