@@ -99,3 +99,11 @@
 **Outcome:** Success — implemented TTL flow with stale refresh and preserved existing bypass logic.
 **Insight:** If metadata is missing (e.g., legacy cache entries), treating the entry as stale ensures safe migration to TTL-based caching without special-case migration code.
 **Promoted to Lessons Learned:** No
+
+### [2026-03-10] Force service-worker rollout for 3-minute file cache
+
+**Context:** User requested setting file cache duration to 3 minutes and noted earlier PR merge conflicts left implementation incomplete.
+**What happened:** Verified both static headers (`public/_headers`) and runtime service-worker TTL (`public/sw.js`) are 3 minutes (`max-age=180` and `3 * 60 * 1000`). Updated service-worker cache namespace versions from `v2` to `v3` for both content and metadata caches so clients reliably activate the 3-minute TTL behavior after update.
+**Outcome:** Success — 3-minute cache policy is now enforced with a guaranteed cache namespace bump for rollout.
+**Insight:** When cache-policy logic already exists but rollout is inconsistent, bumping cache names is the safest way to force old clients off stale cache state.
+**Promoted to Lessons Learned:** No
