@@ -91,3 +91,11 @@
 **Outcome:** Success — header block now starts noticeably higher, closer to the controls row while preserving readability.
 **Insight:** When users compare hero position against fixed top controls, a subtle negative margin on the hero container can solve perceived alignment faster than only shrinking global wrapper padding.
 **Promoted to Lessons Learned:** No
+
+### [2026-03-10] Reintroduce 3-minute runtime cache TTL to avoid stale static assets
+
+**Context:** After merging header-only changes, user asked whether 3-minute caching was actually solved and requested a follow-up PR if not.
+**What happened:** Updated `public/sw.js` to enforce a 180-second TTL for static GET requests using cache metadata timestamps and moved navigation/index handling to network-first so HTML updates are fetched fresh when online. Kept fallback-to-cache behavior for offline resilience.
+**Outcome:** Success — runtime caching now aligns with the intended 3-minute window even when host-level `_headers` support is limited.
+**Insight:** Header files like `_headers` are host-dependent; service-worker cache strategy is the reliable cross-host lever for cache lifetime behavior in PWAs.
+**Promoted to Lessons Learned:** No
