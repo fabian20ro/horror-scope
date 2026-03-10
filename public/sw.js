@@ -1,5 +1,5 @@
-const CACHE_VERSION = 'horror-scope-v2';
-const METADATA_CACHE_VERSION = 'horror-scope-meta-v2';
+const CACHE_VERSION = 'horror-scope-v3';
+const METADATA_CACHE_VERSION = 'horror-scope-meta-v3';
 const CACHE_TTL_MS = 3 * 60 * 1000;
 
 const getMetadataRequest = (request) => new Request(`${request.url}::ts`);
