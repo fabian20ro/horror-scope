@@ -1,22 +1,8 @@
-const CACHE_VERSION = 'horror-scope-v1';
+const CACHE_VERSION = 'horror-scope-v2';
+const STATIC_TTL_MS = 180 * 1000;
+const META_MARKER = '__sw_meta';
 
-self.addEventListener('install', (event) => {
-  const scopePath = new URL(self.registration.scope).pathname;
-  const assets = [
-    `${scopePath}`,
-    `${scopePath}index.html`,
-    `${scopePath}data/en.txt`,
-    `${scopePath}data/ro.txt`,
-    `${scopePath}favicon.svg`,
-    `${scopePath}manifest.webmanifest`,
-  ];
-
-  event.waitUntil(
-    caches.open(CACHE_VERSION).then((cache) => cache.addAll(assets)).catch(() => {
-      // Ignore preload failures; runtime caching still works.
-    }),
-  );
-
+self.addEventListener('install', () => {
   self.skipWaiting();
 });
 
@@ -29,20 +15,81 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+function metaRequestFor(requestUrl) {
+  const url = new URL(requestUrl);
+  url.searchParams.set(META_MARKER, '1');
+  return new Request(url.toString());
+}
+
+async function setTimedCacheEntry(cache, request, response) {
+  await cache.put(request, response);
+  await cache.put(metaRequestFor(request.url), new Response(String(Date.now())));
+}
+
+async function readFreshTimedCacheEntry(cache, request) {
+  const cached = await cache.match(request);
+  if (!cached) return null;
+
+  const cachedMeta = await cache.match(metaRequestFor(request.url));
+  if (!cachedMeta) return null;
+
+  const cachedAt = Number(await cachedMeta.text());
+  if (!Number.isFinite(cachedAt)) return null;
+
+  return Date.now() - cachedAt <= STATIC_TTL_MS ? cached : null;
+}
+
+async function networkFirst(request) {
+  const cache = await caches.open(CACHE_VERSION);
+
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      await cache.put(request, response.clone());
+    }
+    return response;
+  } catch {
+    const cached = await cache.match(request);
+    if (cached) return cached;
+    return Response.error();
+  }
+}
+
+async function staticWithTtl(request) {
+  const cache = await caches.open(CACHE_VERSION);
+  const freshCached = await readFreshTimedCacheEntry(cache, request);
+  if (freshCached) return freshCached;
+
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      await setTimedCacheEntry(cache, request, response.clone());
+    }
+    return response;
+  } catch {
+    const staleCached = await cache.match(request);
+    if (staleCached) return staleCached;
+    return Response.error();
+  }
+}
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
-  const url = new URL(event.request.url);
-  if (url.origin !== self.location.origin) return;
+  const requestUrl = new URL(event.request.url);
+  if (requestUrl.origin !== self.location.origin) return;
+  if (requestUrl.searchParams.has(META_MARKER)) return;
 
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
-        const copy = response.clone();
-        caches.open(CACHE_VERSION).then((cache) => cache.put(event.request, copy));
-        return response;
-      });
-    }),
-  );
+  const scopePath = new URL(self.registration.scope).pathname;
+  const isHtmlNavigation =
+    event.request.mode === 'navigate' ||
+    requestUrl.pathname === scopePath ||
+    requestUrl.pathname.endsWith('/index.html');
+
+  if (isHtmlNavigation) {
+    event.respondWith(networkFirst(event.request));
+    return;
+  }
+
+  event.respondWith(staticWithTtl(event.request));
 });
