@@ -24,6 +24,16 @@ The #cosmicBody# coughs nervously, #signName#. #prediction# #consequence# #advic
 #opening.capitalize# Sources inside #planet# confirm: #prediction# #advice#
 #timeGreeting.capitalize#! #prediction# Your #device# saw it coming. #consequence# #advice#
 #opening.capitalize# #prediction# #consequence# In the words of #celebrity#: "#wisdom#."
+#opening.capitalize# According to the minutes from #planet#'s last meeting: #prediction# #consequence# #advice#
+#timeGreeting.capitalize#, #signName#! #prediction# The #spiritAnimal# has no comment. #consequence#
+#opening.capitalize# #prediction# #consequence# The official recommendation from #cosmicBody# is: #advice#
+Per the cosmic bylaws, #signName#: #prediction# Your #device# has already been notified. #advice#
+#opening.capitalize# The #creature# council has voted. #prediction# #consequence# Dissenting opinion: "#wisdom#."
+#timeGreeting.capitalize#! A memo from #planet#: #prediction# #advice# P.S. #wisdom.capitalize#.
+#opening.capitalize# An internal audit of your #lifeAspect# has concluded: #prediction# #consequence# #advice#
+The department of cosmic affairs regrets to inform you, #signName#: #prediction# #consequence#
+#opening.capitalize# #prediction# The #cosmicBody# submitted a formal apology. #consequence# #advice#
+#timeGreeting.capitalize#, #signName#! #prediction# A #professional# has been dispatched. #advice#
 
 
 === opening ===
@@ -47,6 +57,12 @@ hold onto your #bodyPart#, #signName#!
 attention please, #signName#!
 oh dear, #signName#!
 deep breath, #signName#!
+not again, #signName#!
+per our last cosmic alignment, #signName#,
+this is not a test, #signName#!
+for the record, #signName#,
+as noted in your cosmic file, #signName#,
+regarding your open ticket, #signName#:
 
 
 === timeGreeting ===
@@ -62,6 +78,12 @@ legally distinct #timeOfDay#
 ominously cheerful #timeOfDay#
 suspiciously normal #timeOfDay#
 cosmically mandated #timeOfDay#
+deeply unauthorized #timeOfDay#
+aggressively mediocre #timeOfDay#
+historically unprecedented #timeOfDay#
+spiritually overclocked #timeOfDay#
+diplomatically volatile #timeOfDay#
+algorithmically generated #timeOfDay#
 
 
 === timeOfDay ===
@@ -81,6 +103,12 @@ lunch you forgot about
 nap that became something else
 the golden hour of regret
 pre-meeting dread window
+inbox bankruptcy hour
+the pause between two notifications
+retrograde office hours
+scheduled downtime that isn't
+post-standup existential window
+the hour your calendar lied about
 
 
 === prediction ===
@@ -118,6 +146,22 @@ Your #bodyPart# will receive a notification.
 A #adjective# envelope will arrive with your name misspelled in a flattering way.
 You will accidentally solve #topic# while looking for your keys.
 The WiFi at #location# will work only when you're not using it.
+Your #device# will #transformation# and there's nothing you can do about it.
+A #object# in your possession will #transformation# by end of day.
+Your #lifeAspect# will #transformation# without filing the proper paperwork.
+#celebrity# predicts your #bodyPart# will #transformation# before the week is out.
+A #creature# will deliver a subpoena regarding your #lifeAspect#.
+You will realize your #device# has been keeping a journal about you.
+Your #object# will be recalled by the manufacturer of the universe.
+The #cosmicBody# will quietly reassign your #lifeAspect# to someone more qualified.
+A clerical error will briefly make you responsible for #topic#.
+You will receive a performance review from your own #bodyPart#.
+Your entire #lifeAspect# will be moved to a shared drive without your consent.
+#planet# will issue a correction regarding something you said in 2019.
+A #adjective# document will appear in your inbox explaining your new cosmic classification.
+Your #device# and your #bodyPart# will agree on something for the first time.
+Something in #location# will recognize you, and you will not recognize it back.
+The algorithm will briefly consider you for a completely different life.
 
 
 === consequence ===
@@ -145,6 +189,16 @@ The incident report writes itself.
 Your #device# will display a single tear emoji.
 Three separate #creature# sightings will be reported.
 Nobody was surprised except you.
+Your #bodyPart# will #transformation# in solidarity.
+Your #device# will #transformation# and demand a raise.
+A #professional# will write a case study about it.
+The universe will issue a formal "no comment."
+Your #lifeAspect# will request a transfer to a different dimension.
+This was foretold in a spreadsheet no one reads.
+#planet# will pretend it didn't see anything.
+An internal memo has been circulated. You were not CC'd.
+Your calendar will block out the rest of the day prophylactically.
+The cosmic help desk has escalated your ticket.
 
 
 === advice ===
@@ -172,3 +226,13 @@ Reply to an old email with just "#mantra#."
 The universe recommends a nap. Compliance is optional but wise.
 Walk backward through one doorway today for recalibration.
 Delete #smallNumber# photos from your phone. The cosmos will know which ones.
+Rename a file on your #device# to "#mantra#" for good luck.
+File a formal request with #planet# to reconsider your afternoon.
+Today, treat your #bodyPart# like it knows something you don't.
+Carry #object# in your pocket — it's a talisman now.
+If a #creature# offers advice, take it. Just this once.
+Your #lifeAspect# needs a reboot. Turn it off and back on again.
+Schedule a meeting with yourself and then cancel it. Cosmic balance restored.
+Forward your next email to #planet# and wait for a sign.
+Treat every #color# object you see today as a message from the void.
+Compliment a stranger's #bodyPart# energy — the cosmos will note it in your file.
