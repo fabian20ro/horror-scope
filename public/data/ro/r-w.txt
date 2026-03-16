@@ -33,6 +33,10 @@ trimite un articol de wellness cu subiectul „fără motiv"
 schimba playlistul comun pe ceva liniștitor fără explicații
 întreba HR-ul dacă „criza existențială" se pune ca concediu medical
 nominaliza pentru angajatul lunii din milă
+redacta o evaluare de risc despre „situația"
+actualiza documentul partajat cu adnotări pasiv-agresive
+se muta pe alt etaj fără să spună nimănui
+lansa o inițiativă de wellness special pentru asta
 
 
 === secret ===
@@ -71,6 +75,12 @@ dosarul medical pe care cosmosul îl ține despre postura ta
 criptomoneda pe care prăjitorul tău de pâine o minează pe ascuns
 limba de dragoste pe care caloriferul proprietarului o vorbește fluent
 evaluarea de performanță de care inima ta se teme
+ce face screensaverul tău când nu te uiți
+conținutul real al dosarului „misc" de pe desktop
+cine folosește contul tău de Netflix la 3 noaptea
+ce tastează tastatura ta când n-o atingi
+de ce imprimanta ta funcționează pentru toată lumea în afară de tine
+identitatea persoanei care tot reglează termostatul de la birou
 
 
 === sfatCreatura ===
@@ -104,6 +114,14 @@ oferă-te să fii contactul lui de urgență — angajamentul începe cu lucruri
 sugerează-i o detoxifiere de cuplu — legătura se formează prin disconfort reciproc
 invită-l la atelierul tău de bugetare — chiar și ființele mitice au nevoie de disciplină fiscală
 recomandă-i terapeutul tău — dacă te suportă pe tine, suportă orice
+cere-i o scrisoare de recomandare — nu se știe niciodată
+oferă-i locul tău în autobuz — stă în picioare de milenii
+prezintă-i declarația ta fiscală ca ofrandă de pace
+dezvăluie-ți PIN-ul ca gest de dominanță teritorială — încrederea e monedă
+arată-i istoricul de browser — adevăratul curaj e transparența
+roagă-l să-ți gireze contractul de închiriere — creaturile mitice au credit impecabil
+negociază un pact de neagresiune folosind doar pistoale cu degetele
+oferă-i o evaluare de performanță — toată lumea merită feedback
 
 
 === spiritAnimal ===
@@ -228,3 +246,13 @@ Un #creatura# deghizat în #profesionist# îți va oferi #mancare# — e un buyo
 #parteCorpTa.capitalize# va primi o factură de la #planeta# pentru #numarMic# contravenții cosmice.
 NU discuta despre #subiect# lângă #dispozitivulTau# — raportează la #corpCosmic# de săptămâni.
 #aspectViataTa.capitalize# a fost preaprobat/ă pentru un împrumut de la #planeta#. Rata dobânzii e sănătatea ta mintală.
+Un #obiect# al tău a început să evolueze de unul singur. Nu interveni.
+Dacă #aspectViataTa# începe să se comporte ciudat, e tehnic normal săptămâna asta.
+Un #profesionist# va încerca să-ți vândă asigurare pentru #aspectViataTa#. Refuză politicos dar ferm.
+NU lăsa #dispozitivulTau# și #parteCorpTa# să comunice nesupravegheat.
+Dacă găsești #obiect# la #locatie#, lasă-l exact unde e.
+#planeta# a deschis o investigație asupra obiceiurilor tale de navigare. Golește-ți cache-ul.
+Un #creatura# de lângă #locatie# a întrebat de tine pe nume.
+#parteCorpTa.capitalize# va încerca să #actiuneCorp# — nu o lăsa să termine.
+Automatul de la #locatie# îți știe PIN-ul. Evită-l.
+NU citi clauzele mici la nimic astăzi — ignoranța e armură.
