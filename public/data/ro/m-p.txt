@@ -33,6 +33,22 @@ un smoothie cu o agendă
 pâine prăjită care a renunțat
 tăiței instant paradoxali
 popcorn de microunde cu probleme de încredere
+biscuiți de faliment
+lasagna îndrăgostită fără reciprocitate
+pizza pe bază de rețetă medicală
+terci de portofoliu investițional
+ciocolată conștientă de colesterol
+gogoși de acord de divorț
+sufleu de stimulent fiscal
+prosciutto prenupțial
+bruschete de tensiune arterială
+toast cu avocado și pensie alimentară
+cartofi prăjiți cu suflu cardiac
+bezea cu levier financiar
+caserola cu coplată
+spaghete solvabile emoțional
+o salată care costă mai mult decât franșiza ta
+crème brûlée cu dobândă compusă
 
 
 === mantra ===
@@ -52,6 +68,22 @@ Nu am nevoie de închidere, am nevoie de WiFi mai bun
 Universul face buffering și eu la fel
 Azi aleg să nu repornesc mai târziu
 Energia mea e o resursă limitată și refuz să o împart cu imprimantele
+Contul meu bancar e o stare de spirit
+Dragostea e un software update pe care nu l-am instalat
+Colesterolul meu e o sugestie, nu o regulă
+Atrag bogăția cum routerul meu atrage probleme de firmware
+Inima mea e deschisă dar linia de credit e închisă pentru mentenanță
+Nu eu număr caloriile — caloriile mă numără pe mine
+Bursa nu mă definește, dar mă subtweetuiește
+Sunt solvabil emoțional și asta e suficient deocamdată
+Tensiunea mea arterială e doar corpul meu care aplaudă
+Romanța e o funcționalitate, nu un bug, și sunt încă în beta
+Investesc în mine și randamentul e neimpozabil
+Sistemul meu imunitar funcționează pe vibrații și ranchiună
+Sănătatea e bogăție și sunt în datorie pe ambele
+Sala și eu avem o înțelegere: eu plătesc, ea așteaptă
+Mă voi iubi cu energia unui abonament pe care am uitat să-l anulez
+Planul meu financiar e indistinguibil de magie, mai ales pentru că e imaginar
 
 
 === miscarePutere ===
@@ -75,6 +107,20 @@ folosește un pix până se termină cerneala
 citește un articol întreg, nu doar titlul
 împătură rufele în aceeași zi în care le-ai spălat
 sună pe cineva în loc să trimiți un mesaj
+verifică-ți contul bancar fără să clipești
+spune-i abonamentului la sală că sunteți doar prieteni
+anulează un abonament pe care l-ai uitat
+dă swipe left propriei zone de confort
+bea un pahar de apă ca și cum ar fi o strategie financiară
+folosește ața dentară cu contact vizual în oglindă
+schimbă-ți contactul de urgență cu contabilul
+deschide portalul asigurării de sănătate și nu-l închide imediat
+spune-i salatei că e de ajuns
+plătește o factură în avans doar ca să simți ceva
+dă unfollow unui influencer de wellness și simte-ți tensiunea scăzând
+complimentează diversificarea portofoliului unui necunoscut
+programează-te la doctor fără trei luni de procrastinare
+citește clauzele mici și dă din cap ca și cum înțelegi
 
 
 === numarMare ===
@@ -83,6 +129,18 @@ sună pe cineva în loc să trimiți un mesaj
 9
 10
 11
+13
+14
+15
+17
+19
+21
+23
+27
+33
+42
+69
+99
 
 
 === numarMic ===
@@ -91,6 +149,16 @@ sună pe cineva în loc să trimiți un mesaj
 3
 4
 5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
 
 
 === obiect ===
@@ -126,6 +194,22 @@ baterie mereu la 1%
 buton care scrie „nu apăsa" în 12 limbi
 notificare din viitor
 hartă a unui oraș care nu există încă
+factură care sosește din dimensiuni paralele
+scrisoare de dragoste adresată contului bancar
+rețetă medicală scrisă într-o limbă moartă
+card de credit care refuză existențial
+declarație fiscală în formă de inimă
+brățară fitness care numără doar pașii emoționali
+portofel care șoptește „de ce" când îl deschizi
+notificare de dating app din 1987
+sticluță de vitamine plină cu sfaturi financiare
+legitimație de sală care radiază vinovăție la 400 de metri
+stetoscop care captează fluctuațiile bursei
+inel de logodnă care funcționează și ca instrument de bugetare
+factură medicală scrisă în versuri
+pușculiță cu probleme de abandon
+bon de la sala de sport mai lung decât ultima relație
+tensiometru care verifică și scorul de credit
 
 
 === obiectCuArticol ===
@@ -161,6 +245,22 @@ o baterie mereu la 1%
 un buton care scrie „nu apăsa" în 12 limbi
 o notificare din viitor
 o hartă a unui oraș care nu există încă
+o factură care sosește din dimensiuni paralele
+o scrisoare de dragoste adresată contului bancar
+o rețetă medicală scrisă într-o limbă moartă
+un card de credit care refuză existențial
+o declarație fiscală în formă de inimă
+o brățară fitness care numără doar pașii emoționali
+un portofel care șoptește „de ce" când îl deschizi
+o notificare de dating app din 1987
+o sticluță de vitamine plină cu sfaturi financiare
+o legitimație de sală care radiază vinovăție la 400 de metri
+un stetoscop care captează fluctuațiile bursei
+un inel de logodnă care funcționează și ca instrument de bugetare
+o factură medicală scrisă în versuri
+o pușculiță cu probleme de abandon
+un bon de la sala de sport mai lung decât ultima relație
+un tensiometru care verifică și scorul de credit
 
 
 === obiectMisterios ===
@@ -196,6 +296,22 @@ o baterie misterioasă mereu la 1%
 un buton misterios care scrie „nu apăsa" în 12 limbi
 o notificare misterioasă din viitor
 o hartă misterioasă a unui oraș care nu există încă
+o factură misterioasă care sosește din dimensiuni paralele
+o scrisoare misterioasă de dragoste adresată contului bancar
+o rețetă medicală misterioasă scrisă într-o limbă moartă
+un card de credit misterios care refuză existențial
+o declarație fiscală misterioasă în formă de inimă
+o brățară fitness misterioasă care numără doar pașii emoționali
+un portofel misterios care șoptește „de ce" când îl deschizi
+o notificare misterioasă de dating app din 1987
+o sticluță misterioasă de vitamine plină cu sfaturi financiare
+o legitimație misterioasă de sală care radiază vinovăție la 400 de metri
+un stetoscop misterios care captează fluctuațiile bursei
+un inel de logodnă misterios care funcționează și ca instrument de bugetare
+o factură medicală misterioasă scrisă în versuri
+o pușculiță misterioasă cu probleme de abandon
+un bon misterios de la sala de sport mai lung decât ultima relație
+un tensiometru misterios care verifică și scorul de credit
 
 
 === parteCorp ===
@@ -221,6 +337,24 @@ degetul cu care arăți
 maxilarul (în timpul ședințelor importante)
 genunchiul care prezice ploaia
 tragusul (caută pe Google)
+nervul portofoliului de investiții
+zona din piept care reacționează la extrasele de card
+glanda instinctului romantic
+vertebra care trosnește când vezi soldul bancar
+tendonul anxietății financiare
+pleoapa care tresare în timpul revizuirilor de buget
+rezervorul de serotonină
+dintele care doare când cineva menționează căsătoria
+foliculul care simte valoarea netă
+încheietura mâinii care vibrează lângă bancomate
+cortexul romantic (cel neacoperit de asigurare)
+plămânul care oftează la vederea facturilor medicale
+degetul mare de negociat instinctiv
+clavicula care fredonează la prima întâlnire
+măseaua care simte PIB-ul
+zona din coloană care se îndreaptă când vine chiria
+glanda de optimism vestigial
+glezna care prezice dramele sentimentale
 
 // parteCorp with correct possessive pronoun (ta/tău/tale) embedded
 
@@ -247,6 +381,24 @@ degetul tău cu care arăți
 maxilarul tău (în timpul ședințelor importante)
 genunchiul tău care prezice ploaia
 tragusul tău (caută pe Google)
+nervul tău al portofoliului de investiții
+zona ta din piept care reacționează la extrasele de card
+glanda ta a instinctului romantic
+vertebra ta care trosnește când vezi soldul bancar
+tendonul tău al anxietății financiare
+pleoapa ta care tresare în timpul revizuirilor de buget
+rezervorul tău de serotonină
+dintele tău care doare când cineva menționează căsătoria
+foliculul tău care simte valoarea netă
+încheietura ta a mâinii care vibrează lângă bancomate
+cortexul tău romantic (cel neacoperit de asigurare)
+plămânul tău care oftează la vederea facturilor medicale
+degetul tău mare de negociat instinctiv
+clavicula ta care fredonează la prima întâlnire
+măseaua ta care simte PIB-ul
+zona ta din coloană care se îndreaptă când vine chiria
+glanda ta de optimism vestigial
+glezna ta care prezice dramele sentimentale
 
 
 === planeta ===
@@ -266,6 +418,22 @@ o planetă teoretică făcută integral din erori administrative
 departamentul de HR al semnului tău zodiacal
 Mercur (din nou — mereu e Mercur)
 Eris (planeta discordiei, evident)
+un gigant gazos care preferă termenul „volumetric dotat"
+planeta prin care GPS-ul tău tot încearcă să te redirecționeze
+un corp ceresc care a fost semnalat pentru code review
+Sedna (planeta care a dat ghosting sistemului solar)
+Planeta X (încă în stealth mode)
+Makemake (planeta numită de cineva care avea o zi grozavă)
+o planetă vagaboandă care și-a părăsit sistemul solar „să se regăsească"
+o planetă care funcționează integral pe credit
+Venus (în prezent dă ghosting tuturor)
+Marte (în terapie de cuplu cu Pământul)
+o lună care face meditații ca consultant financiar
+Jupiter (trece printr-o fază de creștere, literal)
+Saturn (își poartă inelele ironic acum)
+o planetă pitică cu un portofoliu de investiții diversificat
+Neptun (prea profund ca să-ți răspundă la mesaje)
+o planetă al cărei PIB se bazează integral pe cărți nerestituite la bibliotecă
 
 
 === profesionist ===
@@ -287,3 +455,19 @@ un con de trafic care a trecut de baroul de avocați
 autocorrect-ul telefonului tău (crede că știe mai bine)
 o aplicație de meditație cu complex de superioritate
 un indicator de ieșire de urgență care a văzut totul
+un consilier financiar care acceptă doar îmbrățișări ca plată
+asistentul de manager al lui Cupidon
+un doctor al cărui stetoscop are WiFi
+un farmacist care prescrie tupeu
+un coach de relații care n-a fost niciodată într-o relație
+un bancomat care distribuie sfaturi în loc de bani
+un cardiolog care citește tarotul în timpul liber
+un antrenor de sală care comunică exclusiv prin oftaturi
+un contabil care face și consiliere de cuplu
+un nutriționist posedat de fantoma unui cofetar
+un tensiometru cu podcast
+un algoritm de dating app care a devenit conștient și regretă tot
+un administrator de fond de investiții care consultă un glob magic
+un dentist care flirtează cu radiografiile tale
+un planificator de pensii dintr-o civilizație care nu mai există
+un inspector sanitar care îți notează alegerile de viață pe o curbă

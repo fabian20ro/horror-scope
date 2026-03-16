@@ -4,6 +4,18 @@
 9
 10
 11
+13
+14
+15
+17
+19
+21
+23
+27
+33
+42
+69
+99
 
 
 === lifeAspect ===
@@ -35,6 +47,22 @@ sense of purpose (beta version)
 ability to parallel park
 queue-standing technique
 bookmark collection
+bank account
+credit score
+dating profile
+love life's PR team
+immune system
+step count
+health insurance claim
+investment portfolio
+romantic reputation
+blood pressure narrative
+financial literacy
+gym membership justification
+meal prep ambitions
+Tinder algorithm standing
+dental hygiene legacy
+retirement plan (the imaginary one)
 
 
 === location ===
@@ -70,6 +98,22 @@ someone else's déjà vu
 a loading screen that became sentient
 the background of someone's Zoom call
 a fire escape that leads to more fire escapes
+the waiting room of a cosmic accountant
+the lost and found of a dating agency
+a pharmacy that only sells placebos
+your bank's secret vault of regret
+Cupid's HR department
+a gym that exists only on Mondays
+the returns counter at a love potion outlet
+a doctor's office where the magazines are from the future
+the break room of a hedge fund run by pigeons
+a couples therapy session between two ATMs
+the parking lot of a hospital that only treats bruised egos
+a health spa built inside a stock exchange
+the basement of a dating app's headquarters
+a treadmill on a cruise ship going nowhere
+a blood bank with a surprisingly aggressive loyalty program
+a tax office that also does palm readings
 
 
 === luckyColor ===
@@ -103,6 +147,16 @@ legally distinct indigo
 off-white with ambitions
 strategically transparent
 ominously cheerful neon green
+financially reckless fuchsia
+lovesick lavender
+prescription-strength orange
+tax-exempt turquoise
+cardio crimson
+emotionally leveraged gold
+cholesterol-adjacent cream
+romantically insolvent rose
+compound-interest copper
+deductible violet
 
 
 === mantra ===
@@ -131,6 +185,22 @@ My cache is clear and my conscience is cloudy, and that is fine
 What the WiFi giveth, the firmware update taketh away
 My bandwidth is infinite but my patience has a hard cap
 I am the exception the error handler was built for
+My bank account is a state of mind
+Love is just a software update I haven't installed
+My cholesterol is a suggestion, not a rule
+I attract wealth the way my router attracts firmware issues
+My heart is open but my credit line is closed for maintenance
+I do not count calories; calories count on me
+The stock market does not define me, but it does subtweet me
+I am emotionally solvent and that is enough for now
+My blood pressure is just my body's way of applauding
+Romance is a feature, not a bug, and I am still in beta
+I invest in myself and the returns are non-taxable
+My immune system runs on vibes and spite
+Health is wealth and I am currently in debt on both
+The gym and I have an understanding: I pay, it waits
+I will love myself with the same energy as a subscription I forgot to cancel
+My financial plan is indistinguishable from magic, mostly because it's imaginary
 
 
 === object ===
@@ -166,6 +236,22 @@ a battery that's always at 1%
 a button that says "don't press" in 12 languages
 a notification from the future
 a map of a city that doesn't exist yet
+a bill that keeps arriving from parallel dimensions
+a love letter addressed to your bank account
+a prescription written in a dead language
+a credit card that declines existentially
+a heart-shaped tax return
+a fitness tracker that only counts emotional steps
+a wallet that whispers "why" every time you open it
+a dating app notification from 1987
+a vitamin bottle filled with unsolicited financial advice
+a gym membership card that radiates guilt at 400 meters
+a stethoscope that picks up stock market fluctuations
+an engagement ring that doubles as a budgeting tool
+a medical bill written in verse
+a piggy bank with abandonment issues
+a treadmill receipt longer than your last relationship
+a blood pressure cuff that also checks your credit score
 
 
 === planet ===
@@ -193,6 +279,22 @@ Planet X (still in stealth mode)
 Makemake (the planet named by someone having a great day)
 a rogue planet that left its solar system to "find itself"
 a planet-sized sticky note that says "remember to exist"
+a planet that runs entirely on credit
+Venus (currently ghosting everyone)
+Mars (in couples therapy with Earth)
+a moon that moonlights as a financial advisor
+Jupiter (going through a growth phase, literally)
+Saturn (wearing its rings ironically now)
+a dwarf planet with a diversified investment portfolio
+Neptune (too deep to return your texts)
+a celestial body whose orbit is one long walk of shame
+a planet where the currency is compliments and the economy is crashing
+Mercury retrograde (the planet, not the excuse)
+an exoplanet whose dating profile says "no drama"
+a planet-sized gym where no one wipes down the equipment
+Pluto (back from its wellness retreat, still not a planet)
+a gas giant that just discovered intermittent fasting
+a planet whose entire GDP is based on overdue library fines
 
 
 === powerMove ===
@@ -222,6 +324,20 @@ send a calendar invite to yourself titled "be normal"
 log out of something and don't log back in
 finish a sentence you started three days ago
 put your phone face-down at dinner like a samurai sheathing a sword
+check your bank account without flinching
+tell your gym membership you're just friends
+cancel a subscription you forgot about
+swipe left on your own comfort zone
+drink a glass of water and act like it's a financial strategy
+floss and make eye contact with yourself in the mirror
+update your emergency contact to your accountant
+open your health insurance portal and not immediately close it
+tell a salad it's enough
+pay a bill early just to feel something
+unfollow one wellness influencer and feel your blood pressure drop
+compliment a stranger's portfolio diversification
+schedule a doctor's appointment without three months of procrastination
+read the fine print on something and nod like you understand it
 
 
 === professional ===
@@ -250,3 +366,19 @@ a security camera that writes haiku
 a revolving door with a doctorate in physics
 a filing cabinet that has been promoted twice and doesn't understand why
 a parking meter that moonlights as a life coach
+a financial advisor who only accepts payment in hugs
+Cupid's assistant manager
+a doctor whose stethoscope has WiFi
+a pharmacist who prescribes audacity
+a love coach who has never been in a relationship
+an ATM that dispenses advice instead of cash
+a cardiologist who reads tarot on the side
+a gym trainer who communicates exclusively through sighs
+a tax preparer who also does couples counseling
+a nutritionist possessed by the ghost of a pastry chef
+a blood pressure monitor with a podcast
+a dating app algorithm that became sentient and regrets everything
+a hedge fund manager who consults a magic 8-ball
+a dentist who flirts with your X-rays
+a retirement planner from a civilization that no longer exists
+a health inspector who grades your life choices on a curve

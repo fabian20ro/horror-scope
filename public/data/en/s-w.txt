@@ -25,6 +25,21 @@ who has been using your Netflix account at 3 AM
 what your keyboard types when you're not touching it
 why your printer works for everyone except you
 the identity of the person who keeps adjusting the office thermostat
+why your bank account cries at night
+who your credit card has been talking to
+the love letter your WiFi router never sent
+your doctor's real opinion about your lifestyle
+the spreadsheet where the universe tracks your poor decisions
+what your health insurance actually covers (spoiler: not that)
+the dating profile your smart fridge created on your behalf
+the real exchange rate between karma and dollars
+why your savings account filed for emancipation
+the prenuptial agreement between your left and right brain hemispheres
+who your thermostat has been flirting with next door
+the medical file the cosmos keeps on your posture
+the cryptocurrency your toaster has been mining behind your back
+the love language your landlord's radiator speaks fluently
+the performance review your heart has been dreading
 
 
 === smallNumber ===
@@ -33,6 +48,16 @@ the identity of the person who keeps adjusting the office thermostat
 3
 4
 5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
 
 
 === spiritAnimal ===
@@ -56,6 +81,26 @@ naked mole rat
 kakapo
 wombat
 shoebill stork
+hagfish
+blobfish
+dung beetle
+komodo dragon
+secretary bird
+proboscis monkey
+star-nosed mole
+glass frog
+pistol shrimp
+sea cucumber
+aye-aye
+okapi
+saiga antelope
+hoatzin
+mudskipper
+slow loris
+tarsier
+sun bear
+binturong
+fossa
 
 
 === topic ===
@@ -83,6 +128,24 @@ clock-based theology
 the folklore of unread notifications
 password grief counseling
 vibes-based urban planning
+the emotional intelligence of ATMs
+love language fluency for household appliances
+horoscope-based investment strategies
+the dating history of your bank account
+health insurance loopholes in other dimensions
+the mating rituals of office supplies
+the financial literacy of ghosts
+couples therapy for your left and right earbuds
+the cardiovascular benefits of existential dread
+romance algorithms for vending machines
+the dietary requirements of abstract concepts
+wealth management for sentient dust
+the five love languages of spreadsheets
+blood pressure readings from alternate timelines
+cryptocurrency grief counseling
+the emotional labor of self-checkout machines
+pension planning for immortal beings
+the romantic subtext of error messages
 
 
 === transformation ===
@@ -106,6 +169,27 @@ petition for reclassification as a natural wonder
 quietly secede from the material plane
 schedule a press conference for reasons it won't disclose
 file a restraining order against entropy
+apply for a small business loan from the void
+start a dating profile on behalf of nearby furniture
+schedule a wellness retreat in a parallel dimension
+open an offshore account in a dimension that doesn't exist
+demand a refund from the space-time continuum
+begin sending unsolicited financial advice to the moon
+start ghostwriting love letters for household appliances
+enroll in a PhD program it has no intention of finishing
+issue a health and safety violation against gravity
+launch a crowdfunding campaign for its own replacement
+begin couples counseling with its own shadow
+audit the emotional tax returns of everyone nearby
+renegotiate its mortgage with the concept of permanence
+start an investment portfolio consisting entirely of vibes
+submit a workers' compensation claim against fate
+request a second opinion from a parallel universe doctor
+begin manifesting a severance package from reality
+quietly open a joint savings account with oblivion
+file an insurance claim for metaphysical damages
+hire a personal trainer for its existential fitness
+send a breakup text to the concept of linear time
 
 
 === warning ===
@@ -139,6 +223,19 @@ A #creature# near #location# has been asking about you by name.
 Your #bodyPart# will attempt to #bodyPartAction# — do not let it finish.
 The vending machine at #location# knows your PIN. Avoid it.
 Do NOT read the fine print on anything today — ignorance is armor.
+Your #device# has been investing your emotional energy in #topic#. The returns are not great.
+#planet# has revoked your #lifeAspect# warranty. You are now uninsured cosmically.
+A #creature# in #location# wants to discuss #topic# with your #bodyPart#. Set boundaries.
+If your #object# starts glowing near #food#, your love life is about to get complicated.
+Do NOT let a #professional# near your #device# today — they're working for #planet#.
+Your #bodyPart# has opened a joint bank account with a #creature#. Freeze your assets.
+#cosmicBody# has been swiping right on your #lifeAspect#. This is not a compliment.
+If you find a receipt for #gift# in #location#, your health insurance has been compromised.
+A #creature# posing as a #professional# will offer you #food# — it's a leveraged buyout.
+The #device# at #location# has been writing love poetry about your #object#. Don't encourage it.
+Your #bodyPart# will receive a bill from #planet# for #smallNumber# cosmic infractions.
+Do NOT discuss #topic# near your #device# — it's been reporting to #cosmicBody# for weeks.
+Your #lifeAspect# has been pre-approved for a loan from #planet#. The interest rate is your sanity.
 
 
 === wisdom ===
@@ -170,3 +267,20 @@ your outbox is someone else's inbox, and that's a kind of intimacy
 the notification you silenced was the notification that silenced you
 the spreadsheet you didn't save is the spreadsheet you'll remember most
 to archive is human, to actually find it later is divine
+a penny saved is a penny that will eventually become sentient
+love is blind but your credit score has 20/20 vision
+an apple a day keeps the doctor away, but the doctor was never real
+the heart wants what it wants, and what it wants is better bandwidth
+money can't buy happiness, but it can buy a second monitor, which is close
+the best things in life are free, which is why they have no customer support
+a stitch in time saves nine, but nobody remembers what nine means anymore
+your net worth is not your self-worth, but try telling that to your spreadsheet
+health is wealth, and wealth is a spreadsheet with trust issues
+the love you take is equal to the love you make, minus transaction fees
+a fool and their money are soon parted, but a wise person never had money to begin with
+the road to wellness is paved with supplements no one can pronounce
+you miss 100% of the shots you don't take, but your credit card doesn't
+in sickness and in health, your inbox remains full
+trust your gut, unless your gut has been day-trading again
+compound interest is the eighth wonder of the world, and equally hard to visit
+the subscription you forgot to cancel is the subscription that remembers you

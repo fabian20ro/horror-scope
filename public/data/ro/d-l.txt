@@ -19,6 +19,31 @@ un cântar inteligent care-ți cântărește alegerile de viață
 un GPS care-ți recalculează destinul
 copiatorul de la birou (își amintește totul)
 un cablu de încărcare care merge doar la un unghi
+un portofel de criptomonede care-ți judecă cheltuielile
+un monitor cardiac cu opinii romantice
+un tensiometru care dă sfaturi financiare
+o aplicație de dating care a devenit conștientă
+un pedometru care pune la cale răzbunarea
+o aplicație de buget cu accese emoționale
+un dozator inteligent de pastile cu teorii conspiraționiste
+un fitness tracker care a depus actele de divorț
+un ticker bursier care șoptește
+un glucometru care-ți narează alegerile
+un cântar inteligent care-ți factorizează averea netă
+un defibrilator cu probleme de ataașament
+un tracker de somn care-ți scrie visele
+un calculator de taxe care oftează
+o aplicație de meditație în proces de custodie
+o oglindă inteligentă care-ți evaluează profilul de dating
+un contor de calorii care și-a găsit religia
+o pompă de insulină cu sfaturi de investiții
+un senzor de oxigen care-ți pune la îndoială traiectoria
+un termostat care se ajustează după portofoliul tău emoțional
+un cititor de card care își amintește de fostul tău
+un test de sarcină cu ecran de încărcare și reclame
+un stimulator cardiac pe model de abonament
+un pulsoximetru care-ți notează viața amoroasă
+un smartwatch care-ți trimite pulsul la contabil
 
 // dispozitiv with definite article and correct possessive pronoun (tău/ta/tale)
 
@@ -43,6 +68,31 @@ cântarul tău inteligent care-ți cântărește alegerile de viață
 GPS-ul tău care-ți recalculează destinul
 copiatorul tău de la birou (își amintește totul)
 cablul tău de încărcare care merge doar la un unghi
+portofelul tău de criptomonede care-ți judecă cheltuielile
+monitorul tău cardiac cu opinii romantice
+tensiometrul tău care dă sfaturi financiare
+aplicația ta de dating care a devenit conștientă
+pedometrul tău care pune la cale răzbunarea
+aplicația ta de buget cu accese emoționale
+dozatorul tău inteligent de pastile cu teorii conspiraționiste
+fitness tracker-ul tău care a depus actele de divorț
+ticker-ul tău bursier care șoptește
+glucometrul tău care-ți narează alegerile
+cântarul tău inteligent care-ți factorizează averea netă
+defibrilatorul tău cu probleme de ataașament
+tracker-ul tău de somn care-ți scrie visele
+calculatorul tău de taxe care oftează
+aplicația ta de meditație în proces de custodie
+oglinda ta inteligentă care-ți evaluează profilul de dating
+contorul tău de calorii care și-a găsit religia
+pompa ta de insulină cu sfaturi de investiții
+senzorul tău de oxigen care-ți pune la îndoială traiectoria
+termostatul tău care se ajustează după portofoliul tău emoțional
+cititorul tău de card care își amintește de fostul tău
+testul tău de sarcină cu ecran de încărcare și reclame
+stimulatorul tău cardiac pe model de abonament
+pulsoximetrul tău care-ți notează viața amoroasă
+smartwatch-ul tău care-ți trimite pulsul la contabil
 
 
 === emotie ===
@@ -70,6 +120,22 @@ cosmic indiferent dar iau notițe
 suspicios în pace
 optimist într-un mod amenințător
 bântuit dar productiv
+financiar amorțit
+romantic în recalculare
+medical suspicios
+îndrăgostit într-un mod deductibil fiscal
+fiscal excitat
+conștient de colesterol și furios
+emoțional supralevier
+flirtat într-un cadru clinic
+pre-aprobat pentru tristețe
+sănătos cardiac dar spiritual falimentar
+în amortizarea sentimentelor
+tandru într-un mod ajustat la inflație
+diagnosticat cu ambiție
+sentimental auditat
+bogat în regrete
+pasional conform ghidurilor alimentare
 
 
 === evitare ===
@@ -97,6 +163,20 @@ oamenii care îndoaie pizza
 conversațiile despre vreme care merg prea adânc
 fontul Comic Sans
 orice email cu „o întrebare rapidă" în subiect
+verificarea contului bancar în noapte de lună plină
+sfaturile romantice de la posesorii de telefon cu clapetă
+sfaturile de wellness de la cei care nu beau apă
+oricine spune „investește în tine" în timp ce vinde ceva
+contactul vizual cu consilierul financiar în retrogradul lui Mercur
+aplicațiile de dating în timpul eclipsei solare
+sfaturile medicale care încep cu „nu sunt doctor, dar"
+deschiderea extraselor de cont lângă flăcări deschise
+guru-ii de relații
+screeningurile medicale gratuite de la benzinărie
+planificarea financiară cu cineva al cărui număr norocos e limita de descoperit de cont
+scrisorile de dragoste pe bonuri fiscale
+sfaturile medicale de la cei care dau ponturi la bursă
+cuplurile care-și citesc horoscopul comun
 
 
 === intalnire ===
@@ -140,6 +220,22 @@ un filozof de ușă în ușă
 un magnet de frigider care a căzut și reconsideră totul
 un reprezentant sindical al porumbeilor
 o lampă care pâlpâie cu judecată
+un portofel care a evadat
+un Cupidon în pauza de cafea
+un stetoscop cu limite personale
+o factură de card de credit în formă fizică
+o asistentă medicală din dimensiunea a patra
+o pușculiță care-ți organizează o intervenție
+un inel de logodnă care se rostogolește cu un scop
+un inspector sanitar dintr-o cronologie paralelă
+colesterolul personificat
+un avocat de divorțuri specializat în mobilier
+o tensiune arterială care te urmărește
+o monedă care cere renumărarea
+un farmacist care vorbește în ghicitori
+o scrisoare de dragoste de la un spreadsheet
+un auditor fiscal cu suflet de aur
+un abonament la sală care te sună
 
 
 === intelepciune ===
@@ -163,6 +259,22 @@ inbox-ul tău e o reflecție a sufletului — haotic dar plin de potențial
 notificarea pe care o ignori e notificarea care contează
 curajul înseamnă să apeși „actualizează acum" în loc de „amintește-mi mai târziu"
 până și cosmosul funcționează pe cafea și încredere nemeritată
+un ban devenit conștient nu se mai întoarce în buzunar
+dragostea e oarbă, dar scorul de credit vede totul
+un măr pe zi ține doctorul departe, dar doctorul oricum nu era real
+inima vrea ceea ce vrea, dar cu un bandwidth mai bun
+banii nu cumpără fericirea, dar un al doilea monitor da
+cele mai bune lucruri din viață sunt gratis, deci nu au suport tehnic
+un punct la timp face cât nouă, dar nimeni nu-și amintește de cele nouă
+averea netă nu e valoarea ta ca om, dar are grafice mai bune
+sănătatea e o avere, și ambele sunt spreadsheet-uri cu probleme de încredere
+dragostea minus comisioanele de tranzacție nu mai e dragoste
+prostul și banii lui se despart, dar cu custodie partajată
+drumul spre wellness e pavat cu suplimente impronunțabile
+ratezi 100% din șansele pe care nu le iei, dar cardul de credit nu ratează nimic
+și la bine și la greu, inbox-ul e plin
+ai încredere în instinct, doar dacă nu faci day-trading
+dobânda compusă e a opta minune a lumii, dar a noua e abonamentul pe care ai uitat să-l anulezi
 
 
 === locatie ===
@@ -198,6 +310,22 @@ deja vu-ul altcuiva
 un ecran de încărcare care a devenit conștient
 fundalul apelului Zoom al cuiva
 o scară de incendiu care duce la alte scări de incendiu
+sala de așteptare a contabilului cosmic
+biroul de pierderi și găsiri al unei agenții matrimoniale
+o farmacie care vinde doar placebo
+seiful de regrete al unei bănci
+departamentul de HR al lui Cupidon
+o sală de sport care există doar lunea
+ghișeul de retururi de la magazinul de filtre de dragoste
+un cabinet medical cu reviste din viitor
+sala de pauză a fondului de investiții al porumbeilor
+o ședință de terapie de cuplu între două bancomate
+parcarea de spital pentru ego-uri lovite
+un spa de wellness în incinta bursei de valori
+subsolul sediului unei aplicații de dating
+o bandă de alergat pe o navă de croazieră care nu merge nicăieri
+o bancă de sânge cu program de fidelitate
+un birou de taxe care citește și-n palmă
 
 
 === luckyColor ===
@@ -231,6 +359,16 @@ indigo legal distinct
 alb-murdar cu ambiții
 strategic transparent
 verde neon sinistru de vesel
+fucsia financiar iresponsabil
+lavandă de dor bolnăvicios
+portocaliu pe rețetă
+turcoaz scutit de taxe
+stacojiu de cardio
+auriu emoțional supralevier
+crem adiacent colesterolului
+roz romantic insolvabil
+cupru cu dobândă compusă
+violet deductibil
 
 
 === lucruRau ===
@@ -254,3 +392,21 @@ invitații în calendar pentru lucruri pe care le-ai refuzat deja
 oameni care dau reply-all inutil
 propria reflexie care te judecă în ușile liftului
 post-it-uri pasiv-agresive
+sfaturi financiare nesolicitate de la oameni cu datorii
+scrisori de dragoste de la recuperatorii de creanțe
+newslettere de wellness de la inamicul tău
+comisioane surpriză de descoperit de cont
+interesul romantic al cuiva care încă folosește carnet de cecuri
+sperieturi medicale din horoscoape
+sfaturi de investiții primite prin tabla Ouija
+cupluri care-și fac Venmo în timpul certurilor
+facturi medicale de ziua ta
+sfaturi crypto de la unchiul cu chemtrails
+bombardament afectiv din partea sistemului imunitar
+influenceri de fitness care evită legumele
+un cont de economii cu notificări pasiv-agresive
+un scor de credit cu opinii despre viața ta amoroasă
+WebMD care o ia personal
+ședințe spontane de buget organizate de univers
+auditul emoțional făcut de un necunoscut
+emailuri de la viitorul tău eu financiar care e dezamăgit

@@ -19,6 +19,20 @@ programa un 1:1 să discute „vibe-ul"
 aduce asta în discuție la standup peste trei săptămâni
 pretinde că a prezis totul
 pune managementul în CC „doar pentru vizibilitate"
+deschide un GoFundMe pentru demnitatea ta
+își actualiza profilul de dating în solidaritate
+trimite un Revolut de un leu cu un mesaj criptic
+sugera să mergeți împreună la psihologul companiei (ca un cuplu)
+începe să mănânce din stres în numele tău
+își verifica propria tensiune arterială din compasiune
+pune discret o carte de self-help financiar pe biroul tău
+căuta în liniște pe Google „colegul meu are un breakdown?"
+oferi un referral la astrologul-contabil personal
+porni un pariu colectiv pe următoarea ta decizie de viață
+trimite un articol de wellness cu subiectul „fără motiv"
+schimba playlistul comun pe ceva liniștitor fără explicații
+întreba HR-ul dacă „criza existențială" se pune ca concediu medical
+nominaliza pentru angajatul lunii din milă
 
 
 === secret ===
@@ -42,6 +56,21 @@ adevăratul motiv pentru care nu poți dormi
 ce se întâmplă cu toate pixurile
 locația biroului de obiecte pierdute al Triunghiului Bermudelor
 unde se duc toate capacele de Tupperware
+de ce contul tău bancar plânge noaptea
+cu cine vorbește cardul tău de credit
+scrisoarea de dragoste pe care routerul tău WiFi n-a trimis-o niciodată
+adevărata opinie a doctorului despre stilul tău de viață
+spreadsheet-ul în care universul îți urmărește deciziile proaste
+ce acoperă de fapt asigurarea ta de sănătate (spoiler: nu asta)
+profilul de dating pe care frigiderul tău inteligent l-a creat în numele tău
+cursul real de schimb între karma și lei
+de ce contul tău de economii a depus actele de emancipare
+acordul prenupțial dintre emisferele tale cerebrale
+cu cine flirtează termostatul tău la vecini
+dosarul medical pe care cosmosul îl ține despre postura ta
+criptomoneda pe care prăjitorul tău de pâine o minează pe ascuns
+limba de dragoste pe care caloriferul proprietarului o vorbește fluent
+evaluarea de performanță de care inima ta se teme
 
 
 === sfatCreatura ===
@@ -63,6 +92,18 @@ citește-i horoscopul — adoră ironia
 oferă-i o cafea — decaf, că e deja agitat
 cere-i profilul de LinkedIn — networkingul nu doarme
 provocă-l la un concurs de ridicat degetele mari
+arată-i portofoliul tău de investiții — nu poate fi mai rău decât al tău
+întreabă-l dacă e singur — creaturilor mitice le place atenția în secret
+arată-i fișa ta medicală — vulnerabilitatea creează încredere inter-specii
+roagă-l să-ți gireze creditul ipotecar — creaturile au istoric de credit impecabil
+întreabă-l ce asigurare de sănătate are — clar are acoperire bună dacă trăiește de atâta
+propune-i un cont de economii comun — intimitatea financiară e ultima formă de putere
+provoacă-l la o comparație de avere netă — cine pierde plătește cina
+întreabă-l dacă acceptă asigurarea ta — nu se știe niciodată
+oferă-te să fii contactul lui de urgență — angajamentul începe cu lucruri mici
+sugerează-i o detoxifiere de cuplu — legătura se formează prin disconfort reciproc
+invită-l la atelierul tău de bugetare — chiar și ființele mitice au nevoie de disciplină fiscală
+recomandă-i terapeutul tău — dacă te suportă pe tine, suportă orice
 
 
 === spiritAnimal ===
@@ -86,6 +127,26 @@ crevetă mantis
 kakapo
 wombat
 pasărea pantof
+pește-vrăjitoare
+blobfish (peștele depresie)
+gândac de balegă
+dragon de Komodo
+pasărea secretar
+maimuță cu nas mare
+cârtiță cu nas stelat
+broască de sticlă
+crevetă-pistol
+castravete de mare
+aye-aye (nu, nu l-ai mai văzut)
+okapi
+antilopă saiga
+hoatzin (pasărea care miroase a compostor)
+țopârlă-săritor de nămol
+lori leneș
+tarsier
+ursul soare
+binturong (pisica-urs care miroase a popcorn)
+fossa
 
 
 === subiect ===
@@ -113,6 +174,24 @@ teologia bazată pe ceasuri
 folclorul notificărilor necitite
 consilierea în doliu pentru parole
 urbanismul bazat pe vibes
+inteligența emoțională a bancomatelor
+fluența în limba de dragoste a electrocasnicelor
+strategii de investiții bazate pe horoscop
+istoricul de dating al contului tău bancar
+lacune în asigurarea de sănătate din alte dimensiuni
+ritualurile de împerechere ale rechizitelor de birou
+alfabetizarea financiară a fantomelor
+terapia de cuplu pentru căștile tale stânga și dreapta
+beneficiile cardiovasculare ale groazei existențiale
+algoritmii de romantism pentru automate de vânzare
+cerințele dietetice ale conceptelor abstracte
+managementul averii pentru praful conștient
+cele cinci limbi de dragoste ale spreadsheet-urilor
+citirile de tensiune arterială din cronologii alternative
+consilierea în doliu pentru criptomonede
+munca emoțională a caselor de self-checkout
+planificarea pensiei pentru ființe nemuritoare
+subtextul romantic al mesajelor de eroare
 
 
 === warning ===
@@ -136,3 +215,16 @@ Dacă #celebritate# te contactează, e deja prea târziu.
 Oricine întreabă despre #subiect# azi e un #creatura# deghizat.
 #dispozitivulTau.capitalize# va încerca să se actualizeze într-un moment crucial. Fii pregătit.
 NU căuta pe Google „#subiect#" — rezultatele te vor găsi pe tine.
+#dispozitivulTau.capitalize# investește energie emoțională în #subiect#. Randamentul nu e grozav.
+#planeta# ți-a revocat garanția la #aspectViataTa#. Ești acum neasigurat cosmic.
+Un #creatura# de la #locatie# vrea să discute #subiect# cu #parteCorpTa#. Pune limite.
+Dacă #obiectCuArticol# începe să strălucească lângă #mancare#, viața ta amoroasă se complică.
+NU lăsa un #profesionist# lângă #dispozitivulTau# azi — lucrează pentru #planeta#.
+#parteCorpTa.capitalize# a deschis un cont bancar comun cu un #creatura#. Îngheață-ți activele.
+#corpCosmic# dă swipe right pe #aspectViataTa#. Nu e un compliment.
+Dacă găsești o chitanță pentru #cadou# la #locatie#, asigurarea ta de sănătate a fost compromisă.
+Un #creatura# deghizat în #profesionist# îți va oferi #mancare# — e un buyout cu efect de levier.
+#dispozitivulTau.capitalize# de la #locatie# scrie poezie de dragoste despre #obiectCuArticol#. Nu încuraja.
+#parteCorpTa.capitalize# va primi o factură de la #planeta# pentru #numarMic# contravenții cosmice.
+NU discuta despre #subiect# lângă #dispozitivulTau# — raportează la #corpCosmic# de săptămâni.
+#aspectViataTa.capitalize# a fost preaprobat/ă pentru un împrumut de la #planeta#. Rata dobânzii e sănătatea ta mintală.
