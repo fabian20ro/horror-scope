@@ -47,7 +47,7 @@ You produce a plan — you never write code directly.
 
 ## Common Change Patterns
 
-- **New grammar content:** Add rules to `grammar` in both `src/i18n/locales/en.ts` and `ro.ts`
+- **New grammar content:** Add entries to `public/data/en/*.txt` and `public/data/ro/*.txt`
 - **New UI section:** Create function in `src/ui/components.ts`, call from `renderer.ts`, add styles to `style.css`
 - **New UI string:** Update `UIStrings` in `src/i18n/types.ts`, then add translations in both locale files
 - **New divination reading:** Add to `readBrowserOracle()` in `browser-oracle.ts`, add label to `divinationLabels` in both locales
