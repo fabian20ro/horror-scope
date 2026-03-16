@@ -1,48 +1,48 @@
 # AGENTS.md
 
-> This file provides non-discoverable bootstrap context.
-> If the model can find it in the codebase, it does not belong here.
-> For corrections and patterns, see LESSONS_LEARNED.md.
+work style: telegraph; noun-phrases ok; drop grammar; min tokens.
+
+> bootstrap context only. discoverable from codebase → don't put here.
+> corrections + patterns → LESSONS_LEARNED.md.
 
 ## Constraints
 
-<!-- None currently — test and build commands are discoverable from package.json -->
+<!-- non-obvious, needed BEFORE exploring. keep minimal. -->
 
 ## Legacy & Deprecated
 
-<!-- Nothing deprecated at this time -->
+<!-- codebase parts that actively mislead. -->
 
 ## Learning System
 
-This project uses a persistent learning system. Follow this workflow every session:
+Every session:
+1. start: read `LESSONS_LEARNED.md`
+2. during: note surprises
+3. end: append `ITERATION_LOG.md`
+4. reusable insight? → also add `LESSONS_LEARNED.md`
+5. same issue 2+ times in log? → promote to `LESSONS_LEARNED.md`
+6. surprise? → flag to developer (they decide: fix codebase / update LESSONS_LEARNED / adjust this file)
 
-1. **Start of task:** Read `LESSONS_LEARNED.md` — it contains validated corrections and patterns
-2. **During work:** Note any surprises or non-obvious discoveries
-3. **End of iteration:** Append to `ITERATION_LOG.md` with what happened
-4. **If insight is reusable and validated:** Also add to `LESSONS_LEARNED.md`
-5. **If same issue appears 2+ times in log:** Promote to `LESSONS_LEARNED.md`
-6. **If something surprised you:** Flag it to the developer — they'll decide whether to fix the codebase, update LESSONS_LEARNED, or adjust this file
+| File | Purpose | Write When |
+|------|---------|------------|
+| `LESSONS_LEARNED.md` | curated wisdom + corrections | reusable insight gained |
+| `ITERATION_LOG.md` | raw session journal, append-only | every iteration |
 
-| File | Purpose | When to Write |
-|------|---------|---------------|
-| `LESSONS_LEARNED.md` | Curated, validated wisdom and corrections | When insight is reusable |
-| `ITERATION_LOG.md` | Raw session journal (append-only, never delete) | Every iteration (always) |
-
-Rules: Never delete from ITERATION_LOG. Obsolete lessons → Archive section in LESSONS_LEARNED (not deleted). Date-stamp everything YYYY-MM-DD. When in doubt: log it.
+Rules: never delete from ITERATION_LOG. Obsolete lessons → Archive in LESSONS_LEARNED. Date-stamp YYYY-MM-DD. When in doubt: log it.
 
 ### Periodic Maintenance
-This project's config files are audited periodically using `SETUP_AI_AGENT_CONFIG.md`.
-The maintenance protocol ensures all files stay lean and current. See that document's
-"Periodic Maintenance Protocol" section for the full audit procedure.
+Config files audited periodically via `SETUP_AI_AGENT_CONFIG.md`.
+See "Periodic Maintenance Protocol" section.
 
 ## Sub-Agents
 
-Specialized agents in `.claude/agents/`. Invoke proactively — don't wait to be asked.
+`.claude/agents/`. Invoke proactively.
 
-| Agent | File | Invoke When |
-|-------|------|-------------|
-| Architect | `.claude/agents/architect.md` | System design, module boundaries, data flow changes |
-| Planner | `.claude/agents/planner.md` | Multi-step features, i18n changes, UI additions |
-| Agent Creator | `.claude/agents/agent-creator.md` | Need a new specialized agent for a recurring task domain |
-| Linguist | `.claude/agents/linguist.md` | Romanian grammar rules, gender agreement, new ro.ts content |
-| Comedian | `.claude/agents/comedian.md` | Absurdist humor review, prediction content quality, new data entries |
+| Agent | File | When |
+|-------|------|------|
+| Architect | `.claude/agents/architect.md` | system design, scalability, ADRs |
+| Planner | `.claude/agents/planner.md` | complex multi-step — plan before code |
+| UX Expert | `.claude/agents/ux-expert.md` | UI, interaction, a11y |
+| Agent Creator | `.claude/agents/agent-creator.md` | new agent needed for recurring domain |
+| Linguist | `.claude/agents/linguist.md` | Romanian grammar rules, gender agreement, new ro content |
+| Comedian | `.claude/agents/comedian.md` | absurdist humor review, prediction content quality |
