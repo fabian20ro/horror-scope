@@ -54,3 +54,7 @@ Obsolete lessons → Archive section at bottom (with date and reason). Never del
 ## Archive
 
 <!-- Format: **[YYYY-MM-DD] Archived [YYYY-MM-DD]** Title — Reason for archival -->
+
+**[2026-05-05]** Evită genitivul fix „lui” înainte de simboluri mixte — Pentru simboluri românești cu intrări eterogene (nume proprii + grupuri nominale cu articol), evită template-uri de tip „a lui #simbol#”. Preferă reformulare neutră: „din interiorul #simbol#”, „de pe #simbol#”, „de la #simbol#”.
+
+**[2026-05-05]** Pentru simboluri cu articol inclus, evită complet cadrele care cer caz (genitiv/dativ) — Chiar și fără "lui", formele ca „din interiorul #simbol#” pot eșua („din interiorul un ...”). Soluție robustă: template fără acel simbol sau cu reformulare fără caz.

@@ -21,10 +21,10 @@ Ascultă vidul, #signName#: #predictie# #consecinta# Mantra ta: „#mantra#."
 #salutTimpuriu.capitalize#! #corpCosmic# a trimis un memo: #predictie# #consecinta# #sfat#
 #deschidere.capitalize# #predictie# Asta nu e nici exercițiu, nici vis. #consecinta# #sfat#
 #corpCosmic.capitalize# tușește nervos, #signName#. #predictie# #consecinta# #sfat#
-#deschidere.capitalize# Surse din interiorul lui #planeta# confirmă: #predictie# #sfat#
+#deschidere.capitalize# Surse cosmice confirmă: #predictie# #sfat#
 #salutTimpuriu.capitalize#! #predictie# #dispozitivulTau.capitalize# a văzut asta. #consecinta# #sfat#
 #deschidere.capitalize# #predictie# #consecinta# Cum spunea #celebritate#: „#intelepciune#."
-#deschidere.capitalize# Conform minutelor ultimei ședințe a lui #planeta#: #predictie# #consecinta# #sfat#
+#deschidere.capitalize# Conform minutelor ultimei ședințe cosmice: #predictie# #consecinta# #sfat#
 #salutTimpuriu.capitalize#, #signName#! #predictie# #spiritAnimal.capitalize# nu are niciun comentariu. #consecinta#
 #deschidere.capitalize# #predictie# #consecinta# Recomandarea oficială de la #corpCosmic# este: #sfat#
 Conform regulamentului cosmic, #signName#: #predictie# #dispozitivulTau.capitalize# a fost deja notificat. #sfat#

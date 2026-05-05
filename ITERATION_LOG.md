@@ -121,3 +121,7 @@
 **Outcome:** Success — 3-minute cache policy is now enforced with a guaranteed cache namespace bump for rollout.
 **Insight:** When cache-policy logic already exists but rollout is inconsistent, bumping cache names is the safest way to force old clients off stale cache state.
 **Promoted to Lessons Learned:** No
+
+- 2026-05-05: Audit RO acord/articol. Fix: eliminat construcții "a lui #planeta#"; rescris formă cu slash de gen ("preaprobat/ă") în formulare neutră.
+
+- 2026-05-05: Follow-up audit. Observat regresie: eliminarea lui "lui" a păstrat totuși construcții imposibile cu intrări articulate (#planeta#) în genitiv. Fix: eliminat complet dependența de #planeta# în cele 2 template-uri.
