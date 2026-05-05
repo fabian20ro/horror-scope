@@ -69,6 +69,7 @@ export async function loadGrammar(
   localeId: string,
   basePath?: string,
   fetchFn: typeof fetch = fetch,
+  strict: boolean = false,
 ): Promise<Grammar> {
   const base = basePath ?? `${import.meta.env.BASE_URL}data/`;
   const mainUrl = `${base}${localeId}.txt`;
@@ -86,15 +87,16 @@ export async function loadGrammar(
     const importUrl = `${base}${localeId}/${importPath}`;
     const res = await fetchFn(importUrl);
     if (!res.ok) {
-      console.warn(
-        `Failed to load @from ${importPath}: ${res.status}`,
-      );
+      const errorMsg = `Failed to load @from ${importPath}: ${res.status}`;
+      if (strict) {
+        throw new Error(errorMsg);
+      }
+      console.warn(errorMsg);
       return null;
     }
     const text = await res.text();
     return parseGrammarText(text);
   });
-
   const importResults = await Promise.all(importPromises);
 
   // Build the grammar: start with the main file's sections

@@ -9,6 +9,8 @@ const minEntriesPerSymbol = 5;
 const sectionRe = /^===\s*(.+?)\s*===$/;
 const fromRe = /^@from\s+(\S+)\s+import\s+\*$/;
 const symbolRefRe = /#([^#.]+)(?:\.[^#]+)?#/g;
+
+// Add schema validation for loaded grammars and create a CLI audit script for the data directory.
 const runtimeSymbols = new Set([
   'signName',
   'spirit_browser',
@@ -18,6 +20,7 @@ const runtimeSymbols = new Set([
   'cultural_destiny',
   'soul_alignment',
   'temporal_energy',
+  'astrological_period',
   'parallel_lives',
   'cosmic_platform',
   'social_connectivity',
@@ -88,7 +91,9 @@ function loadLocaleGrammar(locale) {
 function extractRefs(entry) {
   const refs = [];
   let match;
-  while ((match = symbolRefRe.exec(entry)) !== null) {
+  // We need to use a fresh regex for each entry or reset the lastIndex
+  const re = new RegExp(symbolRefRe, 'g');
+  while ((match = re.exec(entry)) !== null) {
     refs.push(match[1]);
   }
   return refs;
