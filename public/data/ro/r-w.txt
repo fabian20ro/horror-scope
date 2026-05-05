@@ -245,7 +245,7 @@ Un #creatura# deghizat în #profesionist# îți va oferi #mancare# — e un buyo
 #dispozitivulTau.capitalize# de la #locatie# scrie poezie de dragoste despre #obiectCuArticol#. Nu încuraja.
 #parteCorpTa.capitalize# va primi o factură de la #planeta# pentru #numarMic# contravenții cosmice.
 NU discuta despre #subiect# lângă #dispozitivulTau# — raportează la #corpCosmic# de săptămâni.
-#aspectViataTa.capitalize# a fost preaprobat/ă pentru un împrumut de la #planeta#. Rata dobânzii e sănătatea ta mintală.
+#aspectViataTa.capitalize# a primit preaprobare pentru un împrumut de la #planeta#. Rata dobânzii e sănătatea ta mintală.
 Un #obiect# al tău a început să evolueze de unul singur. Nu interveni.
 Dacă #aspectViataTa# începe să se comporte ciudat, e tehnic normal săptămâna asta.
 Un #profesionist# va încerca să-ți vândă asigurare pentru #aspectViataTa#. Refuză politicos dar ferm.
