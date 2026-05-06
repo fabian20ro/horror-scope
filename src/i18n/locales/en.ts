@@ -13,7 +13,7 @@ export const en: LocalePack = {
     cosmicWarning: 'Cosmic Warning',
     compatibility: 'Compatibility',
     browserDivination: 'What Your Browser Revealed',
-    randomizeSign: 'Randomize sign',
+    randomizeSign: 'Randomize Sign',
     regenerate: 'Consult the Cosmos Again',
     copyHoroscope: 'Copy horoscope text',
     copiedHoroscope: 'Copied!',
